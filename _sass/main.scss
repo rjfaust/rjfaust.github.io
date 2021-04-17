@@ -1,0 +1,494 @@
+.header{
+    font-family: "Helvetica Neue", "Calibri", sans;
+    color: #454;
+}
+
+.links{
+    float:right;
+    font-size:0.5em;
+    font-weight: 300;
+    margin-top:5px;
+    margin-right:15px;
+    position: absolute;
+    right: 0px;
+    padding: 10px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sidebar img,.topimage img {
+  border-radius: 50%;
+}
+
+p, ul, ol, td {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1.1em;
+	  line-height: 1.7em;
+}
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+.sectionBody{
+	font-size:1.3em;
+}
+
+.secHeader{
+	font-size: 40px;
+	color: black;
+	font-family: Helvetica;
+}
+.projectList {
+	font-size:1.3em;
+	font-weight: bold;
+}
+.pubList{
+	font-size:1.2em;
+
+}
+body {
+    font-family: 'Poppins', sans-serif;
+	  background-color:#374785;
+}
+
+.projDesc{
+	font-size:.8em;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+//  #about {color: #fff; background-color: #A8D0E6;}
+ // #projects {color: #fff; background-color: #F8E9A1;}
+  //#publications {color: #fff; background-color: #24305E;}
+  //#life {color: #fff; background-color: #374785;}
+
+  .page{
+	  border-width:1px;
+	  border-bottom-style: solid;
+	  border-color: rgba(0,0,0,0);
+	  min-height: 100vh;
+	  background-color: #24305E;
+	   background-image: url("rodger2.jpg");
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  background-attachment: fixed;
+	  padding-top: 50vh;
+	  /*width:100%;*/
+  }
+
+  .projectPage{
+	  width:100%;
+	  padding-left:8%;
+	  padding-right:8%;
+	  min-height:100vh;
+  }
+
+  .projectTextBackground{
+	  background-color:rgb(168, 208, 230);
+    opacity: 80%;
+	  position:relative;
+	  width: 100%;
+	  padding-bottom:10px;
+	  min-height:100vh;
+  }
+
+  .textBackground{
+	  background-color:rgb(168, 208, 230);
+    opacity: 80%;
+	  position:relative;
+	  width: 100%;
+	  padding-bottom:10px;
+  }
+
+  .text{
+	  padding-left:15%;
+	  padding-right:20%
+  }
+
+  #content{
+   width:100%;
+   background-color: #374785;
+   /*margin-left: 15%;*/
+  }
+
+.sidebar {
+    /* don't forget to add all the previously mentioned styles here too */
+    background: #24305E;
+	//background: #374785;
+    color: #fff;
+    transition: all 0.3s;
+	position: fixed;
+	 min-width: 15%;
+    max-width: 15%;
+    min-height: 100vh;
+}
+
+.sidebar .sidebar-header {
+    padding: 20px;
+    background: #6d7fcc;
+}
+
+.sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
+}
+
+.sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+.sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+.sidebar ul li a:hover {
+    color: #FFF;
+    background: #0080ff;
+}
+
+.sidebar ul li a:active {
+    color: #6d7fcc;
+    // background: ;
+}
+
+.link {
+ color:LightBlue;
+
+}
+
+.nav-item{
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.nav-link{
+  color: white
+}
+
+.link:hover{
+  border-bottom-style: solid;
+  border-width: 1px;
+   color:#0080ff;
+}
+
+.linkDark{
+ color: blue;
+}
+.linkDark:hover{
+  border-bottom-style: solid;
+  border-width: 1px;
+  color:DarkBlue;
+}
+
+.sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: #fff;
+    background: #6d7fcc;
+}
+// ul ul a {
+//     font-size: 0.9em !important;
+//     // padding-left: 30px !important;
+//     background: #6d7fcc;
+// }
+.social-icons a {
+  display: inline-block;
+  height: 3rem;
+  width: 3rem;
+  background-color: #495057;
+  color: #fff !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  margin-right: 1rem;
+  margin-left:10px;
+}
+.social-icons a:last-child {
+  margin-right: 0;
+
+}
+
+.social-icons a:hover {
+  background-color: #6d7fcc;
+}
+.social-icons a > i {
+	position: relative;
+	 // top: calc(50% - .75rem);
+
+}
+.social-icons a > p {
+
+	font-size:.5rem;
+	padding-top: calc(50% - .75rem);
+	width:3rem;
+
+
+
+}
+
+@media only screen and (max-width: 860px) {
+  .topnav{
+	  background: #24305E;
+	  position: fixed;
+	  display:inline;
+  }
+  .page .class{
+    background-image: none;
+	padding-top:0;
+	min-height:0;
+	height:auto;
+	border-width:0px;
+
+
+  }
+  .sidebar{
+	  display:none;
+  }
+  #content{
+   margin-left: 0%;
+   margin-top: 50px;
+  }
+	.topImage{
+	  display:inline-block;
+	  width: 100%;
+	  min-width:100%;
+	  padding-bottom:10px;
+	  padding-left:8%;
+	  padding-right:8%;
+	  }
+	.sectionBody{
+	font-size:1em;
+	}
+
+	.secHeader{
+		font-size: 25px;
+		color: black;
+		font-weight:bold;
+		font-family: Helvetica;
+		border-bottom-style:solid;
+	}
+	.projectList {
+		font-size:1em;
+		font-weight: bold;
+	}
+	.pubList{
+		font-size:1em;
+
+	}
+	.text{
+	  padding-left:8%;
+	  padding-right:8%
+
+	}
+	.social-icons a {
+	display: inline-block;
+	height: 2.5rem;
+	width: 2.5rem;
+	background-color: #495057;
+	color: #fff !important;
+	border-radius: 100%;
+	text-align: center;
+	font-size: 1.2rem;
+	line-height: 3rem;
+	margin-right: 1rem;
+}
+.social-icons a > i {
+	position: relative;
+	 top: calc(50% - .65rem);
+
+}
+
+  .smallpage{
+	  border-bottom-style: solid;
+	  border-color: rgba(0,0,0,0);
+	  background-color: #24305E;
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  background-attachment: fixed;
+	  padding-top: 50vh;
+	  width:100%;
+	  background-image: none;
+		padding-top:0;
+		min-height:0;
+		height:auto;
+		border-width:0px;
+
+  }
+  .projectPage{
+	  border-bottom-style: solid;
+	  border-color: rgba(0,0,0,0);
+	  background-color: #24305E;
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  background-attachment: fixed;
+	  padding-top: 50vh;
+	  width:100%;
+	  background-image: none;
+		padding-top:0;
+		min-height:0;
+		height:auto;
+		border-width:0px;
+		padding-left:0%;
+		padding-right:0%;
+
+  }
+  .projectTextBackground{
+	  padding-left:8%;
+	  padding-right:8%
+  }
+
+
+}
+@media only screen and (min-width: 860px) {
+  .topnav{
+	  display:none;
+	  height:0px;
+  }
+  .page {
+	padding-top:50vh;
+	min-height:100vh;
+	height:auto;
+	border-width:1px;
+
+ margin-left: 15%;
+ max-width: 85%;
+ /*overflow-x: hidden;*/
+  }
+
+
+  .sidebar{
+	  display:block;
+  }
+  #content{
+   /*margin-left: 15%;*/
+  }
+  .topImage{
+	display:none;
+
+  }
+  .smallpage{
+	  height:0;
+	  width:0;
+	  display:none;
+  }
+
+
+}
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #24305E;
+  position: fixed;
+  z-index:1;
+  width:100%;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 20px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  float:right;
+  right: 0;
+  top: 0;
+  height:50px;
+}
+
+
+/* Style the active link (or home/logo) */
+/* .active {
+  background-color: #6d7fcc;
+  height:50px;
+  color: white;
+} */
+
+
+#content-slider, #yarn-slider{
+  list-style: none outside none;
+  padding-left: 0;
+      margin: 0;
+      font-size: 1em !important;
+
+}
+  .demo .item{
+      margin-bottom: 60px;
+  }
+.content-slider li div{
+  text-align: center;
+
+
+}
+.content-slider img {
+margin:0;
+width:100%;
+
+}
+.demo{
+width: 90%;
+
+}
+
+.classPage{
+  border-width:1px;
+  border-bottom-style: solid;
+  // border-color: rgba(0,0,0,0);
+  min-height: 100vh;
+  // background-color: #24305E;
+  // background-color:rgb(168, 208, 230);
+  background-color: white;
+  opacity: 80%;
+  position:relative;
+  width: 100%;
+  padding-bottom:10px;
+	  padding-left:15%;
+	  padding-right:15%;
+  font-size: 20px;
+}
+
+.classPage a{
+  padding-left:0px;
+  margin-left: 0px;
+  // background-color:rgb(168, 208, 230);
+  background-color: white;
+
+  color: blue;
+
+}

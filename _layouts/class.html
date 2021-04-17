@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+    {% include head.html %}
+    <link rel="stylesheet" href="/assets/css/syllabus.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+  </head>
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-141790565-1');
+  </script> -->
+
+  <body id="page-top" >
+    <div class="container-fluid">
+      <div class = "row">
+        <div id="content">
+          <div class="container-fluid" style="height:100%;width:100%">
+              <div class="textBackground classPage" style="width:100%;height:100%;">
+                <div >
+                    {{ content }}
+                  </div>
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% include scripts.html %}
+  </body>
+</html>

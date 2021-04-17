@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+    <title> Anteater </title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"/>
+      <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">-->
+
+          <!-- Ignite UI Required Combined JavaScript Files -->
+    <!--<link href="http://cdn-na.infragistics.com/igniteui/2019.1/latest/css/themes/infragistics/infragistics.theme.css"-->
+          <!--rel="stylesheet" />-->
+    <!--<link href="http://cdn-na.infragistics.com/igniteui/2019.1/latest/css/structure/infragistics.css" rel="stylesheet"/>-->
+      <script src="http://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.8.3.js"></script>
+
+    <!-- note the upgrade from jQuery 1.x because Bootstrap wants 3.x -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+ <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
+         rel = "stylesheet"/>
+      <script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
+      <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+      <script src="https://d3js.org/d3.v4.min.js"></script>
+      <!-- <script src="https://unpkg.com/d3-3d/build/d3-3d.min.js"></script> -->
+      <script src="https://d3js.org/d3-scale.v2.min.js"></script>
+    <!--<script src="js/log.js"></script>-->
+      <script src="codemirror/codemirror.js"></script>
+      <link rel="stylesheet" type="text/css" href="codemirror/codemirror.css"/>
+      <script src="codemirror/mode/python/python.js"></script>
+      <script type="text/javascript" src="js/alasql.min.js"></script>
+      <script src="codemirror/fold/foldcode.js"></script>
+      <script src="codemirror/fold/foldgutter.js"></script>
+      <script src="codemirror/fold/brace-fold.js"></script>
+      <script src="codemirror/fold/xml-fold.js"></script>
+      <script src="codemirror/fold/indent-fold.js"></script>
+      <script src="codemirror/fold/markdown-fold.js"></script>
+      <script src="codemirror/fold/comment-fold.js"></script>
+
+      <link rel="stylesheet" href="codemirror/fold/foldgutter.css">
+      <link rel="stylesheet" type="text/css" href="styles/legend.css"/>
+      <link rel="stylesheet" type="text/css" href="styles/pcStyle.css"/>
+      <link rel="stylesheet" type="text/css" href="styles/plot.css"/>
+      <link rel="stylesheet" type="text/css" href="styles/source.css"/>
+      <link rel="stylesheet" type="text/css" href="styles/bootstrap-tour-standalone.min.css"/>
+
+      <script type="text/javascript" src="data/GradientDescent.js"></script>
+      <script type="text/javascript" src="data/GradientDescent2.js"></script>
+      <script type="text/javascript" src="data/GradientDescentFixed.js"></script>
+      <script type="text/javascript" src="data/Fibonacci.js"></script>
+      <script type="text/javascript" src="data/DataTypes.js"></script>
+      <script type="text/javascript" src="data/MPI_example.js"></script>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/vega"></script>
+      <script src="https://cdn.jsdelivr.net/npm/vega-lite"></script>
+      <script src="https://cdn.jsdelivr.net/npm/vega-lite-api"></script>
+      <script src="https://cdn.jsdelivr.net/npm/vega-tooltip"></script>
+      <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.11.1"></script>
+
+      <script src="https://cdn.jsdelivr.net/npm/vega@5.19.1"></script>
+      <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.0.0"></script>
+      <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.1"></script>
+
+
+
+      <script type="text/javascript" src="js/main.js"></script>
+      <script type="text/javascript" src="js/source.js"></script>
+      <script type="text/javascript" src="js/traces.js"></script>
+
+
+
+
+    </head>
+<body>
+
+
+
+
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"><img height="20" src="img/anteater.svg" id="title"> </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	<span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	<ul class="navbar-nav mr-auto" id="traces">
+        <!--<li class="nav-item dropdown">-->
+          <!--<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Traces</a>-->
+          <!--<div class="dropdown-menu" id="traces">-->
+            <!--&lt;!&ndash;{% for t in traces %}&ndash;&gt;-->
+            <!--&lt;!&ndash;<a class="dropdown-item" href="#">{{t}}</a>&ndash;&gt;-->
+            <!--&lt;!&ndash;{% endfor %}&ndash;&gt;-->
+          <!--</div>-->
+        <!--</li>-->
+
+        <!--{% if g.loaded %}-->
+        <!--<li class="nav-item"><span>{{ g.source['file'] }}</span></li>-->
+        <!--{% endif %}-->
+
+	</ul>
+	<ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Options:</a></li>
+        <li class="nav-item dropdown">
+          <!-- FIXME that margin-top: 5px is ugly, we should find the right way to have bootstrap
+               center the button vertically along the navbar -->
+          <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="exec-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-top: 5px"></button>
+          <div id="exec_options" class="dropdown-menu dropdown-menu-right" aria-labelledby="exec-options">
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="chk_hide" onchange="filter_hide()">
+              <label class="form-check-label" for="chk_hide">
+                Hide Blocks Upon Filter
+              </label>
+            </div>
+          </div>
+        </li>
+	</ul>
+
+      </div>
+    </nav>
+
+    <section class="content">
+        <div class="row" style="display:none">
+            <div class="col" id="options">
+
+                <label>Traces:</label>
+                <select id="hiddenTraces" style="display:inline-block">
+                    <!--{% for t in traces %}-->
+                    <!--<option value = {{t}}>{{t}}</option>-->
+                    <!--{% endfor %}-->
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-5">
+                <div id="code" >
+                    <textarea id="source" oncontextmenu="function(){return false;}" onscroll="Onscrollfnction();">
+
+                    </textarea>
+                    <!-- <label id="varDrag" pointer-events = "none"> Test
+                    </label> -->
+                    <div id="codeCMenu" style="position:fixed; visibility:hidden " class="contextMenu">
+                        <ul style="list-style-type:none;  margin: 0; padding-left: 20px; padding-top: 5px">
+                            <li onmouseenter="cmHighlight(this)" onmouseleave="cmUnhighlight(this)" onclick="filter()">Add Variable to Plot</li>
+                <!--<li onmouseenter="cmHighlight(this)" onmouseleave="cmUnhighlight(this)" onclick="partitionTrace()" >Partition Points</li>-->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-7">
+                <div id="execution">
+                    <div id="execOptArea">
+                        <button class="openLegBtn" onclick="openLeg()">&#9776;  </button>
+                    </div>
+                    <nav id="legendNav" class="sidebar " style=" width:200px"></nav>
+                </div>
+
+                <div id="plot">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <div id="plotOptArea" style="margin: 10px">
+                            <div id="plotIcons">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class = "navButton">
+                                    <a href="#"><img id="icon-box" class = "plotType" src="img/icons/noun_Box Plot_991170.svg" height="50px" style="opacity: 1"></a>
+                                    </li>
+                                    <li class = "navButton">
+                                        <a href="#"><img id="icon-histogram" class = "plotType" src="img/icons/noun_histogram_2311995.svg" height="50px" style="opacity: 1"></a>
+                                    </li>
+                                    <li class = "navButton">
+                                        <a href="#"><img id="icon-scatter"   src="img/icons/noun_scatter_2311987.svg"   height="50px" style="opacity: 0.25"></a>
+                                    </li>
+                                    <li class = "navButton">
+                                        <a href="#"><img id="icon-curve"     src="img/icons/noun_curve_2312004.svg" height="50px" style="opacity: 0.25"></a>
+                                    </li>
+                                    <li class = "navButton">
+                                        <a href="#"><img id="icon-pc"     src="img/icons/noun_parallel_coordinates_1503840.svg" height="50px" style="opacity: 0.25"></a>
+                                    </li>
+
+                                    <li id="split_btn" class="nav-item dropdown navButton">
+                                        <a class="nav-link dropdown-toggle" data-toggle="dropdown"  role="button" aria-haspopup="true" aria-expanded="false"> Split plots by</a>
+                                        <div class="dropdown-menu" id="group_drpdwn">
+                                            <a class="nav-link drp_item"  role="button" >Clear All</a>
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-item active navButton">
+                                        <a class="nav-link"  onclick="clear_filters()" role="button" >Clear Filters</a>
+                                    </li>
+                                    <li id="change_plot_opts" class="nav-item active navButton">
+                                        <a class="nav-link" onclick="update_plot_opts()" role="button" >Plot Options</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+
+                    <div id="plotCMenu" style="position:fixed; visibility:hidden " class="contextMenu">
+                        <ul style="list-style-type:none;  margin: 0; padding-left: 20px; padding-top: 5px">
+                            <li onmouseenter="cmHighlight(this)" onmouseleave="cmUnhighlight(this)" onclick="filter()">Filter</li>
+                <!--<li onmouseenter="cmHighlight(this)" onmouseleave="cmUnhighlight(this)" onclick="partitionTrace()" >Partition Points</li>-->
+                        </ul>
+                    </div>
+
+                    <div id="axisMenu" style="position:fixed; visibility:hidden" class = "contextMenu">
+                        <ul style="list-style-type:none;  margin: 0; padding-left: 20px; padding-top: 5px">
+                            <li onmouseenter="cmHighlight(this)" onmouseleave="cmUnhighlight(this)" onclick="clearAxis(event)" >Clear Axis</li>
+                            <li onmouseenter="cmHighlight(this)" onmouseleave="cmUnhighlight(this)" onclick="changeScale(event)" >Change Scale</li>
+                        </ul>
+                    </div>
+                    <div id="plotView">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  </div>
+
+
+  <script type="text/javascript" src="js/plot.js"></script>
+  <script type="text/javascript" src="js/execution.js"></script>
+  <script type="text/javascript" src="js/scatter.js"></script>
+  <script type="text/javascript" src="js/histogram.js"></script>
+  <script type="text/javascript" src="js/boxplot.js"></script>
+  <script type="text/javascript" src="js/barplot.js"></script>
+  <script type="text/javascript" src="js/parallelCoord.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/bootstrap-tour-standalone.min.js"></script>
+  <script type="text/javascript" src="js/tour.js"></script>
+
+  <script>
+      init_plot();
+      init_execution();
+     d3.select("#traces")
+        .selectAll("li")
+        .data(traces)
+        .enter()
+        .append("li")
+        .attr("class","nav-item")
+        .attr("id",function(d,i){return "li"+i})
+        .classed("active",function(d,i){return i==0})
+        .append("a")
+        .attr("class","nav-link")
+        .attr("href","#")
+        .html(function(d){return d.title})
+        .on("click",function(d,i){
+            clear_bookkeeping()
+            clear_DB();
+            clear_plot();
+
+            loadTrace(d.info, d.title)
+            d3.select("#traces").selectAll(".nav-item").classed("active",false)
+            .style("background-color",null)
+            d3.select("#li"+i).classed("active",true)
+
+            d3.select("#traces")
+            .select(".active")
+            .style("background-color","#b3ccff")
+        })
+
+    d3.select("#li0").select("a").dispatch('click')
+
+
+    beginTour();
+
+
+
+
+
+  </script>
+
+
+
+  <!-- Bootstrap requirements -->
+
+  <!-- Note that Bootstrap wants a new version of jQuery. We were using jQuery 1.x. This might cause trouble.. -->
+
+</body>
+
+</html>
