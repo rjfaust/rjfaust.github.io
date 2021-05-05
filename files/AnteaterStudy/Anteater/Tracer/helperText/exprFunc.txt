@@ -1,0 +1,3 @@
+def functionREPLACE():
+    tempREPLACE = EXPR
+    return tempREPLACE

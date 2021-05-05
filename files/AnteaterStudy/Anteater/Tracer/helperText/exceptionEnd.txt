@@ -1,0 +1,11 @@
+REPLACE.write("DELETE")
+while REPLACElen(REPLACEclosingStack) > 0:
+    REPLACE.write(REPLACEclosingStack.pop() +"\n")
+REPLACEerrors = REPLACEtraceback.format_exc()
+REPLACEerrors = REPLACEerrors.replace("\"","\\\"")
+REPLACElines = REPLACEerrors.split("\n")
+REPLACEerrors = ""
+for REPLACEline in REPLACElines:
+    REPLACEerrors+= REPLACEtoStr(REPLACEline) +"\\n"
+REPLACE.write(",\n\t\"error\":\""+REPLACEtoStr(REPLACEerrors) + "\"}\n")
+REPLACE.close()

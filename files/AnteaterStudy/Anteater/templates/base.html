@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+    <title>{% block title%} {% endblock %} - Anteater </title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">-->
+
+          <!-- Ignite UI Required Combined JavaScript Files -->
+    <!--<link href="http://cdn-na.infragistics.com/igniteui/2019.1/latest/css/themes/infragistics/infragistics.theme.css"-->
+          <!--rel="stylesheet" />-->
+    <!--<link href="http://cdn-na.infragistics.com/igniteui/2019.1/latest/css/structure/infragistics.css" rel="stylesheet"/>-->
+      <script src="http://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.8.3.js"></script>
+
+    <!-- note the upgrade from jQuery 1.x because Bootstrap wants 3.x -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+ <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
+         rel = "stylesheet">
+      <script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
+      <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://unpkg.com/d3-3d/build/d3-3d.min.js"></script>
+    <script src="https://d3js.org/d3-scale.v2.min.js"></script>
+    <script src="{{url_for('static', filename='log.js')}}"></script>
+    <script src="{{url_for('static',filename='codemirror/codemirror.js')}}"></script>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='codemirror/codemirror.css')}}"/>
+    <script src="{{url_for('static', filename='codemirror/mode/python/python.js')}}"></script>
+    <script type="text/javascript" src="{{url_for('static',filename='alasql.min.js')}}"></script>
+    <script src="{{url_for('static',filename = 'codemirror/fold/foldcode.js')}}"></script>
+    <script src="{{url_for('static',filename = 'codemirror/fold/foldgutter.js')}}"></script>
+    <script src="{{url_for('static',filename = 'codemirror/fold/brace-fold.js')}}"></script>
+    <script src="{{url_for('static',filename = 'codemirror/fold/xml-fold.js')}}"></script>
+    <script src="{{url_for('static',filename = 'codemirror/fold/indent-fold.js')}}"></script>
+    <script src="{{url_for('static',filename = 'codemirror/fold/markdown-fold.js')}}"></script>
+    <script src="{{url_for('static',filename = 'codemirror/fold/comment-fold.js')}}"></script>
+
+    <link rel="stylesheet" href="{{url_for('static',filename = 'codemirror/fold/foldgutter.css')}}">
+
+
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='style/source.css')}}"/>
+
+    <script type ="text/javascript" src="{{url_for('static', filename='main.js')}}"></script>
+    <script type="text/javascript" src="{{url_for('static', filename='source.js')}}"></script>
+
+
+
+    </head>
+<body>
+  {% block links %} {% endblock %}
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"><img height="20" src="/static/img/anteater.svg"> - {% block pageTitle %}
+        {% endblock %}</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	<span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	<ul class="navbar-nav mr-auto">
+	  {% block navlinks %} {% endblock %}
+
+
+        {% if g.loaded %}
+        <li class="nav-item"><span>{{ g.source['file'] }}</span></li>
+        {% endif %}
+
+	</ul>
+	<ul class="navbar-nav ml-auto">
+	  {% block rightnav %}{% endblock %}
+	</ul>
+
+      </div>
+    </nav>
+
+    <section class="content">
+      <header>
+	{% block header %}{% endblock %}
+      </header>
+      {% for message in get_flashed_messages() %}
+      <div class="flash">{{ message }}</div>
+      {% endfor %}
+      {% block content %}{% endblock %}
+    </section>
+  </div>
+
+  <!-- Bootstrap requirements -->
+
+  <!-- Note that Bootstrap wants a new version of jQuery. We were using jQuery 1.x. This might cause trouble.. -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,4 @@
+def REPLACEFUNC():
+    for REPLACEV in REPLACERANGE:
+        if REPLACEIF:
+            yield REPLACEEXPR

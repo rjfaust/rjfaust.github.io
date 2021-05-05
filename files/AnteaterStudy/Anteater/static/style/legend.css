@@ -1,0 +1,67 @@
+#legendNav {
+    height:200px;
+    max-width: 200px;
+    margin-top:50px;
+    transition: all 0.3s;
+}
+
+#legendNav.active {
+	width:0px;
+	border-width:0px;
+	 overflow:hidden;
+}
+
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+.openbtn, .openLegBtn{
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px 15px;
+  right:5%;
+  float:right;
+  border: none;
+  position:fixed;
+  background-color: white;
+}
+
+.openbtn:hover, .openLegBtn:hover {
+  background-color: #ddd;
+}
+
+
+/* The sidebar menu */
+.sidebar {
+  //height: 100%; /* 100% Full-height */
+  width: 0px; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+
+  right:5%;
+  background-color: #ddd; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+ /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  border-style:solid;
+  border-width:1px;
+  overflow-y:scroll;
+}
+
+/* The sidebar links */
+.sidebar .navOpt {
+  text-decoration: none;
+  //transition: 0.3s;
+  padding-left: 5px;
+   padding-top: 15px;
+
+
+
+}

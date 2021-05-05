@@ -1,0 +1,37 @@
+#source {
+  width: 50%;
+  display: block;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  white-space: nowrap;
+  position: relative;
+  background-color: transparent;
+
+}
+
+
+#varDrag{
+    background-color:lightblue;
+    display:none;
+    position:absolute;
+    top:0px;
+    left:0px;
+    z-index: 3;
+    min-width: 20px;
+    font-family: monospace;
+    text-align:center;
+}
+
+#execution,#plot{
+    max-height: 50%;
+}
+#codeCMenu, #codeSpecMenu
+{
+    width: 200px;
+    height: 50px;
+    background-color: #f2f2f2;
+    z-index: 999;
+    position:absolute;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

@@ -1,0 +1,27 @@
+{
+	 "trace":[
+	{
+		"type":"call",
+		"lineno": 9,
+		"timestamp": 4.0531158447265625e-06,
+		"id": 1,
+		"parentBlockID": 0,
+		"func_name":"test",
+		"body":[
+		{
+			"type":"for",
+			"lineno": 5,
+			"timestamp": 4.38690185546875e-05,
+			"id": 2,
+			"parentBlockID": 1,
+			"target":"iter",
+			"body":[
+DELETE
+			]
+		},
+DELETE
+		]
+	},
+DELETE
+	]
+}

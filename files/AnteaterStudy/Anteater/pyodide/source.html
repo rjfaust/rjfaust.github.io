@@ -1,0 +1,121 @@
+<html>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"/>
+
+
+    <script type="text/javascript">
+        // set the Pyodide files URL (packages.json, pyodide.asm.data etc)
+        window.languagePluginUrl = 'https://cdn.jsdelivr.net/pyodide/v0.16.1/full/';
+    </script>
+    <script src="https://cdn.jsdelivr.net/pyodide/v0.16.1/full/pyodide.js"></script>
+    <script src="https://cdn.jsdelivr.net/pyodide/v0.16.1/full/pyodide.asm.data.js"></script>
+    <script src="https://cdn.jsdelivr.net/pyodide/v0.16.1/full/pyodide.asm.js"></script>
+
+    <script src="js/codemirror/codemirror.js"></script>
+    <link rel="stylesheet" type="text/css" href="js/codemirror/codemirror.css"/>
+    <script src="js/codemirror/mode/python/python.js"></script>
+
+    <script src="js/codemirror/fold/foldcode.js"></script>
+    <script src="js/codemirror/fold/foldgutter.js"></script>
+    <script src="js/codemirror/fold/brace-fold.js"></script>
+    <script src="js/codemirror/fold/xml-fold.js"></script>
+    <script src="js/codemirror/fold/indent-fold.js"></script>
+    <script src="js/codemirror/fold/markdown-fold.js"></script>
+    <script src="js/codemirror/fold/comment-fold.js"></script>
+    <link rel="stylesheet" href="js/codemirror/fold/foldgutter.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://unpkg.com/jquery.terminal@2.x.x/js/jquery.terminal.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/jquery.terminal@2.x.x/css/jquery.terminal.min.css"/>
+
+  </head>
+
+  <body>
+    <div class="col-5">
+      <textarea id="source" oncontextmenu="function(){return false;}" onscroll="Onscrollfnction();">
+      </textarea>
+    </div>
+    <div class="col-5">
+      <div class="row">
+
+      </div>
+      <div class="row">
+          <div id="terminal"></div>
+      </div>
+    </div>
+  </body>
+  <script>
+
+
+          languagePluginLoader.then(() => {
+            function pushCode(line) {
+              handleResult(c.push(line))
+            }
+
+            var term = $('#terminal').terminal(
+              pushCode,
+              {
+                greetings: "Welcome to the Pyodide terminal emulator 🐍",
+                prompt: "[[;red;]>>> ]"
+              }
+            );
+
+            window.term = term;
+            pyodide.runPython(`
+              import io, code, sys
+              from js import term, pyodide
+
+              class Console(code.InteractiveConsole):
+                  def runcode(self, code):
+                      sys.stdout = io.StringIO()
+                      sys.stderr = io.StringIO()
+                      term.runPython("\\n".join(self.buffer))
+              _c = Console(locals=globals())
+            `)
+
+            var c = pyodide.pyimport('_c')
+
+            function handleResult(result) {
+              if (result) {
+                term.set_prompt('[[;gray;]... ]')
+              } else {
+                term.set_prompt('[[;red;]>>> ]')
+                var stderr = pyodide.runPython("sys.stderr.getvalue()").trim()
+                if (stderr) {
+                  term.echo(`[[;red;]${stderr}]`)
+                } else {
+                  var stdout = pyodide.runPython("sys.stdout.getvalue()")
+                  if (stdout) {
+                    term.echo(stdout.trim())
+                  }
+                }
+              }
+            }
+
+            term.runPython = function(code) {
+              pyodide.runPythonAsync(code).then(
+                term.handlePythonResult, term.handlePythonError
+              )
+            }
+
+            term.handlePythonResult = function(result) {
+              if (result === undefined) {
+                return
+              } else if (result['_repr_html_'] !== undefined) {
+                term.echo(result['_repr_html_'], {raw: true})
+              } else {
+                term.echo(result.toString())
+              }
+            }
+
+            term.handlePythonError = function(result) {
+              term.error(result.toString())
+            }
+          });
+
+  </script>
+</html>

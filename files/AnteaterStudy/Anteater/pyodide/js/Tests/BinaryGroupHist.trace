@@ -1,0 +1,3081 @@
+{
+	 "trace":[
+	{
+		"type":"for",
+		"lineno": 46,
+		"timestamp": 4.506111145019531e-05,
+		"id": 1,
+		"parentBlockID": 0,
+		"target":"i",
+		"body":[
+		{
+			"type":"call",
+			"lineno": 47,
+			"timestamp": 7.605552673339844e-05,
+			"id": 2,
+			"parentBlockID": 1,
+			"targetVal":"0",
+			"iteration":1,
+			"func_name":"do_dict_things",
+			"body":[
+			{
+				"type":"for",
+				"lineno": 31,
+				"timestamp": 0.00010204315185546875,
+				"id": 3,
+				"parentBlockID": 2,
+				"target":"v",
+				"body":[
+				]
+			},
+			{
+				"type":"call",
+				"lineno": 34,
+				"timestamp": 0.0001220703125,
+				"id": 4,
+				"parentBlockID": 2,
+				"func_name":"d.update({key: pow",
+				"body":[
+				]
+			}
+			]
+		},
+		{
+			"type":"call",
+			"lineno": 49,
+			"timestamp": 0.00014209747314453125,
+			"id": 5,
+			"parentBlockID": 1,
+			"targetVal":"0",
+			"iteration":1,
+			"func_name":"doThings",
+			"body":[
+			{
+				"type":"for",
+				"lineno": 6,
+				"timestamp": 0.0001552104949951172,
+				"id": 6,
+				"parentBlockID": 5,
+				"target":"i",
+				"body":[
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0001919269561767578,
+					"id": 7,
+					"parentBlockID": 6,
+					"targetVal":"0",
+					"iteration":1,
+					"name":"result2",
+					"result2":9860,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.00021600723266601562,
+					"id": 8,
+					"parentBlockID": 6,
+					"targetVal":"0",
+					"iteration":1,
+					"name":"result3",
+					"result3":9885
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0002429485321044922,
+					"id": 9,
+					"parentBlockID": 6,
+					"targetVal":"1",
+					"iteration":2,
+					"name":"result2",
+					"result2":8806,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0002601146697998047,
+					"id": 10,
+					"parentBlockID": 6,
+					"targetVal":"1",
+					"iteration":2,
+					"name":"result3",
+					"result3":8831
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.00028395652770996094,
+					"id": 11,
+					"parentBlockID": 6,
+					"targetVal":"2",
+					"iteration":3,
+					"name":"result2",
+					"result2":9520,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0002999305725097656,
+					"id": 12,
+					"parentBlockID": 6,
+					"targetVal":"2",
+					"iteration":3,
+					"name":"result3",
+					"result3":9545
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.00032210350036621094,
+					"id": 13,
+					"parentBlockID": 6,
+					"targetVal":"3",
+					"iteration":4,
+					"name":"result2",
+					"result2":9656,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.00033783912658691406,
+					"id": 14,
+					"parentBlockID": 6,
+					"targetVal":"3",
+					"iteration":4,
+					"name":"result3",
+					"result3":9681
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0003600120544433594,
+					"id": 15,
+					"parentBlockID": 6,
+					"targetVal":"4",
+					"iteration":5,
+					"name":"result2",
+					"result2":9010,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0003750324249267578,
+					"id": 16,
+					"parentBlockID": 6,
+					"targetVal":"4",
+					"iteration":5,
+					"name":"result3",
+					"result3":9035
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.00039696693420410156,
+					"id": 17,
+					"parentBlockID": 6,
+					"targetVal":"5",
+					"iteration":6,
+					"name":"result2",
+					"result2":8840,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0004119873046875,
+					"id": 18,
+					"parentBlockID": 6,
+					"targetVal":"5",
+					"iteration":6,
+					"name":"result3",
+					"result3":8865
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.00043392181396484375,
+					"id": 19,
+					"parentBlockID": 6,
+					"targetVal":"6",
+					"iteration":7,
+					"name":"result2",
+					"result2":8500,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.00044989585876464844,
+					"id": 20,
+					"parentBlockID": 6,
+					"targetVal":"6",
+					"iteration":7,
+					"name":"result3",
+					"result3":8525
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.00047206878662109375,
+					"id": 21,
+					"parentBlockID": 6,
+					"targetVal":"7",
+					"iteration":8,
+					"name":"result2",
+					"result2":4216,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0004868507385253906,
+					"id": 22,
+					"parentBlockID": 6,
+					"targetVal":"7",
+					"iteration":8,
+					"name":"result3",
+					"result3":4241
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0005078315734863281,
+					"id": 23,
+					"parentBlockID": 6,
+					"targetVal":"8",
+					"iteration":9,
+					"name":"result2",
+					"result2":6392,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0005230903625488281,
+					"id": 24,
+					"parentBlockID": 6,
+					"targetVal":"8",
+					"iteration":9,
+					"name":"result3",
+					"result3":6417
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0005440711975097656,
+					"id": 25,
+					"parentBlockID": 6,
+					"targetVal":"9",
+					"iteration":10,
+					"name":"result2",
+					"result2":11254,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0005600452423095703,
+					"id": 26,
+					"parentBlockID": 6,
+					"targetVal":"9",
+					"iteration":10,
+					"name":"result3",
+					"result3":11279
+				}
+				]
+			}
+			]
+		},
+		{
+			"type":"call",
+			"lineno": 50,
+			"timestamp": 0.0005791187286376953,
+			"id": 27,
+			"parentBlockID": 1,
+			"targetVal":"0",
+			"iteration":1,
+			"func_name":"doStringThings",
+			"body":[
+			{
+				"type":"for",
+				"lineno": 18,
+				"timestamp": 0.0005979537963867188,
+				"id": 28,
+				"parentBlockID": 27,
+				"target":"i",
+				"body":[
+				]
+			}
+			]
+		},
+		{
+			"type":"call",
+			"lineno": 47,
+			"timestamp": 0.0006158351898193359,
+			"id": 29,
+			"parentBlockID": 1,
+			"targetVal":"1",
+			"iteration":2,
+			"func_name":"do_dict_things",
+			"body":[
+			{
+				"type":"for",
+				"lineno": 31,
+				"timestamp": 0.0006341934204101562,
+				"id": 30,
+				"parentBlockID": 29,
+				"target":"v",
+				"body":[
+				]
+			},
+			{
+				"type":"call",
+				"lineno": 34,
+				"timestamp": 0.0006489753723144531,
+				"id": 31,
+				"parentBlockID": 29,
+				"func_name":"d.update({key: pow",
+				"body":[
+				]
+			}
+			]
+		},
+		{
+			"type":"call",
+			"lineno": 49,
+			"timestamp": 0.0006630420684814453,
+			"id": 32,
+			"parentBlockID": 1,
+			"targetVal":"1",
+			"iteration":2,
+			"func_name":"doThings",
+			"body":[
+			{
+				"type":"for",
+				"lineno": 6,
+				"timestamp": 0.0006740093231201172,
+				"id": 33,
+				"parentBlockID": 32,
+				"target":"i",
+				"body":[
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0006918907165527344,
+					"id": 34,
+					"parentBlockID": 33,
+					"targetVal":"0",
+					"iteration":1,
+					"name":"result2",
+					"result2":10810,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0007090568542480469,
+					"id": 35,
+					"parentBlockID": 33,
+					"targetVal":"0",
+					"iteration":1,
+					"name":"result3",
+					"result3":10844
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0007328987121582031,
+					"id": 36,
+					"parentBlockID": 33,
+					"targetVal":"1",
+					"iteration":2,
+					"name":"result2",
+					"result2":12650,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0007479190826416016,
+					"id": 37,
+					"parentBlockID": 33,
+					"targetVal":"1",
+					"iteration":2,
+					"name":"result3",
+					"result3":12684
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0008361339569091797,
+					"id": 38,
+					"parentBlockID": 33,
+					"targetVal":"2",
+					"iteration":3,
+					"name":"result2",
+					"result2":10074,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0008530616760253906,
+					"id": 39,
+					"parentBlockID": 33,
+					"targetVal":"2",
+					"iteration":3,
+					"name":"result3",
+					"result3":10108
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0008759498596191406,
+					"id": 40,
+					"parentBlockID": 33,
+					"targetVal":"3",
+					"iteration":4,
+					"name":"result2",
+					"result2":10948,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0008912086486816406,
+					"id": 41,
+					"parentBlockID": 33,
+					"targetVal":"3",
+					"iteration":4,
+					"name":"result3",
+					"result3":10982
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0009129047393798828,
+					"id": 42,
+					"parentBlockID": 33,
+					"targetVal":"4",
+					"iteration":5,
+					"name":"result2",
+					"result2":15732,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0009288787841796875,
+					"id": 43,
+					"parentBlockID": 33,
+					"targetVal":"4",
+					"iteration":5,
+					"name":"result3",
+					"result3":15766
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0009500980377197266,
+					"id": 44,
+					"parentBlockID": 33,
+					"targetVal":"5",
+					"iteration":6,
+					"name":"result2",
+					"result2":10488,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.000965118408203125,
+					"id": 45,
+					"parentBlockID": 33,
+					"targetVal":"5",
+					"iteration":6,
+					"name":"result3",
+					"result3":10522
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0009877681732177734,
+					"id": 46,
+					"parentBlockID": 33,
+					"targetVal":"6",
+					"iteration":7,
+					"name":"result2",
+					"result2":12420,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0010030269622802734,
+					"id": 47,
+					"parentBlockID": 33,
+					"targetVal":"6",
+					"iteration":7,
+					"name":"result3",
+					"result3":12454
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.001024007797241211,
+					"id": 48,
+					"parentBlockID": 33,
+					"targetVal":"7",
+					"iteration":8,
+					"name":"result2",
+					"result2":8556,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0010390281677246094,
+					"id": 49,
+					"parentBlockID": 33,
+					"targetVal":"7",
+					"iteration":8,
+					"name":"result3",
+					"result3":8590
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0010612010955810547,
+					"id": 50,
+					"parentBlockID": 33,
+					"targetVal":"8",
+					"iteration":9,
+					"name":"result2",
+					"result2":12558,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0010759830474853516,
+					"id": 51,
+					"parentBlockID": 33,
+					"targetVal":"8",
+					"iteration":9,
+					"name":"result3",
+					"result3":12592
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0010979175567626953,
+					"id": 52,
+					"parentBlockID": 33,
+					"targetVal":"9",
+					"iteration":10,
+					"name":"result2",
+					"result2":9568,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0011129379272460938,
+					"id": 53,
+					"parentBlockID": 33,
+					"targetVal":"9",
+					"iteration":10,
+					"name":"result3",
+					"result3":9602
+				}
+				]
+			}
+			]
+		},
+		{
+			"type":"call",
+			"lineno": 50,
+			"timestamp": 0.001132965087890625,
+			"id": 54,
+			"parentBlockID": 1,
+			"targetVal":"1",
+			"iteration":2,
+			"func_name":"doStringThings",
+			"body":[
+			{
+				"type":"for",
+				"lineno": 18,
+				"timestamp": 0.0011479854583740234,
+				"id": 55,
+				"parentBlockID": 54,
+				"target":"i",
+				"body":[
+				]
+			}
+			]
+		},
+		{
+			"type":"call",
+			"lineno": 47,
+			"timestamp": 0.001168966293334961,
+			"id": 56,
+			"parentBlockID": 1,
+			"targetVal":"2",
+			"iteration":3,
+			"func_name":"do_dict_things",
+			"body":[
+			{
+				"type":"for",
+				"lineno": 31,
+				"timestamp": 0.0011849403381347656,
+				"id": 57,
+				"parentBlockID": 56,
+				"target":"v",
+				"body":[
+				]
+			},
+			{
+				"type":"call",
+				"lineno": 34,
+				"timestamp": 0.0011990070343017578,
+				"id": 58,
+				"parentBlockID": 56,
+				"func_name":"d.update({key: pow",
+				"body":[
+				]
+			}
+			]
+		},
+		{
+			"type":"call",
+			"lineno": 49,
+			"timestamp": 0.0012118816375732422,
+			"id": 59,
+			"parentBlockID": 1,
+			"targetVal":"2",
+			"iteration":3,
+			"func_name":"doThings",
+			"body":[
+			{
+				"type":"for",
+				"lineno": 6,
+				"timestamp": 0.0012238025665283203,
+				"id": 60,
+				"parentBlockID": 59,
+				"target":"i",
+				"body":[
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0012409687042236328,
+					"id": 61,
+					"parentBlockID": 60,
+					"targetVal":"0",
+					"iteration":1,
+					"name":"result2",
+					"result2":3942,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0012569427490234375,
+					"id": 62,
+					"parentBlockID": 60,
+					"targetVal":"0",
+					"iteration":1,
+					"name":"result3",
+					"result3":3947
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0012810230255126953,
+					"id": 63,
+					"parentBlockID": 60,
+					"targetVal":"1",
+					"iteration":2,
+					"name":"result2",
+					"result2":4878,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0012960433959960938,
+					"id": 64,
+					"parentBlockID": 60,
+					"targetVal":"1",
+					"iteration":2,
+					"name":"result3",
+					"result3":4883
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.001318216323852539,
+					"id": 65,
+					"parentBlockID": 60,
+					"targetVal":"2",
+					"iteration":3,
+					"name":"result2",
+					"result2":3168,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.001332998275756836,
+					"id": 66,
+					"parentBlockID": 60,
+					"targetVal":"2",
+					"iteration":3,
+					"name":"result3",
+					"result3":3173
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0013549327850341797,
+					"id": 67,
+					"parentBlockID": 60,
+					"targetVal":"3",
+					"iteration":4,
+					"name":"result2",
+					"result2":5112,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0013701915740966797,
+					"id": 68,
+					"parentBlockID": 60,
+					"targetVal":"3",
+					"iteration":4,
+					"name":"result3",
+					"result3":5117
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0013911724090576172,
+					"id": 69,
+					"parentBlockID": 60,
+					"targetVal":"4",
+					"iteration":5,
+					"name":"result2",
+					"result2":4374,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.001405954360961914,
+					"id": 70,
+					"parentBlockID": 60,
+					"targetVal":"4",
+					"iteration":5,
+					"name":"result3",
+					"result3":4379
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.001428842544555664,
+					"id": 71,
+					"parentBlockID": 60,
+					"targetVal":"5",
+					"iteration":6,
+					"name":"result2",
+					"result2":5886,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.001444101333618164,
+					"id": 72,
+					"parentBlockID": 60,
+					"targetVal":"5",
+					"iteration":6,
+					"name":"result3",
+					"result3":5891
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0015101432800292969,
+					"id": 73,
+					"parentBlockID": 60,
+					"targetVal":"6",
+					"iteration":7,
+					"name":"result2",
+					"result2":5724,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0015270709991455078,
+					"id": 74,
+					"parentBlockID": 60,
+					"targetVal":"6",
+					"iteration":7,
+					"name":"result3",
+					"result3":5729
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0015499591827392578,
+					"id": 75,
+					"parentBlockID": 60,
+					"targetVal":"7",
+					"iteration":8,
+					"name":"result2",
+					"result2":4698,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0015649795532226562,
+					"id": 76,
+					"parentBlockID": 60,
+					"targetVal":"7",
+					"iteration":8,
+					"name":"result3",
+					"result3":4703
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0015869140625,
+					"id": 77,
+					"parentBlockID": 60,
+					"targetVal":"8",
+					"iteration":9,
+					"name":"result2",
+					"result2":4968,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0016019344329833984,
+					"id": 78,
+					"parentBlockID": 60,
+					"targetVal":"8",
+					"iteration":9,
+					"name":"result3",
+					"result3":4973
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0016241073608398438,
+					"id": 79,
+					"parentBlockID": 60,
+					"targetVal":"9",
+					"iteration":10,
+					"name":"result2",
+					"result2":3438,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0016388893127441406,
+					"id": 80,
+					"parentBlockID": 60,
+					"targetVal":"9",
+					"iteration":10,
+					"name":"result3",
+					"result3":3443
+				}
+				]
+			}
+			]
+		},
+		{
+			"type":"call",
+			"lineno": 50,
+			"timestamp": 0.0016591548919677734,
+			"id": 81,
+			"parentBlockID": 1,
+			"targetVal":"2",
+			"iteration":3,
+			"func_name":"doStringThings",
+			"body":[
+			{
+				"type":"for",
+				"lineno": 18,
+				"timestamp": 0.0016739368438720703,
+				"id": 82,
+				"parentBlockID": 81,
+				"target":"i",
+				"body":[
+				]
+			}
+			]
+		},
+		{
+			"type":"call",
+			"lineno": 47,
+			"timestamp": 0.0016939640045166016,
+			"id": 83,
+			"parentBlockID": 1,
+			"targetVal":"3",
+			"iteration":4,
+			"func_name":"do_dict_things",
+			"body":[
+			{
+				"type":"for",
+				"lineno": 31,
+				"timestamp": 0.0017120838165283203,
+				"id": 84,
+				"parentBlockID": 83,
+				"target":"v",
+				"body":[
+				]
+			},
+			{
+				"type":"call",
+				"lineno": 34,
+				"timestamp": 0.001728057861328125,
+				"id": 85,
+				"parentBlockID": 83,
+				"func_name":"d.update({key: pow",
+				"body":[
+				]
+			}
+			]
+		},
+		{
+			"type":"call",
+			"lineno": 49,
+			"timestamp": 0.0017409324645996094,
+			"id": 86,
+			"parentBlockID": 1,
+			"targetVal":"3",
+			"iteration":4,
+			"func_name":"doThings",
+			"body":[
+			{
+				"type":"for",
+				"lineno": 6,
+				"timestamp": 0.0017521381378173828,
+				"id": 87,
+				"parentBlockID": 86,
+				"target":"i",
+				"body":[
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.00177001953125,
+					"id": 88,
+					"parentBlockID": 87,
+					"targetVal":"0",
+					"iteration":1,
+					"name":"result2",
+					"result2":14850,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0017859935760498047,
+					"id": 89,
+					"parentBlockID": 87,
+					"targetVal":"0",
+					"iteration":1,
+					"name":"result3",
+					"result3":14897
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0018088817596435547,
+					"id": 90,
+					"parentBlockID": 87,
+					"targetVal":"1",
+					"iteration":2,
+					"name":"result2",
+					"result2":6000,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0018239021301269531,
+					"id": 91,
+					"parentBlockID": 87,
+					"targetVal":"1",
+					"iteration":2,
+					"name":"result3",
+					"result3":6047
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0018460750579833984,
+					"id": 92,
+					"parentBlockID": 87,
+					"targetVal":"2",
+					"iteration":3,
+					"name":"result2",
+					"result2":13700,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0018610954284667969,
+					"id": 93,
+					"parentBlockID": 87,
+					"targetVal":"2",
+					"iteration":3,
+					"name":"result3",
+					"result3":13747
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0018830299377441406,
+					"id": 94,
+					"parentBlockID": 87,
+					"targetVal":"3",
+					"iteration":4,
+					"name":"result2",
+					"result2":8600,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.001898050308227539,
+					"id": 95,
+					"parentBlockID": 87,
+					"targetVal":"3",
+					"iteration":4,
+					"name":"result3",
+					"result3":8647
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0019199848175048828,
+					"id": 96,
+					"parentBlockID": 87,
+					"targetVal":"4",
+					"iteration":5,
+					"name":"result2",
+					"result2":11800,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0019350051879882812,
+					"id": 97,
+					"parentBlockID": 87,
+					"targetVal":"4",
+					"iteration":5,
+					"name":"result3",
+					"result3":11847
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0019559860229492188,
+					"id": 98,
+					"parentBlockID": 87,
+					"targetVal":"5",
+					"iteration":6,
+					"name":"result2",
+					"result2":15400,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0019719600677490234,
+					"id": 99,
+					"parentBlockID": 87,
+					"targetVal":"5",
+					"iteration":6,
+					"name":"result3",
+					"result3":15447
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.001992940902709961,
+					"id": 100,
+					"parentBlockID": 87,
+					"targetVal":"6",
+					"iteration":7,
+					"name":"result2",
+					"result2":14500,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0020079612731933594,
+					"id": 101,
+					"parentBlockID": 87,
+					"targetVal":"6",
+					"iteration":7,
+					"name":"result3",
+					"result3":14547
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0020301342010498047,
+					"id": 102,
+					"parentBlockID": 87,
+					"targetVal":"7",
+					"iteration":8,
+					"name":"result2",
+					"result2":10100,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.002045869827270508,
+					"id": 103,
+					"parentBlockID": 87,
+					"targetVal":"7",
+					"iteration":8,
+					"name":"result3",
+					"result3":10147
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0020668506622314453,
+					"id": 104,
+					"parentBlockID": 87,
+					"targetVal":"8",
+					"iteration":9,
+					"name":"result2",
+					"result2":13450,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0020821094512939453,
+					"id": 105,
+					"parentBlockID": 87,
+					"targetVal":"8",
+					"iteration":9,
+					"name":"result3",
+					"result3":13497
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.002106189727783203,
+					"id": 106,
+					"parentBlockID": 87,
+					"targetVal":"9",
+					"iteration":10,
+					"name":"result2",
+					"result2":12850,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.002129793167114258,
+					"id": 107,
+					"parentBlockID": 87,
+					"targetVal":"9",
+					"iteration":10,
+					"name":"result3",
+					"result3":12897
+				}
+				]
+			}
+			]
+		},
+		{
+			"type":"call",
+			"lineno": 50,
+			"timestamp": 0.0021910667419433594,
+			"id": 108,
+			"parentBlockID": 1,
+			"targetVal":"3",
+			"iteration":4,
+			"func_name":"doStringThings",
+			"body":[
+			{
+				"type":"for",
+				"lineno": 18,
+				"timestamp": 0.002207040786743164,
+				"id": 109,
+				"parentBlockID": 108,
+				"target":"i",
+				"body":[
+				]
+			}
+			]
+		},
+		{
+			"type":"call",
+			"lineno": 47,
+			"timestamp": 0.0022230148315429688,
+			"id": 110,
+			"parentBlockID": 1,
+			"targetVal":"4",
+			"iteration":5,
+			"func_name":"do_dict_things",
+			"body":[
+			{
+				"type":"for",
+				"lineno": 31,
+				"timestamp": 0.0022439956665039062,
+				"id": 111,
+				"parentBlockID": 110,
+				"target":"v",
+				"body":[
+				]
+			},
+			{
+				"type":"call",
+				"lineno": 34,
+				"timestamp": 0.002257823944091797,
+				"id": 112,
+				"parentBlockID": 110,
+				"func_name":"d.update({key: pow",
+				"body":[
+				]
+			}
+			]
+		},
+		{
+			"type":"call",
+			"lineno": 49,
+			"timestamp": 0.002270936965942383,
+			"id": 113,
+			"parentBlockID": 1,
+			"targetVal":"4",
+			"iteration":5,
+			"func_name":"doThings",
+			"body":[
+			{
+				"type":"for",
+				"lineno": 6,
+				"timestamp": 0.002282857894897461,
+				"id": 114,
+				"parentBlockID": 113,
+				"target":"i",
+				"body":[
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.002302885055541992,
+					"id": 115,
+					"parentBlockID": 114,
+					"targetVal":"0",
+					"iteration":1,
+					"name":"result2",
+					"result2":26400,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0023190975189208984,
+					"id": 116,
+					"parentBlockID": 114,
+					"targetVal":"0",
+					"iteration":1,
+					"name":"result3",
+					"result3":26440
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0023429393768310547,
+					"id": 117,
+					"parentBlockID": 114,
+					"targetVal":"1",
+					"iteration":2,
+					"name":"result2",
+					"result2":20928,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0023589134216308594,
+					"id": 118,
+					"parentBlockID": 114,
+					"targetVal":"1",
+					"iteration":2,
+					"name":"result3",
+					"result3":20968
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0023810863494873047,
+					"id": 119,
+					"parentBlockID": 114,
+					"targetVal":"2",
+					"iteration":3,
+					"name":"result2",
+					"result2":23232,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0023958683013916016,
+					"id": 120,
+					"parentBlockID": 114,
+					"targetVal":"2",
+					"iteration":3,
+					"name":"result3",
+					"result3":23272
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0024178028106689453,
+					"id": 121,
+					"parentBlockID": 114,
+					"targetVal":"3",
+					"iteration":4,
+					"name":"result2",
+					"result2":21120,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0024330615997314453,
+					"id": 122,
+					"parentBlockID": 114,
+					"targetVal":"3",
+					"iteration":4,
+					"name":"result3",
+					"result3":21160
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.002454996109008789,
+					"id": 123,
+					"parentBlockID": 114,
+					"targetVal":"4",
+					"iteration":5,
+					"name":"result2",
+					"result2":19584,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0024700164794921875,
+					"id": 124,
+					"parentBlockID": 114,
+					"targetVal":"4",
+					"iteration":5,
+					"name":"result3",
+					"result3":19624
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0024919509887695312,
+					"id": 125,
+					"parentBlockID": 114,
+					"targetVal":"5",
+					"iteration":6,
+					"name":"result2",
+					"result2":23040,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0025069713592529297,
+					"id": 126,
+					"parentBlockID": 114,
+					"targetVal":"5",
+					"iteration":6,
+					"name":"result3",
+					"result3":23080
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0025289058685302734,
+					"id": 127,
+					"parentBlockID": 114,
+					"targetVal":"6",
+					"iteration":7,
+					"name":"result2",
+					"result2":26976,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0025441646575927734,
+					"id": 128,
+					"parentBlockID": 114,
+					"targetVal":"6",
+					"iteration":7,
+					"name":"result3",
+					"result3":27016
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.002565145492553711,
+					"id": 129,
+					"parentBlockID": 114,
+					"targetVal":"7",
+					"iteration":8,
+					"name":"result2",
+					"result2":26976,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.002579927444458008,
+					"id": 130,
+					"parentBlockID": 114,
+					"targetVal":"7",
+					"iteration":8,
+					"name":"result3",
+					"result3":27016
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0026018619537353516,
+					"id": 131,
+					"parentBlockID": 114,
+					"targetVal":"8",
+					"iteration":9,
+					"name":"result2",
+					"result2":21984,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0026171207427978516,
+					"id": 132,
+					"parentBlockID": 114,
+					"targetVal":"8",
+					"iteration":9,
+					"name":"result3",
+					"result3":22024
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.002638101577758789,
+					"id": 133,
+					"parentBlockID": 114,
+					"targetVal":"9",
+					"iteration":10,
+					"name":"result2",
+					"result2":28416,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.002652883529663086,
+					"id": 134,
+					"parentBlockID": 114,
+					"targetVal":"9",
+					"iteration":10,
+					"name":"result3",
+					"result3":28456
+				}
+				]
+			}
+			]
+		},
+		{
+			"type":"call",
+			"lineno": 50,
+			"timestamp": 0.0026721954345703125,
+			"id": 135,
+			"parentBlockID": 1,
+			"targetVal":"4",
+			"iteration":5,
+			"func_name":"doStringThings",
+			"body":[
+			{
+				"type":"for",
+				"lineno": 18,
+				"timestamp": 0.002686023712158203,
+				"id": 136,
+				"parentBlockID": 135,
+				"target":"i",
+				"body":[
+				]
+			}
+			]
+		},
+		{
+			"type":"call",
+			"lineno": 47,
+			"timestamp": 0.002702951431274414,
+			"id": 137,
+			"parentBlockID": 1,
+			"targetVal":"5",
+			"iteration":6,
+			"func_name":"do_dict_things",
+			"body":[
+			{
+				"type":"for",
+				"lineno": 31,
+				"timestamp": 0.0027189254760742188,
+				"id": 138,
+				"parentBlockID": 137,
+				"target":"v",
+				"body":[
+				]
+			},
+			{
+				"type":"call",
+				"lineno": 34,
+				"timestamp": 0.0027320384979248047,
+				"id": 139,
+				"parentBlockID": 137,
+				"func_name":"d.update({key: pow",
+				"body":[
+				]
+			}
+			]
+		},
+		{
+			"type":"call",
+			"lineno": 49,
+			"timestamp": 0.002743959426879883,
+			"id": 140,
+			"parentBlockID": 1,
+			"targetVal":"5",
+			"iteration":6,
+			"func_name":"doThings",
+			"body":[
+			{
+				"type":"for",
+				"lineno": 6,
+				"timestamp": 0.0027549266815185547,
+				"id": 141,
+				"parentBlockID": 140,
+				"target":"i",
+				"body":[
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0027718544006347656,
+					"id": 142,
+					"parentBlockID": 141,
+					"targetVal":"0",
+					"iteration":1,
+					"name":"result2",
+					"result2":3408,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.002788066864013672,
+					"id": 143,
+					"parentBlockID": 141,
+					"targetVal":"0",
+					"iteration":1,
+					"name":"result3",
+					"result3":3444
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.002850055694580078,
+					"id": 144,
+					"parentBlockID": 141,
+					"targetVal":"1",
+					"iteration":2,
+					"name":"result2",
+					"result2":4512,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0028679370880126953,
+					"id": 145,
+					"parentBlockID": 141,
+					"targetVal":"1",
+					"iteration":2,
+					"name":"result3",
+					"result3":4548
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.002891063690185547,
+					"id": 146,
+					"parentBlockID": 141,
+					"targetVal":"2",
+					"iteration":3,
+					"name":"result2",
+					"result2":4064,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0029060840606689453,
+					"id": 147,
+					"parentBlockID": 141,
+					"targetVal":"2",
+					"iteration":3,
+					"name":"result3",
+					"result3":4100
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.002928018569946289,
+					"id": 148,
+					"parentBlockID": 141,
+					"targetVal":"3",
+					"iteration":4,
+					"name":"result2",
+					"result2":2832,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0029439926147460938,
+					"id": 149,
+					"parentBlockID": 141,
+					"targetVal":"3",
+					"iteration":4,
+					"name":"result3",
+					"result3":2868
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0029649734497070312,
+					"id": 150,
+					"parentBlockID": 141,
+					"targetVal":"4",
+					"iteration":5,
+					"name":"result2",
+					"result2":4000,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0029799938201904297,
+					"id": 151,
+					"parentBlockID": 141,
+					"targetVal":"4",
+					"iteration":5,
+					"name":"result3",
+					"result3":4036
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.003002166748046875,
+					"id": 152,
+					"parentBlockID": 141,
+					"targetVal":"5",
+					"iteration":6,
+					"name":"result2",
+					"result2":4208,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.003016948699951172,
+					"id": 153,
+					"parentBlockID": 141,
+					"targetVal":"5",
+					"iteration":6,
+					"name":"result3",
+					"result3":4244
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0030388832092285156,
+					"id": 154,
+					"parentBlockID": 141,
+					"targetVal":"6",
+					"iteration":7,
+					"name":"result2",
+					"result2":4336,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0030541419982910156,
+					"id": 155,
+					"parentBlockID": 141,
+					"targetVal":"6",
+					"iteration":7,
+					"name":"result3",
+					"result3":4372
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0030760765075683594,
+					"id": 156,
+					"parentBlockID": 141,
+					"targetVal":"7",
+					"iteration":8,
+					"name":"result2",
+					"result2":3856,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0030908584594726562,
+					"id": 157,
+					"parentBlockID": 141,
+					"targetVal":"7",
+					"iteration":8,
+					"name":"result3",
+					"result3":3892
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0031118392944335938,
+					"id": 158,
+					"parentBlockID": 141,
+					"targetVal":"8",
+					"iteration":9,
+					"name":"result2",
+					"result2":2640,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0031270980834960938,
+					"id": 159,
+					"parentBlockID": 141,
+					"targetVal":"8",
+					"iteration":9,
+					"name":"result3",
+					"result3":2676
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0031480789184570312,
+					"id": 160,
+					"parentBlockID": 141,
+					"targetVal":"9",
+					"iteration":10,
+					"name":"result2",
+					"result2":3600,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0031630992889404297,
+					"id": 161,
+					"parentBlockID": 141,
+					"targetVal":"9",
+					"iteration":10,
+					"name":"result3",
+					"result3":3636
+				}
+				]
+			}
+			]
+		},
+		{
+			"type":"call",
+			"lineno": 50,
+			"timestamp": 0.003181934356689453,
+			"id": 162,
+			"parentBlockID": 1,
+			"targetVal":"5",
+			"iteration":6,
+			"func_name":"doStringThings",
+			"body":[
+			{
+				"type":"for",
+				"lineno": 18,
+				"timestamp": 0.0031969547271728516,
+				"id": 163,
+				"parentBlockID": 162,
+				"target":"i",
+				"body":[
+				]
+			}
+			]
+		},
+		{
+			"type":"call",
+			"lineno": 47,
+			"timestamp": 0.0032150745391845703,
+			"id": 164,
+			"parentBlockID": 1,
+			"targetVal":"6",
+			"iteration":7,
+			"func_name":"do_dict_things",
+			"body":[
+			{
+				"type":"for",
+				"lineno": 31,
+				"timestamp": 0.0032320022583007812,
+				"id": 165,
+				"parentBlockID": 164,
+				"target":"v",
+				"body":[
+				]
+			},
+			{
+				"type":"call",
+				"lineno": 34,
+				"timestamp": 0.0032608509063720703,
+				"id": 166,
+				"parentBlockID": 164,
+				"func_name":"d.update({key: pow",
+				"body":[
+				]
+			}
+			]
+		},
+		{
+			"type":"call",
+			"lineno": 49,
+			"timestamp": 0.00327301025390625,
+			"id": 167,
+			"parentBlockID": 1,
+			"targetVal":"6",
+			"iteration":7,
+			"func_name":"doThings",
+			"body":[
+			{
+				"type":"for",
+				"lineno": 6,
+				"timestamp": 0.003283977508544922,
+				"id": 168,
+				"parentBlockID": 167,
+				"target":"i",
+				"body":[
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0032999515533447266,
+					"id": 169,
+					"parentBlockID": 168,
+					"targetVal":"0",
+					"iteration":1,
+					"name":"result2",
+					"result2":8970,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0033159255981445312,
+					"id": 170,
+					"parentBlockID": 168,
+					"targetVal":"0",
+					"iteration":1,
+					"name":"result3",
+					"result3":8982
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.003337860107421875,
+					"id": 171,
+					"parentBlockID": 168,
+					"targetVal":"1",
+					"iteration":2,
+					"name":"result2",
+					"result2":8190,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.003351926803588867,
+					"id": 172,
+					"parentBlockID": 168,
+					"targetVal":"1",
+					"iteration":2,
+					"name":"result3",
+					"result3":8202
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0033740997314453125,
+					"id": 173,
+					"parentBlockID": 168,
+					"targetVal":"2",
+					"iteration":3,
+					"name":"result2",
+					"result2":6450,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0033888816833496094,
+					"id": 174,
+					"parentBlockID": 168,
+					"targetVal":"2",
+					"iteration":3,
+					"name":"result3",
+					"result3":6462
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.003409862518310547,
+					"id": 175,
+					"parentBlockID": 168,
+					"targetVal":"3",
+					"iteration":4,
+					"name":"result2",
+					"result2":8190,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.003423929214477539,
+					"id": 176,
+					"parentBlockID": 168,
+					"targetVal":"3",
+					"iteration":4,
+					"name":"result3",
+					"result3":8202
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0034449100494384766,
+					"id": 177,
+					"parentBlockID": 168,
+					"targetVal":"4",
+					"iteration":5,
+					"name":"result2",
+					"result2":6540,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0034589767456054688,
+					"id": 178,
+					"parentBlockID": 168,
+					"targetVal":"4",
+					"iteration":5,
+					"name":"result3",
+					"result3":6552
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0035169124603271484,
+					"id": 179,
+					"parentBlockID": 168,
+					"targetVal":"5",
+					"iteration":6,
+					"name":"result2",
+					"result2":6390,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0035331249237060547,
+					"id": 180,
+					"parentBlockID": 168,
+					"targetVal":"5",
+					"iteration":6,
+					"name":"result3",
+					"result3":6402
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0035550594329833984,
+					"id": 181,
+					"parentBlockID": 168,
+					"targetVal":"6",
+					"iteration":7,
+					"name":"result2",
+					"result2":5940,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0035691261291503906,
+					"id": 182,
+					"parentBlockID": 168,
+					"targetVal":"6",
+					"iteration":7,
+					"name":"result3",
+					"result3":5952
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.003590106964111328,
+					"id": 183,
+					"parentBlockID": 168,
+					"targetVal":"7",
+					"iteration":8,
+					"name":"result2",
+					"result2":8700,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.003604888916015625,
+					"id": 184,
+					"parentBlockID": 168,
+					"targetVal":"7",
+					"iteration":8,
+					"name":"result3",
+					"result3":8712
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0036258697509765625,
+					"id": 185,
+					"parentBlockID": 168,
+					"targetVal":"8",
+					"iteration":9,
+					"name":"result2",
+					"result2":8370,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0036399364471435547,
+					"id": 186,
+					"parentBlockID": 168,
+					"targetVal":"8",
+					"iteration":9,
+					"name":"result3",
+					"result3":8382
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.003660917282104492,
+					"id": 187,
+					"parentBlockID": 168,
+					"targetVal":"9",
+					"iteration":10,
+					"name":"result2",
+					"result2":6240,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0036840438842773438,
+					"id": 188,
+					"parentBlockID": 168,
+					"targetVal":"9",
+					"iteration":10,
+					"name":"result3",
+					"result3":6252
+				}
+				]
+			}
+			]
+		},
+		{
+			"type":"call",
+			"lineno": 50,
+			"timestamp": 0.0037050247192382812,
+			"id": 189,
+			"parentBlockID": 1,
+			"targetVal":"6",
+			"iteration":7,
+			"func_name":"doStringThings",
+			"body":[
+			{
+				"type":"for",
+				"lineno": 18,
+				"timestamp": 0.003718852996826172,
+				"id": 190,
+				"parentBlockID": 189,
+				"target":"i",
+				"body":[
+				]
+			}
+			]
+		},
+		{
+			"type":"call",
+			"lineno": 47,
+			"timestamp": 0.003735065460205078,
+			"id": 191,
+			"parentBlockID": 1,
+			"targetVal":"7",
+			"iteration":8,
+			"func_name":"do_dict_things",
+			"body":[
+			{
+				"type":"for",
+				"lineno": 31,
+				"timestamp": 0.003751993179321289,
+				"id": 192,
+				"parentBlockID": 191,
+				"target":"v",
+				"body":[
+				]
+			},
+			{
+				"type":"call",
+				"lineno": 34,
+				"timestamp": 0.0037660598754882812,
+				"id": 193,
+				"parentBlockID": 191,
+				"func_name":"d.update({key: pow",
+				"body":[
+				]
+			}
+			]
+		},
+		{
+			"type":"call",
+			"lineno": 49,
+			"timestamp": 0.0037789344787597656,
+			"id": 194,
+			"parentBlockID": 1,
+			"targetVal":"7",
+			"iteration":8,
+			"func_name":"doThings",
+			"body":[
+			{
+				"type":"for",
+				"lineno": 6,
+				"timestamp": 0.0037920475006103516,
+				"id": 195,
+				"parentBlockID": 194,
+				"target":"i",
+				"body":[
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0038089752197265625,
+					"id": 196,
+					"parentBlockID": 195,
+					"targetVal":"0",
+					"iteration":1,
+					"name":"result2",
+					"result2":372,
+					"result2 < 500":"True"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0038259029388427734,
+					"id": 197,
+					"parentBlockID": 195,
+					"targetVal":"0",
+					"iteration":1,
+					"name":"result3",
+					"result3":402
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.003849029541015625,
+					"id": 198,
+					"parentBlockID": 195,
+					"targetVal":"1",
+					"iteration":2,
+					"name":"result2",
+					"result2":404,
+					"result2 < 500":"True"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0038640499114990234,
+					"id": 199,
+					"parentBlockID": 195,
+					"targetVal":"1",
+					"iteration":2,
+					"name":"result3",
+					"result3":434
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.003885030746459961,
+					"id": 200,
+					"parentBlockID": 195,
+					"targetVal":"2",
+					"iteration":3,
+					"name":"result2",
+					"result2":558,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.003899812698364258,
+					"id": 201,
+					"parentBlockID": 195,
+					"targetVal":"2",
+					"iteration":3,
+					"name":"result3",
+					"result3":588
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.003921985626220703,
+					"id": 202,
+					"parentBlockID": 195,
+					"targetVal":"3",
+					"iteration":4,
+					"name":"result2",
+					"result2":250,
+					"result2 < 500":"True"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.003936052322387695,
+					"id": 203,
+					"parentBlockID": 195,
+					"targetVal":"3",
+					"iteration":4,
+					"name":"result3",
+					"result3":280
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.003957033157348633,
+					"id": 204,
+					"parentBlockID": 195,
+					"targetVal":"4",
+					"iteration":5,
+					"name":"result2",
+					"result2":508,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.003971099853515625,
+					"id": 205,
+					"parentBlockID": 195,
+					"targetVal":"4",
+					"iteration":5,
+					"name":"result3",
+					"result3":538
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0039920806884765625,
+					"id": 206,
+					"parentBlockID": 195,
+					"targetVal":"5",
+					"iteration":6,
+					"name":"result2",
+					"result2":542,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.004006862640380859,
+					"id": 207,
+					"parentBlockID": 195,
+					"targetVal":"5",
+					"iteration":6,
+					"name":"result3",
+					"result3":572
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.004027843475341797,
+					"id": 208,
+					"parentBlockID": 195,
+					"targetVal":"6",
+					"iteration":7,
+					"name":"result2",
+					"result2":576,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.004041910171508789,
+					"id": 209,
+					"parentBlockID": 195,
+					"targetVal":"6",
+					"iteration":7,
+					"name":"result3",
+					"result3":606
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0040628910064697266,
+					"id": 210,
+					"parentBlockID": 195,
+					"targetVal":"7",
+					"iteration":8,
+					"name":"result2",
+					"result2":498,
+					"result2 < 500":"True"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.004076957702636719,
+					"id": 211,
+					"parentBlockID": 195,
+					"targetVal":"7",
+					"iteration":8,
+					"name":"result3",
+					"result3":528
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.004097938537597656,
+					"id": 212,
+					"parentBlockID": 195,
+					"targetVal":"8",
+					"iteration":9,
+					"name":"result2",
+					"result2":632,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0041120052337646484,
+					"id": 213,
+					"parentBlockID": 195,
+					"targetVal":"8",
+					"iteration":9,
+					"name":"result3",
+					"result3":662
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.004170894622802734,
+					"id": 214,
+					"parentBlockID": 195,
+					"targetVal":"9",
+					"iteration":10,
+					"name":"result2",
+					"result2":494,
+					"result2 < 500":"True"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.004187107086181641,
+					"id": 215,
+					"parentBlockID": 195,
+					"targetVal":"9",
+					"iteration":10,
+					"name":"result3",
+					"result3":524
+				}
+				]
+			}
+			]
+		},
+		{
+			"type":"call",
+			"lineno": 50,
+			"timestamp": 0.004204988479614258,
+			"id": 216,
+			"parentBlockID": 1,
+			"targetVal":"7",
+			"iteration":8,
+			"func_name":"doStringThings",
+			"body":[
+			{
+				"type":"for",
+				"lineno": 18,
+				"timestamp": 0.00421905517578125,
+				"id": 217,
+				"parentBlockID": 216,
+				"target":"i",
+				"body":[
+				]
+			}
+			]
+		},
+		{
+			"type":"call",
+			"lineno": 47,
+			"timestamp": 0.004231929779052734,
+			"id": 218,
+			"parentBlockID": 1,
+			"targetVal":"8",
+			"iteration":9,
+			"func_name":"do_dict_things",
+			"body":[
+			{
+				"type":"for",
+				"lineno": 31,
+				"timestamp": 0.004248142242431641,
+				"id": 219,
+				"parentBlockID": 218,
+				"target":"v",
+				"body":[
+				]
+			},
+			{
+				"type":"call",
+				"lineno": 34,
+				"timestamp": 0.0042591094970703125,
+				"id": 220,
+				"parentBlockID": 218,
+				"func_name":"d.update({key: pow",
+				"body":[
+				]
+			}
+			]
+		},
+		{
+			"type":"call",
+			"lineno": 49,
+			"timestamp": 0.004271984100341797,
+			"id": 221,
+			"parentBlockID": 1,
+			"targetVal":"8",
+			"iteration":9,
+			"func_name":"doThings",
+			"body":[
+			{
+				"type":"for",
+				"lineno": 6,
+				"timestamp": 0.0042819976806640625,
+				"id": 222,
+				"parentBlockID": 221,
+				"target":"i",
+				"body":[
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.004297971725463867,
+					"id": 223,
+					"parentBlockID": 222,
+					"targetVal":"0",
+					"iteration":1,
+					"name":"result2",
+					"result2":3744,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0043141841888427734,
+					"id": 224,
+					"parentBlockID": 222,
+					"targetVal":"0",
+					"iteration":1,
+					"name":"result3",
+					"result3":3789
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.004336118698120117,
+					"id": 225,
+					"parentBlockID": 222,
+					"targetVal":"1",
+					"iteration":2,
+					"name":"result2",
+					"result2":5508,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.004350900650024414,
+					"id": 226,
+					"parentBlockID": 222,
+					"targetVal":"1",
+					"iteration":2,
+					"name":"result3",
+					"result3":5553
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.004373073577880859,
+					"id": 227,
+					"parentBlockID": 222,
+					"targetVal":"2",
+					"iteration":3,
+					"name":"result2",
+					"result2":4230,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0043871402740478516,
+					"id": 228,
+					"parentBlockID": 222,
+					"targetVal":"2",
+					"iteration":3,
+					"name":"result3",
+					"result3":4275
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.004409074783325195,
+					"id": 229,
+					"parentBlockID": 222,
+					"targetVal":"3",
+					"iteration":4,
+					"name":"result2",
+					"result2":4302,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.004422903060913086,
+					"id": 230,
+					"parentBlockID": 222,
+					"targetVal":"3",
+					"iteration":4,
+					"name":"result3",
+					"result3":4347
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.0044438838958740234,
+					"id": 231,
+					"parentBlockID": 222,
+					"targetVal":"4",
+					"iteration":5,
+					"name":"result2",
+					"result2":4140,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.004458904266357422,
+					"id": 232,
+					"parentBlockID": 222,
+					"targetVal":"4",
+					"iteration":5,
+					"name":"result3",
+					"result3":4185
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.004479885101318359,
+					"id": 233,
+					"parentBlockID": 222,
+					"targetVal":"5",
+					"iteration":6,
+					"name":"result2",
+					"result2":4140,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.004495143890380859,
+					"id": 234,
+					"parentBlockID": 222,
+					"targetVal":"5",
+					"iteration":6,
+					"name":"result3",
+					"result3":4185
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.004514932632446289,
+					"id": 235,
+					"parentBlockID": 222,
+					"targetVal":"6",
+					"iteration":7,
+					"name":"result2",
+					"result2":5886,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0045299530029296875,
+					"id": 236,
+					"parentBlockID": 222,
+					"targetVal":"6",
+					"iteration":7,
+					"name":"result3",
+					"result3":5931
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.004550933837890625,
+					"id": 237,
+					"parentBlockID": 222,
+					"targetVal":"7",
+					"iteration":8,
+					"name":"result2",
+					"result2":3564,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.004565000534057617,
+					"id": 238,
+					"parentBlockID": 222,
+					"targetVal":"7",
+					"iteration":8,
+					"name":"result3",
+					"result3":3609
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.004585981369018555,
+					"id": 239,
+					"parentBlockID": 222,
+					"targetVal":"8",
+					"iteration":9,
+					"name":"result2",
+					"result2":4392,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.004600048065185547,
+					"id": 240,
+					"parentBlockID": 222,
+					"targetVal":"8",
+					"iteration":9,
+					"name":"result3",
+					"result3":4437
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.004621028900146484,
+					"id": 241,
+					"parentBlockID": 222,
+					"targetVal":"9",
+					"iteration":10,
+					"name":"result2",
+					"result2":3384,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0046350955963134766,
+					"id": 242,
+					"parentBlockID": 222,
+					"targetVal":"9",
+					"iteration":10,
+					"name":"result3",
+					"result3":3429
+				}
+				]
+			}
+			]
+		},
+		{
+			"type":"call",
+			"lineno": 50,
+			"timestamp": 0.0046539306640625,
+			"id": 243,
+			"parentBlockID": 1,
+			"targetVal":"8",
+			"iteration":9,
+			"func_name":"doStringThings",
+			"body":[
+			{
+				"type":"for",
+				"lineno": 18,
+				"timestamp": 0.004667043685913086,
+				"id": 244,
+				"parentBlockID": 243,
+				"target":"i",
+				"body":[
+				]
+			}
+			]
+		},
+		{
+			"type":"call",
+			"lineno": 47,
+			"timestamp": 0.004687070846557617,
+			"id": 245,
+			"parentBlockID": 1,
+			"targetVal":"9",
+			"iteration":10,
+			"func_name":"do_dict_things",
+			"body":[
+			{
+				"type":"for",
+				"lineno": 31,
+				"timestamp": 0.004703044891357422,
+				"id": 246,
+				"parentBlockID": 245,
+				"target":"v",
+				"body":[
+				]
+			},
+			{
+				"type":"call",
+				"lineno": 34,
+				"timestamp": 0.00471806526184082,
+				"id": 247,
+				"parentBlockID": 245,
+				"func_name":"d.update({key: pow",
+				"body":[
+				]
+			}
+			]
+		},
+		{
+			"type":"call",
+			"lineno": 49,
+			"timestamp": 0.0047299861907958984,
+			"id": 248,
+			"parentBlockID": 1,
+			"targetVal":"9",
+			"iteration":10,
+			"func_name":"doThings",
+			"body":[
+			{
+				"type":"for",
+				"lineno": 6,
+				"timestamp": 0.004745960235595703,
+				"id": 249,
+				"parentBlockID": 248,
+				"target":"i",
+				"body":[
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.00479888916015625,
+					"id": 250,
+					"parentBlockID": 249,
+					"targetVal":"0",
+					"iteration":1,
+					"name":"result2",
+					"result2":16488,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.004817962646484375,
+					"id": 251,
+					"parentBlockID": 249,
+					"targetVal":"0",
+					"iteration":1,
+					"name":"result3",
+					"result3":16522
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.004839897155761719,
+					"id": 252,
+					"parentBlockID": 249,
+					"targetVal":"1",
+					"iteration":2,
+					"name":"result2",
+					"result2":16848,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.004854917526245117,
+					"id": 253,
+					"parentBlockID": 249,
+					"targetVal":"1",
+					"iteration":2,
+					"name":"result3",
+					"result3":16882
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.004875898361206055,
+					"id": 254,
+					"parentBlockID": 249,
+					"targetVal":"2",
+					"iteration":3,
+					"name":"result2",
+					"result2":15768,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.004891157150268555,
+					"id": 255,
+					"parentBlockID": 249,
+					"targetVal":"2",
+					"iteration":3,
+					"name":"result3",
+					"result3":15802
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.004911184310913086,
+					"id": 256,
+					"parentBlockID": 249,
+					"targetVal":"3",
+					"iteration":4,
+					"name":"result2",
+					"result2":19584,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.004925966262817383,
+					"id": 257,
+					"parentBlockID": 249,
+					"targetVal":"3",
+					"iteration":4,
+					"name":"result3",
+					"result3":19618
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.00494694709777832,
+					"id": 258,
+					"parentBlockID": 249,
+					"targetVal":"4",
+					"iteration":5,
+					"name":"result2",
+					"result2":21312,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0049610137939453125,
+					"id": 259,
+					"parentBlockID": 249,
+					"targetVal":"4",
+					"iteration":5,
+					"name":"result3",
+					"result3":21346
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.004982948303222656,
+					"id": 260,
+					"parentBlockID": 249,
+					"targetVal":"5",
+					"iteration":6,
+					"name":"result2",
+					"result2":16848,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0049970149993896484,
+					"id": 261,
+					"parentBlockID": 249,
+					"targetVal":"5",
+					"iteration":6,
+					"name":"result3",
+					"result3":16882
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.005017995834350586,
+					"id": 262,
+					"parentBlockID": 249,
+					"targetVal":"6",
+					"iteration":7,
+					"name":"result2",
+					"result2":15120,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.005033016204833984,
+					"id": 263,
+					"parentBlockID": 249,
+					"targetVal":"6",
+					"iteration":7,
+					"name":"result3",
+					"result3":15154
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.005053997039794922,
+					"id": 264,
+					"parentBlockID": 249,
+					"targetVal":"7",
+					"iteration":8,
+					"name":"result2",
+					"result2":17280,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.005068063735961914,
+					"id": 265,
+					"parentBlockID": 249,
+					"targetVal":"7",
+					"iteration":8,
+					"name":"result3",
+					"result3":17314
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.005087852478027344,
+					"id": 266,
+					"parentBlockID": 249,
+					"targetVal":"8",
+					"iteration":9,
+					"name":"result2",
+					"result2":16560,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.0051021575927734375,
+					"id": 267,
+					"parentBlockID": 249,
+					"targetVal":"8",
+					"iteration":9,
+					"name":"result3",
+					"result3":16594
+				},
+				{
+					"type":"assign",
+					"lineno": 8,
+					"timestamp": 0.005123138427734375,
+					"id": 268,
+					"parentBlockID": 249,
+					"targetVal":"9",
+					"iteration":10,
+					"name":"result2",
+					"result2":13248,
+					"result2 < 500":"False"
+				},
+				{
+					"type":"assign",
+					"lineno": 9,
+					"timestamp": 0.005137920379638672,
+					"id": 269,
+					"parentBlockID": 249,
+					"targetVal":"9",
+					"iteration":10,
+					"name":"result3",
+					"result3":13282
+				}
+				]
+			}
+			]
+		},
+		{
+			"type":"call",
+			"lineno": 50,
+			"timestamp": 0.005156040191650391,
+			"id": 270,
+			"parentBlockID": 1,
+			"targetVal":"9",
+			"iteration":10,
+			"func_name":"doStringThings",
+			"body":[
+			{
+				"type":"for",
+				"lineno": 18,
+				"timestamp": 0.005169868469238281,
+				"id": 271,
+				"parentBlockID": 270,
+				"target":"i",
+				"body":[
+				]
+			}
+			]
+		}
+		]
+	}
+	]
+,
+	"tracked":[
+		{"name":"result2","instances":[{"lineno":8, "offset":8}],
+		"custom":["result2 < 500"]},
+		{"name":"result3","instances":[{"lineno":9, "offset":8}],
+		"custom":[]}
+	]
+}

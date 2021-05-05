@@ -1,0 +1,12 @@
+REPLACEcurTime = REPLACEtime.time()-REPLACEstartTime
+REPLACEcurID+=1
+
+REPLACEstr = REPLACEtabstr + "{\n" + REPLACEtabstr + "\t\"type\":\"RTYPE\",\n"
+REPLACEclosingStack.append("}")
+REPLACEstr += REPLACEtabstr + "\t\"lineno\": REPLINENO,\n"
+REPLACEstr += REPLACEtabstr + "\t\"timestamp\": "+ REPLACEtoStr(REPLACEcurTime) +",\n"
+REPLACEstr += REPLACEtabstr + "\t\"id\": "+REPLACEtoStr(REPLACEcurID)+",\n"
+REPLACEparent = REPLACEblockStack[-1]
+REPLACEstr += REPLACEtabstr + "\t\"parentBlockID\": "+REPLACEtoStr(REPLACEparent)+",\n"
+
+

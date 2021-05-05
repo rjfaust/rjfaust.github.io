@@ -1,0 +1,118 @@
+<html>
+  <head>
+      <script type="text/javascript">
+          // set the Pyodide files URL (packages.json, pyodide.asm.data etc)
+          window.languagePluginUrl = 'https://cdn.jsdelivr.net/pyodide/v0.16.1/full/';
+      </script>
+      <script src="https://cdn.jsdelivr.net/pyodide/v0.16.1/full/pyodide.js"></script>
+      <script src="https://d3js.org/d3.v4.min.js"></script>
+
+      <!-- <script src="staticVisitor.js"></script>
+      <script src="exclusionObject.js"></script>
+      <script src="helpers.js"></script>
+      <script src="trackedObject.js"></script>
+      <script src="transformer.js"></script>
+      <script src="main.js"></script>
+      <script src="traceWrapper.js"></script> -->
+      <script src="writeHelpers.js"></script>
+      <script src="wholeTracer0.js"></script>
+      <script src="test.js"></script>
+      <script src="testTrace.js"></script>
+  </head>
+  <body>
+    Pyodide test page <br>
+    Open your browser console to see Pyodide output
+    <textarea id="newSrc" oninput="alert('CHANGING');runSrc(this)">
+    </textarea>
+    <script type="text/javascript">
+        pythonCode = `
+          def do_work2(*args):
+              import astor
+              print("done")
+
+          import micropip
+          micropip.install('astor').then(do_work2)
+          `
+          pythonCode2 = `text = "`+prog + `"\nhead = generateHead(text)\nvisitor = CallExtentVisitor(text.split(\"\\n\"))\nvisitor.visit(head)\nfunctions = visitor.functions\nloops = visitor.loops\nprint(functions)
+            `
+
+
+            document.getElementById("newSrc")
+              .addEventListener("input", (event) => alert("Changed!"));
+          languagePluginLoader.then(() => {
+          return pyodide.loadPackage(['micropip','numpy'])
+        }).then(()=> {return pyodide.runPython(pythonCode)}).then(() => {
+          // pyodide.runPython(pythonCode);
+          // pyodide.runPython(tracerStaticVis);
+          // pyodide.runPython(tracerExclObj)
+          // pyodide.runPython(tracerHelpers)
+          // pyodide.runPython(tracerTrackedObj)
+          // pyodide.runPython(tracerTransf)
+          pyodide.runPython(rewriteHelpers)
+          pyodide.runPython("rewrite_helpers()")
+          pythonCode = "f=open(\"tabs.txt\")\ntext =f.read()\nf.close()\nprint(text)"
+          // pyodide.runPython(pythonCode)
+          // pyodide.runPython("import astor")
+
+
+          pythonCode3 = "f=open(\"testProg.py\", \"w\")\nf.write(\"def test():\\n    iters = 5\\n    val = 6\\n    output = 1\\n    for iter in range(iters):\\n        output /= val\\n\\nif __name__==\\\"__main__\\\":\\n    test()\\n\")\nf.close()"
+          pyodide.runPython(pythonCode3);
+          // pythonCode = "f=open(\"testProg.py\", \"r\")\ntext = f.read()\nf.close()\nprint(text)"
+          // pyodide.runPython(pythonCode);
+          // tracerCode+='\n    transf, newSrc = runTrace(\"testProg.py\", [{"line":6,"name":"output", "offset":8, "custom_exprs":None}], [],[],[], None, "test_trace")\n    global t\n    t = transf\n    global source\n    source = newSrc'
+          // pyodide.runPython(tracerCode)
+
+
+          // pythonCode = "t.cleanJson(t.transformer)"
+
+          pythonCode =   `
+            import micropip
+            micropip.install('astor').then(do_work)
+            `
+
+          // pyodide.runPythonAsync(pythonCode)
+          // .then(output => run_trace())
+
+          tracerCode+='transf, newSrc = runTrace(\"testProg.py\", [{"line":6,"name":"output", "offset":8, "custom_exprs":None}], [],[],[], None, "test_trace")\nf=open(\"test_trace.trace\", \"r\")\ntext = f.read()\nf.close()\nprint(text)'
+
+          // function run_trace(){
+            pyodide.runPython(tracerCode)
+            s = pyodide.pyimport("source")
+          // }
+
+
+
+          // pyodide.runPython(pythonCode)
+          // .then(output => console.log(output))
+
+
+
+
+
+
+
+
+          // source = document.getElementById("newSrc")3
+          // d3.select("#newSrc")
+          // .on("change",function(d){
+          //   pyodide.runPython(this.value)
+          // })
+          //
+          // function runSrc(node){
+          //   pyodide.runPython(node.value)
+          //   console.log("RAN")
+       //    // }
+       //
+       //    pyodide.runPythonAsync(code.value)
+       // .then(output => addToOutput(output))
+       // .catch((err) => { addToOutput(err) });
+          // pyodide.runPython(testTrace)
+          // pyodide.runPython(pythonCode3);
+          // source = pyodide.globals.get("source")
+          // pyodide.runPython(source)
+
+
+        })
+    </script>
+  </body>
+</html>
