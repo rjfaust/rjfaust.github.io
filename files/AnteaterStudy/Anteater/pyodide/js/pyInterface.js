@@ -95,7 +95,7 @@ function run_trace(fname,varStr, exprStr, funcExclStr, libExclStr){
   var cont = true
   pyodide.runPythonAsync(source)
   .then((output) => {write_source_file(source,fname);
-    trace(error, cont, fname, variables, expressions, funcExclusions, libExclusions, tname,version,varStr, exprStr, funcExclStr, libExclStr);
+    tracer(error, cont, fname, variables, expressions, funcExclusions, libExclusions, tname,version,varStr, exprStr, funcExclStr, libExclStr);
   })
   .catch((err) => { c = confirm("Warning: Your program has encountered the Python error shown below. If you continue with the trace, you may encounter a subsequent error with Anteater. Do you wish to continue?\n"+err)
     console.log(err)
@@ -112,7 +112,7 @@ function run_trace(fname,varStr, exprStr, funcExclStr, libExclStr){
 
 
 }
-function trace(error, cont, fname, variables, expressions, funcExclusions, libExclusions, tname,version,varStr, exprStr, funcExclStr, libExclStr){
+function tracer(error, cont, fname, variables, expressions, funcExclusions, libExclusions, tname,version,varStr, exprStr, funcExclStr, libExclStr){
   if (error == "" && cont){
 
     tracerCode+='\ntrace, funcInfo, dependencies, output, loopInfo = runTrace(\"'+fname+'\", '+JSON.stringify(variables)+', '+JSON.stringify(expressions)+','+JSON.stringify(funcExclusions)+','+JSON.stringify(libExclusions)+', None, "'+tname+'")'//'\nf=open(\"'+tname+'.trace\", \"r\")\ntext = f.read()\nf.close()\nprint(text)'
