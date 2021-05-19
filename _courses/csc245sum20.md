@@ -85,7 +85,6 @@ This is the course website for CSc 245, Introduction to Discrete Structures, for
   + [Practice Problems]({{ site.baseurl }}{% link /files/csc245/Practice_Problems_1.pdf %})
   + [Midterm]({{ site.baseurl }}{% link /files/csc245/CSc_245_Midterm.pdf %})
     + [Latex Template]({{ site.baseurl }}{% link /files/csc245/Midterm_template.zip %})
-    + [Solutions]({{ site.baseurl }}{% link /files/csc245/CSc_245_Midterm_Solutions.pdf %})
     + [Midterm Discussion](https://youtu.be/5H0lBxioMb8)
   + Lecture Slides
     + [Relations]({{ site.baseurl }}{% link /files/csc245/Relations.pdf %})
