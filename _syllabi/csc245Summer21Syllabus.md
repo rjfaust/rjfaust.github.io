@@ -4,7 +4,6 @@ course_id: CSc 245
 semester: Summer 2021
 permalink: /teaching/summer2021/csc245/Syllabus.html
 layout: course
-title: CSc 245 Syllabus
 ---
 
 
@@ -26,7 +25,7 @@ MATH 111, MATH 112, grade of B or better in CSC 127B or CSC 227.
 ### Instructor and Contact Information
 + **Instructor**: Rebecca Faust
 + **Email**: [rjfaust+sum21csc245@email.arizona.edu](mailto:rjfaust+sum21csc245@email.arizona.edu)
-+ **Office Hours**: TBD (additional hours by appointment). My office hours will be held through google hangouts. During my specified office hours, I will be on hangouts with my university email (rjfaust@email.arizona.edu).  If you want to "attend" office hours, invite me into a chat and we can discuss your questions there or start a video call.  In the event that I am already on a call with someone else, I will let you know where you are in the queue of people waiting to chat with me and send you a message once it is your turn.
++ **Office Hours**: TBD (additional hours by appointment). Held via Zoom. 
 + **TA's**: Ash Reed, Vatsav Sethupathi & Richard Spence
 + **TA Email**: [rachelreed@email.arizona.edu](mailto:rachelreed@email.arizona.edu), [vatsav14@email.arizona.edu](mailto:vatsav14@email.arizona.edu),
 & [rcspence@email.arizona.edu](mailto:rcspence@email.arizona.edu)

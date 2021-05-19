@@ -6,7 +6,7 @@ syllabus: None
 piazza: None
 permalink: /teaching/summer2021/csc245
 layout: course
-title: CSc 245
+
 ---
 
 <div align="center"><h1>Introduction to Discrete Structures</h1>
