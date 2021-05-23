@@ -84,11 +84,11 @@ function box_plot(groupedPoints, groupedContext, variable, plotDims, groupTitle,
             },
             encoding:{text:{value:xName},
             opacity:{
-              condition:{
-                test:"datum.instance==" + minInstance,
-                value:1
-              },
-              value:0
+              // condition:{
+              //   test:"datum.instance==" + minInstance,
+              //   value:1
+              // },
+              value:1
             }
           }
           }]
@@ -127,7 +127,7 @@ function box_plot(groupedPoints, groupedContext, variable, plotDims, groupTitle,
             axis:{title:null}
             },
             size: {value: size},
-            stroke: "black",
+            stroke: {value:"black"},
             fillOpacity:{
                 condition: {selection: "select",value:1},
                 value: 0.3

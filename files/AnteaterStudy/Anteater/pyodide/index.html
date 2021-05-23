@@ -197,6 +197,12 @@
 
           </div>
 
+          <div id ="loading">
+            <h5 >Loading Python...</h5>
+            <div id = "loaderCase">
+            <div id="loader" style=""></div>
+            <div>
+          </div>
 
         </div>
 
@@ -228,6 +234,17 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
   <script>
+    sessionStorage.setItem("sourceFile","study_source.py")
+    sessionStorage.setItem("study_source.py","REPLACE ME WITH YOUR CODE")
+    loader = d3.select("#loading")
+    xCoord = window.innerWidth/2.0 - 150;
+    yCoord = window.innerHeight/2.0 - 75;
+    loader.style("left",xCoord+"px")
+    loader.style("top",yCoord+"px")
+    window.onbeforeunload = function() {
+        return 'Warning: Refreshing the page will cause Python to reload and will clear your traces!';
+    }
+
     if (sessionStorage.getItem("sourceFile") == null){
       window.location.href = "loadSrc.html"
     }
@@ -238,6 +255,8 @@
         def do_work2(*args):
             import astor
             print("done")
+            f = open("study_source.py","w")
+            f.close()
 
         import micropip
         micropip.install('astor').then(do_work2)
@@ -282,11 +301,14 @@
         }
         else{
           create_prog_db()
-          switch_to_trace_spec()
+          // switch_to_trace_spec()
         }
+
+        document.getElementById("loading").style.display = "none";
 
       })
     }
+
 
 
 

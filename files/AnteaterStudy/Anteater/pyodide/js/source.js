@@ -7,8 +7,9 @@ var plotMargin = {top: 10, right: 100, bottom: 100, left: 80};
 //     .querySelector('#execution')
 //     .getBoundingClientRect();
 // var boundingRect = {right:}
-// var editorWidth = boundingRect.right - boundingRect.left - plotMargin.left - plotMargin.right - 20;
-var editorWidth = window.innerWidth*(2.0/5)- plotMargin.left - plotMargin.right - 20;
+var editorWidth = boundingRect.right - boundingRect.left - plotMargin.left - plotMargin.right - 20;
+// var editorWidth = window.innerWidth*(2.0/5)- plotMargin.left - plotMargin.right - 20;
+var editorWidth = window.innerWidth - (window.innerWidth*(3.0/5)- margin.left - margin.right - 40);
 var loopInfo = null
 var funcInfo = null
 var dependencies = null

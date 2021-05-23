@@ -23,13 +23,13 @@ function check_source(source,fname){
   var retVal = true
   pyodide.runPythonAsync(source)
   .then(output => write_source_file(source,fname))
-  .catch((err) => { c = confirm("Warning: Your program has encountered the Python error shown below. If you continue with the trace, you may encounter a subsequent error with Anteater. Do you wish to continue?\n"+err)
-    if(c == true){
+  .catch((err) => { //c = confirm("Warning: Your program has encountered the Python error shown below. If you continue with the trace, you may encounter a subsequent error with Anteater. Do you wish to continue?\n"+err)
+    // if(c == true){
       write_source_file(source,fname)
-    }
-    else{
-      retVal = false
-    }
+    // }
+    // else{
+    //   retVal = false
+    // }
   });
   return retVal
 

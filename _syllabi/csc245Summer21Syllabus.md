@@ -25,7 +25,7 @@ MATH 111, MATH 112, grade of B or better in CSC 127B or CSC 227.
 ### Instructor and Contact Information
 + **Instructor**: Rebecca Faust
 + **Email**: [rjfaust+sum21csc245@email.arizona.edu](mailto:rjfaust+sum21csc245@email.arizona.edu)
-+ **Office Hours**: TBD (additional hours by appointment). Held via Zoom. 
++ **Office Hours**: TBD (additional hours by appointment). Held via Zoom.
 + **TA's**: Ash Reed, Vatsav Sethupathi & Richard Spence
 + **TA Email**: [rachelreed@email.arizona.edu](mailto:rachelreed@email.arizona.edu), [vatsav14@email.arizona.edu](mailto:vatsav14@email.arizona.edu),
 & [rcspence@email.arizona.edu](mailto:rcspence@email.arizona.edu)
@@ -120,13 +120,13 @@ Below is the planned schedule for the semester.  However, it is subject to chang
 |:-----:|:----------:|:------------------:|:---------------:|:----------:|
 | 1   | M 06/07  | Syllabus, 1, 2      | Homework 1    |                  |
 |     | F 06/11  |                     | Homework 2    | Homework 1 (5pm) |
-| 2   | M 06/14  | 2, 3                | Quiz 1        | Quiz 1 (midnight)|
+| 2   | M 06/14  | 3, 4                | Quiz 1        | Quiz 1 (midnight)|
 |     | F 06/18  |                     | Homework 3    | Homework 2 (5pm) |
-| 3   | M 06/21  | 3, 4, 5             | Quiz 2        | Quiz 2 (midnight)|
+| 3   | M 06/21  | 5                   | Quiz 2        | Quiz 2 (midnight)|
 |     | F 06/25  |                     | Homework 4    | Homework 3 (5pm) |
-| 4   | M 06/28  | 5, 6 , 7            | Quiz 3        | Quiz 3 (midnight)|
+| 4   | M 06/28  | 6 , 7               | Quiz 3        | Quiz 3 (midnight)|
 |     | F 07/2   |                     | Homework 5 (practice)| Homework 4 (5pm) |
-| 5   | M 07/05  | 7, 8                | NO QUIZ       |                  |
+| 5   | M 07/05  | 8                   | NO QUIZ       |                  |
 |     | Th 07/8  | Midterm             |               |                  |
 |     | F 07/9   |                     | Homework 6    | Midterm (5pm)    |
 | 6   | M 07/12  | 9, 10               | Quiz 4        | Quiz 4 (midnight)|
@@ -150,14 +150,14 @@ Below is a projected schedule of topics and assignments.  Assignments will be re
 |Homework 1| Topic 1| June 7, 2021| June 11, 2021|
 |Homework 2| Topic 2 | June 11, 2021| June 18, 2021|
 |Quiz 1| Topic 1 & 2| June 15, 2021| June 15, 2021|
-|Homework 3| Topics 2 & 3 | June 18, 2021| June 25, 2021|
-|Quiz 2| Topic 2 & 3| June 22, 2021| June 22, 2021|
-|Homework 4| Topics 3, 4 & 5 | June 25, 2021| July 1, 2021|
-|Quiz 3| Topic 3, 4 & 5| June 29, 2021| June 29, 2021|
-|Homework 5| Topic 5 & 6 | July 1, 2021| (Practice)|
+|Homework 3| Topics 3 & 4 | June 18, 2021| June 25, 2021|
+|Quiz 2| Topic 3 & 4| June 22, 2021| June 22, 2021|
+|Homework 4| Topics 5 | June 25, 2021| July 1, 2021|
+|Quiz 3| Topic 5| June 29, 2021| June 29, 2021|
+|Homework 5| Topic 6 & 7 | July 1, 2021| (Practice)|
 |Midterm | Topics 1-5| July 8, 2021| July 9, 2021|
-|Homework 6| Topic 7 & 8 | July 9, 2021| July 16, 2021|
-|Quiz 4| Topic 6, 7 & 8 | July 13, 2021| July 13, 2021|
+|Homework 6| Topic 8 | July 9, 2021| July 16, 2021|
+|Quiz 4| Topic 8 | July 13, 2021| July 13, 2021|
 |Homework 7| Topic 9 & 10 | July 16, 2021| July 23, 2021|
 |Quiz 5| Topic 9 & 10| July 20, 2021| June 20, 2021|
 |Homework 8| Topics 11 & 12| July 23, 2021| July 30, 2021|
@@ -251,7 +251,7 @@ We will primarily communicate through email ([rjfaus+sum21csc245@email.arizona.e
   + 80%<=B<90%
   + 70%<=C<80%
   + 60%<=D<70%
-  + F<60%
+  + E<60%
 
 
 - Grading will be based on performance on the set of assignments, the midterm, the final exam, and class participation (completing quizzes and lecture videos).

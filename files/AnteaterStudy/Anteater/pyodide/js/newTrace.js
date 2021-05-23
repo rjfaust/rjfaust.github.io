@@ -1,4 +1,6 @@
 function init_exclusions(){
+    excludedFuncs = [{name:"print",line:0},{name:"append",line:0},{name:"list",line:0},{name:"len",line:0},{name:"range",line:0},{name:"sum",line:0},{name:"pow",line:0},{name:"format",line:0}];
+    excludedLibs = [{name:"numpy",line:0},{name:"math",line:0}];
     d3.select("#exclFJson").property("value",JSON.stringify(excludedFuncs))
 
     d3.select("#exclLJson").property("value",JSON.stringify(excludedLibs))
