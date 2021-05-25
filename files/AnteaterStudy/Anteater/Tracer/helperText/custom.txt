@@ -1,5 +1,0 @@
-cExpREPLACE_I = ""
-try:
-    cExpREPLACE_I = EXPR
-except:
-    cExpREPLACE_I = "Anteater:Expression_Error"

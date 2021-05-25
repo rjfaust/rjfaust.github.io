@@ -1,4 +1,0 @@
-REPLACEtabstr = ""
-
-for REPLACEi in range(REPLACETabs):
-    REPLACEtabstr+="\t"

@@ -1,2 +1,0 @@
-REPLACE.write("DELETE\n\t]\n}\n")
-REPLACE.close()
