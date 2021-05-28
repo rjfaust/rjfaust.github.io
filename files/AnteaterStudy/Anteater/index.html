@@ -241,14 +241,14 @@
       sessionStorage.setItem("sourceFile","study_source.py")
       sessionStorage.setItem("study_source.py","REPLACE ME WITH YOUR CODE")
     }
-    else if (sessionStorage.getItem("sourceFile") == null && document.cookie.length>0){
-      var c = document.cookie;
-      var toks = c.split(";")
-      var eInd = toks[0].find("=")
-      sessionStorage.setItem("sourceFile",toks[0].substring(eInd+1))
-      eInd = toks[1].find("=")
-      sessionStorage.setItem("study_source.py",toks[1].substring(eInd+1))
-    }
+    // else if (sessionStorage.getItem("sourceFile") == null && document.cookie.length>0){
+    //   var c = document.cookie;
+    //   var toks = c.split(";")
+    //   var eInd = toks[0].find("=")
+    //   sessionStorage.setItem("sourceFile",toks[0].substring(eInd+1))
+    //   eInd = toks[1].find("=")
+    //   sessionStorage.setItem("study_source.py",toks[1].substring(eInd+1))
+    // }
 
     loader = d3.select("#loading")
     xCoord = window.innerWidth/2.0 - 150;
