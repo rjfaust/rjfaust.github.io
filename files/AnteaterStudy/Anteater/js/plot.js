@@ -471,6 +471,8 @@ function reset_plot_bookkeeping(){
   scaleInds = [0,0]
   vegaView = null;
   selectedPoints = []
+  shownVars = []
+  shownVars_exprs = []
 }
 
 function get_var_type(vInd){

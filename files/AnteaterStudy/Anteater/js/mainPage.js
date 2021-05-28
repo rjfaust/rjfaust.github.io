@@ -31,6 +31,8 @@ function fill_traces(){
 function switch_to_trace_spec(){
   traceVis = false
   clear_spec();
+  clear_plot();
+  reset_plot_bookkeeping();
 
   ul = d3.select("#codeSpecMenu")
   .select("ul")
