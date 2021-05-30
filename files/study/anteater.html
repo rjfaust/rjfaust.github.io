@@ -18,8 +18,57 @@
           <p>This survey evaluates Anteater: a system for tracing programs and creating interactive visualizations of program execution values in context.</p>
         </div>
 
+        <h3> What is Anteater?</h3>
+        <p>Anteater is a debugging tool designed to take a visualization first approach to debugging.
+           Rather than dumping text values for the programmer to inspect or requiring them to
+           recall past values as they step through execution and insepct the values at each step,
+           Anteater automatically instruments and traces the program to collect the execution
+           structure and all of the program values the programmer desires (as sepcified by the programmer).
+           It then provides interactive visualizations of the overall execution and program values
+           in context of the execution.
+           Anteater provides more informative overviews of a program’s behavior while supporting
+           interaction to dig deeper into the details of the execution. Rather than showing the
+           whole state at a single step in time, it shows a single variable over the entirety of
+           the execution. Anteater aims to reduce the effort required from a programmer by 1) automatically
+           instrumenting programs to collect the values they want to inspect and 2) allowing them to
+           browse values of interest easily throughout the entire execution, without resorting to a
+           step-through debugger.
+            <br/>
+           The Anteater UI, shown below, provides a visualization of the execution structure
+           (the icicle plot in the upper right corner) that shows the call and loop structure
+           of the program as well as the tracked values as the occur.  The plot in the bottom right,
+           shows provides visualizations of tracked values. In this case, it shows a scatterplot
+           of the tracked value "x" over the entire execution. Interactions link the two views
+           to allow the programmer to maintain context with the overall execution. For example,
+           brushing in the scatterplot highlights (in red) the corresponding blocks in the execution tree.
 
-          <h3>Purpose</h3>
+
+
+            <img src="overview2.png" style="width:100%"> </img>
+
+
+          <!-- Additonally, while step-through debuggers
+          present the entire program state, they only display the values for one execution step at a time
+          but allow the programmer to step serially through the execution. This burdens the programmer
+          with the task of recalling all previous values.  With print statement debuggiIn contrast, Anteater
+
+            -->
+          <!-- Rather than viewing single values on demand, as in step-through debugging, Anteater uses
+          program traces to provide global views of the execution struture and variable values
+          throughout the entire execution. In doing so, Anteater provides programmers with richer
+          information
+
+          Anteater provides more informative overviews of a program’s behavior while supporting
+          interaction to dig deeper into the details of the execution. Rather than showing the
+          whole state at a single step in time, it shows a single variable over the entirety of
+          the execution. Anteater aims to reduce the effort required from a user by 1) automatically
+          instrumenting programs to collect the values they want to inspect and 2) allowing them to
+          browse values of interest easily throughout the entire execution, without resorting to a
+          step-through debugger. -->
+
+      </p>
+
+          <h3>Purpose of the Study</h3>
           <p>The purpose of this study is to evaluate the capabilities and limitations of Anteater,
             a visual debugging tool.  Anteater was designed to aid everyday programmers in understanding
             and debugging their programs through the use of interactive visualizations.  To evaluate
@@ -37,7 +86,7 @@
               <p>
                 The survey will be hosted through google forms.  If you would like to participate,
                 and meet the qualifications of being 18 years or older, having some programming
-                experience and being able to complete the survey on Google Chrome, 
+                experience and being able to complete the survey on Google Chrome,
                 please click on "Begin Survey" below.
               <p/>
               <div align="center">

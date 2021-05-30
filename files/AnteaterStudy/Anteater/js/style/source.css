@@ -8,6 +8,11 @@
   background-color: transparent;
 
 }
+.CodeMirror * {
+/*          ^
+*/
+  font-size: 12px;
+}
 
 
 #varDrag{
