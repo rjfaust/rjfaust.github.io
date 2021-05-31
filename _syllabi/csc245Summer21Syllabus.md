@@ -347,59 +347,45 @@ The University is committed to creating and maintaining an environment free of d
 ### Additional Resources for Students
 UA Academic policies and procedures are available at [http://catalog.arizona.edu/policies](http://catalog.arizona.edu/policies)
 
-+ **Campus Health**
-[http://www.health.arizona.edu/](http://www.health.arizona.edu/)
-
-Campus Health provides quality medical and mental health care services through virtual and in-person care.
-
++ **Campus Health**  
+[http://www.health.arizona.edu/](http://www.health.arizona.edu/)  
+Campus Health provides quality medical and mental health care services through virtual and in-person care.  
 Phone: 520-621-9202
 
-+ **Counseling and Psych Services (CAPS)**
-
-[https://health.arizona.edu/counseling-psych-services](https://health.arizona.edu/counseling-psych-services)
-
-CAPS provides mental health care, including short-term counseling services.
-
++ **Counseling and Psych Services (CAPS)**  
+[https://health.arizona.edu/counseling-psych-services](https://health.arizona.edu/counseling-psych-services)  
+CAPS provides mental health care, including short-term counseling services.  
 Phone: 520-621-3334
 
-+ **The Dean of Students Office’s Student Assistance Program**
-
-[http://deanofstudents.arizona.edu/student-assistance/students/student-assistance](http://deanofstudents.arizona.edu/student-assistance/students/student-assistance)
-
-Student Assistance helps students manage crises, life traumas, and other barriers that impede success. The staff addresses the needs of students who experience issues related to social adjustment, academic challenges, psychological health, physical health, victimization, and relationship issues, through a variety of interventions, referrals, and follow up services.
-
-Email: DOS-deanofstudents@email.arizona.edu
-
++ **The Dean of Students Office’s Student Assistance Program**  
+[http://deanofstudents.arizona.edu/student-assistance/students/student-assistance](http://deanofstudents.arizona.edu/student-assistance/students/student-assistance)   
+Student Assistance helps students manage crises, life traumas, and other barriers that impede success. The staff addresses the needs of students who experience issues related to social adjustment, academic challenges, psychological health, physical health, victimization, and relationship issues, through a variety of interventions, referrals, and follow up services.  
+Email: DOS-deanofstudents@email.arizona.edu  
 Phone: 520-621-7057
 
-+ **Survivor Advocacy Program**:
-
-[https://survivoradvocacy.arizona.edu/](https://survivoradvocacy.arizona.edu/)
-
-The Survivor Advocacy Program provides confidential support and advocacy services to student survivors of sexual and gender-based violence. The Program can also advise students about relevant non-UA resources available within the local community for support.
-
-Email: survivoradvocacy@email.arizona.edu
-
-Phone: 520-621-5767
++ **Survivor Advocacy Program**:  
+[https://survivoradvocacy.arizona.edu/](https://survivoradvocacy.arizona.edu/)  
+The Survivor Advocacy Program provides confidential support and advocacy services to student survivors of sexual and gender-based violence. The Program can also advise students about relevant non-UA resources available within the local community for support.  
+Email: survivoradvocacy@email.arizona.edu   
+Phone: 520-621-5767 
 
 
 
-
-+ **Campus Pantry**:
++ **Campus Pantry**:  
 Any student who has difficulty affording groceries or accessing sufficient food to eat every day, or who lacks a safe and stable place to live and believes this may affect their performance in the course, is urged to contact the Dean of Students for support. In addition, the University of Arizona Campus Pantry is open for students to receive supplemental groceries at no cost. Please see their website at: campuspantry.arizona.edu for open times.
 Furthermore, please notify me if you are comfortable in doing so. This will enable me to provide any resources that I may possess.
 
-+ **Title IX**:
-  The University of Arizona is committed to removing educational barriers created by sex discrimination and sexual harassment.  Sex discrimination under Title IX can include acts of violence based on sex, such as sexual assault, domestic violence, dating violence, and stalking.  If you (or someone you know) has experienced or experiences any of these incidents, you have options for help at the University. The University of Arizona has staff members trained to support you in navigating campus life, accessing health and counseling services, providing academic and housing accommodations, helping with legal protective orders, and more.
-
-  Please be aware that UA faculty and instructors who work with students are required to report allegations of sex discrimination to the Title IX Office.  This means that if you tell me about a situation involving sexual harassment, sexual assault, dating violence, domestic violence, or stalking that involves another student or employee, or that happens on campus or in a UA program, I must share that information with the Title IX Coordinator.  Although I have to make that notification, you will have choices regarding whether or not you want to pursue a formal complaint against anyone on campus. Our goal is to make sure you are aware of the range of options available to you and have access to the resources you need.
-
-If you wish to speak to someone privately, you can contact any of the following on-campus resources:
-+ Counseling & Psych Services (CAPS), [https://health.arizona.edu/counseling-psych-services](https://health.arizona.edu/counseling-psych-services), 520-621-6490, 520-570-7898 (after hours)
-+ Oasis Sexual Assault, Relationship Violence, and Trauma Services, [https://health.arizona.edu/counseling-oasis](https://health.arizona.edu/counseling-oasis) (same phone as CAPS)
-+ Campus Health, [https://health.arizona.edu/home](https://health.arizona.edu/home), (520) 621-6490
-+ University of Arizona Ombuds, [https://ombuds.arizona.edu/](https://ombuds.arizona.edu/), (520)-626-5589
-+ Title IX section on sexual assault support & resources ([https://titleix.arizona.edu/titl-ix/sexual-harassment-violence](https://titleix.arizona.edu/titl-ix/sexual-harassment-violence)) has more information, as well as a link explaining options if you have a concern, need assistance/support, or would like to file a complaint.
++ **Title IX**:  
+  The University of Arizona is committed to removing educational barriers created by sex discrimination and sexual harassment.  Sex discrimination under Title IX can include acts of violence based on sex, such as sexual assault, domestic violence, dating violence, and stalking.  If you (or someone you know) has experienced or experiences any of these incidents, you have options for help at the University. The University of Arizona has staff members trained to support you in navigating campus life, accessing health and counseling services, providing academic and housing accommodations, helping with legal protective orders, and more.  
+   
+  Please be aware that UA faculty and instructors who work with students are required to report allegations of sex discrimination to the Title IX Office.  This means that if you tell me about a situation involving sexual harassment, sexual assault, dating violence, domestic violence, or stalking that involves another student or employee, or that happens on campus or in a UA program, I must share that information with the Title IX Coordinator.  Although I have to make that notification, you will have choices regarding whether or not you want to pursue a formal complaint against anyone on campus. Our goal is to make sure you are aware of the range of options available to you and have access to the resources you need.   
+    
+  If you wish to speak to someone privately, you can contact any of the following on-campus resources:  
+  - Counseling & Psych Services (CAPS), [https://health.arizona.edu/counseling-psych-services](https://health.arizona.edu/counseling-psych-services), 520-621-6490, 520-570-7898 (after hours)
+  - Oasis Sexual Assault, Relationship Violence, and Trauma Services, [https://health.arizona.edu/counseling-oasis](https://health.arizona.edu/counseling-oasis) (same phone as CAPS)
+  - Campus Health, [https://health.arizona.edu/home](https://health.arizona.edu/home), (520) 621-6490
+  - University of Arizona Ombuds, [https://ombuds.arizona.edu/](https://ombuds.arizona.edu/), (520)-626-5589
+  - Title IX section on sexual assault support & resources ([https://titleix.arizona.edu/titl-ix/sexual-harassment-violence](https://titleix.arizona.edu/titl-ix/sexual-harassment-violence)) has more information, as well as a link explaining options if you have a concern, need assistance/support, or would like to file a complaint.
 
 
 
