@@ -48,7 +48,7 @@ Web information, including course home page, instructor home page, and D2L infor
 This class will be taught entirely online.  I will try to release all of the lecture videos for the week a the beginning of the week but I strongly recommend you pace yourself and watch them throughout the week.  Lectures will be posted on D2L, using Playposit to host the lectures and add question within the lectures.  Lectures will have a due date and completing the videos (and questions within the videos) by these dates will count towards your class participation grade.
 
 
-#### Pandemic-Related Information for All Modalities
+### Pandemic-Related Information
 
 + **Academic advising:** If you have questions about your academic progress this semester, or your chosen degree program, consider contacting your department’s academic advisor(s).  Your academic advisor and the Advising Resource Center can guide you toward university resources to help you succeed. Computer Science major students are encouraged to email advising@cs.arizona.edu for academic advising related questions.
 
@@ -56,16 +56,16 @@ This class will be taught entirely online.  I will try to release all of the lec
 
 + **Physical and mental-health challenges:** If you are facing physical or mental health challenges this semester, please note that Campus Health provides quality medical and mental health care. For medical appointments, call (520-621-9202. For After Hours care, call (520) 570-7898. For the Counseling & Psych Services (CAPS) 24/7 hotline, call (520) 621-3334.
 
-**Exams:** The midterm exam will open on July 8th and must be completed by 11:59pm on July 9th. The exam will be hosted on either Gradescope or D2L's quiz tool. Students may start the exam at anytime in the given window and will be given 90 minutes to complete it. To ensure students get the full 90 minutes, they must start the exam before 10:29pm on July 9th.  Final exam information: The final exam will be on August 11th. It will be an online exam hosted through either Gradescope or D2L's quiz tool.  Students can start the exam at anytime on July 11th and will have 2 hours to complete it. To ensure students get the full 2 hours, they must start the exam before 19:59pm on August 11th.
++ **Exams:** The midterm exam will open on July 8th and must be completed by 11:59pm on July 9th. The exam will be hosted on either Gradescope or D2L's quiz tool. Students may start the exam at anytime in the given window and will be given 90 minutes to complete it. To ensure students get the full 90 minutes, they must start the exam before 10:29pm on July 9th.  Final exam information: The final exam will be on August 11th. It will be an online exam hosted through either Gradescope or D2L's quiz tool.  Students can start the exam at anytime on July 11th and will have 2 hours to complete it. To ensure students get the full 2 hours, they must start the exam before 19:59pm on August 11th.
 
-**Equipment requirements:** For this class you will need regular access to the following:
++ **Equipment requirements:** For this class you will need regular access to the following:
   + A reliable internet signal for watching lecture videos, uploading assignments, etc.
   + A computer capable of running a browser that supports D2L and Gradescope.
   + A webcam and microphone to participate in office hours and so we can observe you during exams, should we deem it necessary.
 
 
 
-**Class Recordings:** All lectures are pre-recorded and will available via D2L.
++ **Class Recordings:** All lectures are pre-recorded and will available via D2L.
   + Lecture videos will be released at the start of the week and must be watched by the following Sunday. This is recorded via Playposit.
   + Lecture videos will only be available via D2L, not the course webpage. Students may not modify content or re-use content for any purpose other than personal educational reasons. All recordings are subject to government and university regulations. Therefore, students accessing unauthorized recordings or using them in a manner inconsistent with UArizona values and educational policies are subject to suspension or civil action.
 
@@ -347,26 +347,39 @@ The University is committed to creating and maintaining an environment free of d
 ### Additional Resources for Students
 UA Academic policies and procedures are available at [http://catalog.arizona.edu/policies](http://catalog.arizona.edu/policies)
 
-Campus Health
++ **Campus Health**
 [http://www.health.arizona.edu/](http://www.health.arizona.edu/)
+
 Campus Health provides quality medical and mental health care services through virtual and in-person care.
+
 Phone: 520-621-9202
 
-Counseling and Psych Services (CAPS)
++ **Counseling and Psych Services (CAPS)**
+
 [https://health.arizona.edu/counseling-psych-services](https://health.arizona.edu/counseling-psych-services)
+
 CAPS provides mental health care, including short-term counseling services.
+
 Phone: 520-621-3334
 
-The Dean of Students Office’s Student Assistance Program
++ **The Dean of Students Office’s Student Assistance Program**
+
 [http://deanofstudents.arizona.edu/student-assistance/students/student-assistance](http://deanofstudents.arizona.edu/student-assistance/students/student-assistance)
+
 Student Assistance helps students manage crises, life traumas, and other barriers that impede success. The staff addresses the needs of students who experience issues related to social adjustment, academic challenges, psychological health, physical health, victimization, and relationship issues, through a variety of interventions, referrals, and follow up services.
+
 Email: DOS-deanofstudents@email.arizona.edu
+
 Phone: 520-621-7057
 
-Survivor Advocacy Program
++ **Survivor Advocacy Program**:
+
 [https://survivoradvocacy.arizona.edu/](https://survivoradvocacy.arizona.edu/)
+
 The Survivor Advocacy Program provides confidential support and advocacy services to student survivors of sexual and gender-based violence. The Program can also advise students about relevant non-UA resources available within the local community for support.
+
 Email: survivoradvocacy@email.arizona.edu
+
 Phone: 520-621-5767
 
 
