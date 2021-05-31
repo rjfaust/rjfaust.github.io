@@ -48,6 +48,28 @@ Web information, including course home page, instructor home page, and D2L infor
 This class will be taught entirely online.  I will try to release all of the lecture videos for the week a the beginning of the week but I strongly recommend you pace yourself and watch them throughout the week.  Lectures will be posted on D2L, using Playposit to host the lectures and add question within the lectures.  Lectures will have a due date and completing the videos (and questions within the videos) by these dates will count towards your class participation grade.
 
 
+#### Pandemic-Related Information for All Modalities
+
++ **Academic advising:** If you have questions about your academic progress this semester, or your chosen degree program, consider contacting your department’s academic advisor(s).  Your academic advisor and the Advising Resource Center can guide you toward university resources to help you succeed. Computer Science major students are encouraged to email advising@cs.arizona.edu for academic advising related questions.
+
++ **Life challenges:** If you are experiencing unexpected barriers to your success in your courses, please note the Dean of Students Office is a central support resource for all students and may be helpful. The Dean of Students Office can be reached at 520-621-2057 or DOS-deanofstudents@email.arizona.edu.
+
++ **Physical and mental-health challenges:** If you are facing physical or mental health challenges this semester, please note that Campus Health provides quality medical and mental health care. For medical appointments, call (520-621-9202. For After Hours care, call (520) 570-7898. For the Counseling & Psych Services (CAPS) 24/7 hotline, call (520) 621-3334.
+
+**Exams:** The midterm exam will open on July 8th and must be completed by 11:59pm on July 9th. The exam will be hosted on either Gradescope or D2L's quiz tool. Students may start the exam at anytime in the given window and will be given 90 minutes to complete it. To ensure students get the full 90 minutes, they must start the exam before 10:29pm on July 9th.  Final exam information: The final exam will be on August 11th. It will be an online exam hosted through either Gradescope or D2L's quiz tool.  Students can start the exam at anytime on July 11th and will have 2 hours to complete it. To ensure students get the full 2 hours, they must start the exam before 19:59pm on August 11th.
+
+**Equipment requirements:** For this class you will need regular access to the following:
+  + A reliable internet signal for watching lecture videos, uploading assignments, etc.
+  + A computer capable of running a browser that supports D2L and Gradescope.
+  + A webcam and microphone to participate in office hours and so we can observe you during exams, should we deem it necessary.
+
+
+
+**Class Recordings:** All lectures are pre-recorded and will available via D2L.
+  + Lecture videos will be released at the start of the week and must be watched by the following Sunday. This is recorded via Playposit.
+  + Lecture videos will only be available via D2L, not the course webpage. Students may not modify content or re-use content for any purpose other than personal educational reasons. All recordings are subject to government and university regulations. Therefore, students accessing unauthorized recordings or using them in a manner inconsistent with UArizona values and educational policies are subject to suspension or civil action.
+
+
 <!-- Lecture only, lecture and lab combination, seminar, studio, small-group activities or group projects, experiential or service-learning, in-class discussion, web-delivered content or assessment, etc. -->
 
 ### Course Objectives
@@ -119,31 +141,31 @@ Below is the planned schedule for the semester.  However, it is subject to chang
 |Week | Date     | Scheduled Topics | Assigned | Due Today|
 |:-----:|:----------:|:------------------:|:---------------:|:----------:|
 | 1   | M 06/07  | Syllabus, 1, 2      | Homework 1    |                  |
-|     | F 06/11  |                     | Homework 2    | Homework 1 (5pm) |
+|     | F 06/11  |                     | Homework 2    | Homework 1 (11:59pm) |
 | 2   | M 06/14  | 3, 4                | Quiz 1        | Quiz 1 (midnight)|
-|     | F 06/18  |                     | Homework 3    | Homework 2 (5pm) |
+|     | F 06/18  |                     | Homework 3    | Homework 2 (11:59pm) |
 | 3   | M 06/21  | 5                   | Quiz 2        | Quiz 2 (midnight)|
-|     | F 06/25  |                     | Homework 4    | Homework 3 (5pm) |
+|     | F 06/25  |                     | Homework 4    | Homework 3 (11:59pm) |
 | 4   | M 06/28  | 6 , 7               | Quiz 3        | Quiz 3 (midnight)|
-|     | F 07/2   |                     | Homework 5 (practice)| Homework 4 (5pm) |
+|     | F 07/2   |                     | Homework 5 (practice)| Homework 4 (11:59pm) |
 | 5   | M 07/05  | 8                   | NO QUIZ       |                  |
 |     | Th 07/8  | Midterm             |               |                  |
-|     | F 07/9   |                     | Homework 6    | Midterm (5pm)    |
+|     | F 07/9   |                     | Homework 6    | Midterm (11:59pm)    |
 | 6   | M 07/12  | 9, 10               | Quiz 4        | Quiz 4 (midnight)|
-|     | F 07/16  |                     | Homework 7    | Homework 6 (5pm) |
+|     | F 07/16  |                     | Homework 7    | Homework 6 (11:59pm) |
 | 7   | M 07/19  | 11, 12              | Quiz 5        | Quiz 5 (midnight)|
-|     | F 07/23  |                     | Homework 8    | Homework 7 (5pm) |
+|     | F 07/23  |                     | Homework 8    | Homework 7 (11:59pm) |
 | 8   | M 07/26  | 13                  | Quiz 6        | Quiz 6 (midnight)|
-|     | F 07/30  |                     | Homework 9    | Homework 8 (5pm) |
+|     | F 07/30  |                     | Homework 9    | Homework 8 (11:59pm) |
 | 9   | M 08/02  | 14, 15              | Quiz 7        | Quiz 7 (midnight)|
-|     | F 08/06  |                     | Homework 10 (practice)| Homework 9 (5pm) |
+|     | F 08/06  |                     | Homework 10 (practice)| Homework 9 (11:59pm) |
 | 10  | M 08/9   | 16 (cont'd), Review |               |                  |
 |     | W 08/11  | Final Exam          |               |                  |
 
 <br/>
 ### Assignments and Examinations: Schedule/Due Dates
 
-Below is a projected schedule of topics and assignments.  Assignments will be released on Friday morning (with the exception of the first assignment which will be released the first day of class) and due the following Friday at 5pm.
+Below is a projected schedule of topics and assignments.  Assignments will be released on Friday morning (with the exception of the first assignment which will be released the first day of class) and due the following Friday at 11:59pm.
 
 |Assignment |Covered Material| Release Date | Due Date
 | ------------- |:-------------| ------------- |:-------------:|
@@ -174,7 +196,7 @@ Recommended, not required: Policy on revision and resubmission of assignments, w
 <br/>
 
 ### Participation (17% of final grade)
-Because the course is online and asynchronous, I cannot give use standard measures for participation (attendance and participation in lecture sessions).  As such, participation will be measured through completion of lecture videos and quizzes.  
+Because the course is online and asynchronous, I cannot use standard measures for participation (attendance and participation in lecture sessions).  As such, participation will be measured through completion of lecture videos and quizzes.  
  + **Lecture Videos (5% of final grade)**
  Lecture videos can be found under "Content" on D2L.  They will be organized by week.  For the given week, all lecture videos must be completed by the end of the following weekend (i.e. for week 1 which starts on June 8th, videos must be completed by Sunday June 14th).  I will do my best to release lecture videos by the end of the Sunday of the current week but there may be weeks where I release some at the beginning, and the rest throughout the week. Completion of videos will be tracked through Playposit.  I will use Playposit to host the videos and insert questions into them.  Completion of these questions (and correctness of your answers), will determine your participation grade for that lecture. Note, these questions will not be designed to be difficult, but rather to keep students engaged and show that they actually watched the lectures.
 
@@ -195,13 +217,13 @@ Homework assignments designed to give you hands on experience with topics in pre
 
 
 ### Midterm (15% of final grade)
-There will be one midterm on July 8th.  It will be "take home" and as such will be open book and course materials, but ***not*** open internet. It will be released on Thursday and must be completed by 5pm the following day. It will be written to take 60-90 minutes and will cover material up to the week prior. Note, it is intended to be closed internet so I ask that you not use the internet when completing it.  If we determine that you have used the internet, steep penalties will be applied (See the section on Academic Dishonesty).
+There will be one midterm on July 8th.  It will be hosted on either Gradescope or D2L's quiz tool and will be 90 minutes long.  It will be open book and course materials, but ***not*** open internet. It will be released on Thursday and must be completed before 11:59pm the following day. It will be written to take 60-90 minutes and will cover material up to the week prior. Note, it is intended to be closed internet so I ask that you not use the internet when completing it.  If we determine that you have used the internet, steep penalties will be applied (See the section on Academic Dishonesty).
 
 + *Regrade Requests* If you feel your exam was graded incorrectly, you may submit a request for me to regrade it within a week of receiving the graded exam.  In the request you must specify in detail what you think was misgraded.  However, when I receive a regrade request, I will regrade __**the entire exam**__.  This could lead to you getting a lower grade than you originally had if there were other grading errors in your favor so carefully look over your exam before submitting a regrade request.
 
 
 ### Final Exam (20% of final grade)
-The final will be on August 11.  It will be cumulative and cover all material from the course, with an emphasis on the last half. It will be hosted entirely on Gradescope. There will be an enforced time limit.  For each question, students will be asked to upload a pdf or image of their answer. This will inevitably add overhead to the time required to complete the exam so instead of the standard 2 hours that students are typically given to complete final exams, they will be given 4 hours.  The exam will still be written with the intent of taking no more than 2 hours to complete.
+The final will be on August 11.  It will be cumulative and cover all material from the course, with an emphasis on the last half. It will be hosted on Gradescope or D2l. There will be an enforced time limit of 2 hours. Students must start the exam before 9:59pm to ensure the have sufficient time to complete it.
 
 **Subject to change notice**: I reserve the right to change the means by which I give you the final exam.  If after the midterm, there have been sufficiently few Academic Dishonesty cases, I will give the final as stated above.  However, if that is not the case, I may switch the format and require students to complete the exam in 2 hours using Examity.  I would prefer not to use Examity, but will do so if I believe that it is the only way to properly assess students knowledge of the course material.
 
@@ -214,6 +236,7 @@ The date and time of the final exam or project, along with links to the Final Ex
 ### Academic Dishonesty
 Students are encouraged to share intellectual views and discuss freely the principles and applications of course materials. However, graded work/exercises must be the product of independent effort unless otherwise instructed. It is not acceptable to 'borrow' solutions or part of solutions from other people or have other people write your homework.  Finding solutions on the internet is a violation of academic dishonesty!  You may, however, discuss assignment requirements and high-level concepts with other students (and are in fact encouraged to).  In addition, you may ask the TA's and myself questions about assignments but do not expect us to simply give you the answer. As a rule of thumb, if you wouldn't ask the question on piazza, you probably shouldn't be asking it to your classmate.
 
+Uploading material from this course to a website other than D2L (or the class piazza) is strictly prohibited and will be considered a violation of the course policy and a violation of the code of academic integrity. Obtaining material associated with this course (or previous offerings of this course) on a site other than D2L (or the class piazza), such as Chegg, Course Hero, etc. or accessing these sites during a quiz or exam is a violation of the code of academic integrity. Any student determined to have uploaded or accessed material in an unauthorized manner will be reported to the Dean of Students for a Code of Academic Integrity violation, with a recommended sanction of loss of credit equal to 150% of the assignment in question (described below).
 
 If we determine that a student or students violate this policy, all involved student's will, at a **minimum**, receive 0 points for the assignment in question (including exams) and additionally will lose points equivalent to 50% of the assignment in question.  In other words, students will lose 150% on the assignment in question. Additional sanctions are possible depending on the circumstances of the offense(s) and the policies of the department, university, and Arizona Board of Regents, up to and including expulsion from the university.
 
@@ -304,8 +327,8 @@ Alternate recommended language for those who do not wish to permit laptops in th
 
 ### Pronoun Preference
 This course affirms people of all gender expressions and gender identities. If you prefer to be called a different name than what is on the class roster, please let me know. Feel free to correct instructors on your preferred gender pronoun. If you have any questions or concerns, please do not hesitate to contact me directly in class or via email (instructor email). If you wish to change your preferred name or pronoun in the UAccess system, please use the following guidelines:
-Preferred name: University of Arizona students may choose to identify themselves within the University community using a preferred first name that differs from their official/legal name. A student’s preferred name will appear instead of the person’s official/legal first name in select University-related systems and documents, provided that the name is not being used for the purpose of misrepresentation. Students are able to update their preferred names in UAccess.
-Pronouns: Students may designate pronouns they use to identify themselves. Instructors and staff are encouraged to use pronouns for people that they use for themselves as a sign of respect and inclusion. Students are able to update and edit their pronouns in UAccess.
+**Preferred name:** University of Arizona students may choose to identify themselves within the University community using a preferred first name that differs from their official/legal name. A student’s preferred name will appear instead of the person’s official/legal first name in select University-related systems and documents, provided that the name is not being used for the purpose of misrepresentation. Students are able to update their preferred names in UAccess.
+**Pronouns:** Students may designate pronouns they use to identify themselves. Instructors and staff are encouraged to use pronouns for people that they use for themselves as a sign of respect and inclusion. Students are able to update and edit their pronouns in UAccess.
 More information on updating your preferred name and pronouns is available on the Office of the Registrar site at [https://www.registrar.arizona.edu/](https://www.registrar.arizona.edu/).
 
 ### Threatening Behavior Policy
@@ -324,7 +347,29 @@ The University is committed to creating and maintaining an environment free of d
 ### Additional Resources for Students
 UA Academic policies and procedures are available at [http://catalog.arizona.edu/policies](http://catalog.arizona.edu/policies)
 
-Student Assistance and Advocacy information is available at [http://deanofstudents.arizona.edu/student-assistance/students/student-assistance](http://deanofstudents.arizona.edu/student-assistance/students/student-assistance)
+Campus Health
+[http://www.health.arizona.edu/](http://www.health.arizona.edu/)
+Campus Health provides quality medical and mental health care services through virtual and in-person care.
+Phone: 520-621-9202
+
+Counseling and Psych Services (CAPS)
+[https://health.arizona.edu/counseling-psych-services](https://health.arizona.edu/counseling-psych-services)
+CAPS provides mental health care, including short-term counseling services.
+Phone: 520-621-3334
+
+The Dean of Students Office’s Student Assistance Program
+[http://deanofstudents.arizona.edu/student-assistance/students/student-assistance](http://deanofstudents.arizona.edu/student-assistance/students/student-assistance)
+Student Assistance helps students manage crises, life traumas, and other barriers that impede success. The staff addresses the needs of students who experience issues related to social adjustment, academic challenges, psychological health, physical health, victimization, and relationship issues, through a variety of interventions, referrals, and follow up services.
+Email: DOS-deanofstudents@email.arizona.edu
+Phone: 520-621-7057
+
+Survivor Advocacy Program
+[https://survivoradvocacy.arizona.edu/](https://survivoradvocacy.arizona.edu/)
+The Survivor Advocacy Program provides confidential support and advocacy services to student survivors of sexual and gender-based violence. The Program can also advise students about relevant non-UA resources available within the local community for support.
+Email: survivoradvocacy@email.arizona.edu
+Phone: 520-621-5767
+
+
 
 
 + **Campus Pantry**:
