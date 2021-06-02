@@ -20,7 +20,7 @@ and functions, properties of integers, counting methods, probability, and recurr
 
 
 ### Course Prerequisites or Co-requisites
-MATH 111, MATH 112, grade of B or better in CSC 127B or CSC 227.
+Student must have earned a C grade or higher in (CSC 120 or CSC 127B or CSC 227).
 
 ### Instructor and Contact Information
 + **Instructor**: Rebecca Faust
@@ -45,7 +45,7 @@ Teaching assistants (if applicable) and their contact information and office hou
 Web information, including course home page, instructor home page, and D2L information -->
 
 ### Course Format and Teaching Methods
-This class will be taught entirely online.  I will try to release all of the lecture videos for the week a the beginning of the week but I strongly recommend you pace yourself and watch them throughout the week.  Lectures will be posted on D2L, using Playposit to host the lectures and add question within the lectures.  Lectures will have a due date and completing the videos (and questions within the videos) by these dates will count towards your class participation grade.
+This class will be taught entirely online.  I will try to release all of the lecture videos for the week a the beginning of the week but I strongly recommend you pace yourself and watch them throughout the week.  Lectures will be posted on D2L, using Playposit to host the lectures and add question within the lectures.  Lectures will have a due date and completing the videos (and questions within the videos) by these dates will count towards your class participation grade. Due dates for all assignments and exams will be in MST (Tucson Time).
 
 
 ### Pandemic-Related Information
@@ -56,7 +56,7 @@ This class will be taught entirely online.  I will try to release all of the lec
 
 + **Physical and mental-health challenges:** If you are facing physical or mental health challenges this semester, please note that Campus Health provides quality medical and mental health care. For medical appointments, call (520-621-9202. For After Hours care, call (520) 570-7898. For the Counseling & Psych Services (CAPS) 24/7 hotline, call (520) 621-3334.
 
-+ **Exams:** The midterm exam will open on July 8th and must be completed by 11:59pm on July 9th. The exam will be hosted on either Gradescope or D2L's quiz tool. Students may start the exam at anytime in the given window and will be given 90 minutes to complete it. To ensure students get the full 90 minutes, they must start the exam before 10:29pm on July 9th.  Final exam information: The final exam will be on August 11th. It will be an online exam hosted through either Gradescope or D2L's quiz tool.  Students can start the exam at anytime on July 11th and will have 2 hours to complete it. To ensure students get the full 2 hours, they must start the exam before 19:59pm on August 11th.
++ **Exams:** The midterm exam will open on July 8th and must be completed by 11:59pm on July 9th. The exam will be hosted on either Gradescope or D2L's quiz tool. Students may start the exam at anytime in the given window and will be given 90 minutes to complete it. To ensure students get the full 90 minutes, they must start the exam before 10:29pm on July 9th.  Final exam information: The final exam will be on August 11th. It will be an online exam hosted through either Gradescope or D2L's quiz tool.  Students can start the exam at anytime on August 11th and will have 2 hours to complete it. To ensure students get the full 2 hours, they must start the exam before 9:59pm on August 11th.
 
 + **Equipment requirements:** For this class you will need regular access to the following:
   + A reliable internet signal for watching lecture videos, uploading assignments, etc.
@@ -165,7 +165,7 @@ Below is the planned schedule for the semester.  However, it is subject to chang
 <br/>
 ### Assignments and Examinations: Schedule/Due Dates
 
-Below is a projected schedule of topics and assignments.  Assignments will be released on Friday morning (with the exception of the first assignment which will be released the first day of class) and due the following Friday at 11:59pm.
+Below is a projected schedule of topics and assignments.  Assignments will be released on Friday morning (with the exception of the first assignment which will be released the first day of class) and due the following Friday at 11:59pm. Note, all due dates are in MST (Tucson Time).
 
 |Assignment |Covered Material| Release Date | Due Date
 | ------------- |:-------------| ------------- |:-------------:|
@@ -205,14 +205,14 @@ Because the course is online and asynchronous, I cannot use standard measures fo
 
 ### Homework (48% of final grade)
 Homework assignments designed to give you hands on experience with topics in preparation for the exams.  
- + *Frequency*: Beginning the first week of courses, students will be assigned 1 homework assignment per week. Homework assignments will be assigned on Friday and will be due the following Friday at **11:59 p.m.**. However, the TA's and I will not guarantee a response to questions sent to us after **5pm** the day the homework is due.  The exception to this schedule is the first week, where the homework will be assigned on the first day of classes Monday (6/7) but will still be due that Friday (6/11).  The week of exams, homework assignments will not be graded, they will solely be for practice on the topics of the prior week. However, I strongly recommend you at least attempt some of the problems on practice assignments as those topics will still be covered by exams.
+ + *Frequency*: Beginning the first week of courses, students will be assigned 1 homework assignment per week. Homework assignments will be assigned on Friday and will be due the following Friday at **11:59 p.m.(MST)**. However, the TA's and I will not guarantee a response to questions sent to us after **5pm** the day the homework is due.  The exception to this schedule is the first week, where the homework will be assigned on the first day of classes Monday (6/7) but will still be due that Friday (6/11).  The week of exams, homework assignments will not be graded, they will solely be for practice on the topics of the prior week. However, I strongly recommend you at least attempt some of the problems on practice assignments as those topics will still be covered by exams.
  + *Content* With the exception of the first assignment, homework assignments will cover the material covered the week it is assigned.
  + *Submission*: Homework will be submitted on Gradescope.  
  + *Legibility*: A this time, I will not require you to type your homework.  However, I strongly encourage you to type your homework assignments, specifically with Latex.  Homework assignments that are not legible, may not be graded. I will offer 5%  extra credit per assignment for typed homework.   However, if legibility becomes too much of an issue, I will switch from offering 5% of extra credit to requiring typed homework for 5% in the grading rubric (meaning hand-written homework will get at most a 95%).  I strongly recommend learning Latex and using [Overleaf](https://overleaf.com) (it is free and easy to use).  To make this easier, I will provide Latex templates for each homework so you simply need to add your response below each question, along with a document of commonly used symbols for you to refer to.  
  + *Incomplete or Incorrect Homework*: On the due date, turn in what you have written for your assignment, whether it is complete or not.  Show your work! Partial credit can still be given for incomplete or incorrect answers/assignments if sufficient work is shown.  
  + *Scoring*: Typed homework will be awarded 5% extra credit. Feedback for individual assignments will be posted on Gradescope, along with the grading rubric used.
  + *Discussing Your Score*: If you do not understand why you lost points for a problem or want to hear feedback for improvement, feel free to come to us to discuss it.  I ask that you first meet with a TA (as they will be grading your homework) and come to that meeting with specific questions and concerns.  If after meeting with them, you are not satisfied, you can arrange a meeting with me to discuss your concerns. Note, that if you are looking to dispute your score, you must do so within a week of receiving your score and feedback. You may still ask questions about an assignment after a week but it will not result in a score change.
- + *Late Assignment Policy*: **No late assignments will be accepted**. Homework is do by **11:59 p.m.** on the specified due date.  Unless exceptional circumstances occur, homework will not be accepted after that time.
+ + *Late Assignment Policy*: **No late assignments will be accepted**. Homework is due by **11:59 p.m.(MST)** on the specified due date.  Unless exceptional circumstances occur, homework will not be accepted after that time.
 
 
 
@@ -246,7 +246,7 @@ Selling class notes and/or other course materials to other students or to a thir
 
 
 ### Absence and Class Participation Policy
-Because the course is online, attendance and participation will be measured through students completing the lecture videos.  Lecture videos will be hosted on Playposit and will have questions interspersed to help keep students engaged.  Completion of these videos by the set deadline will count towards class participation/attendance.  Furthermore, there will be weekly quizzes (with the exception of the first week) that will also count towards participation.
+Because the course is online, participation will be measured through students completing the lecture videos.  Lecture videos will be hosted on Playposit and will have questions interspersed to help keep students engaged.  Completion of these videos by the set deadline will count towards class participation.  Furthermore, there will be weekly quizzes (with the exception of the first week) that will also count towards participation.
 <!-- Recommended: Be very specific about your absence policy and how you will handle exceptions. Encourage students to see an advisor if it is after the drop period (when a W will not appear on the transcript). Advisors will provide options and alternatives as appropriate for individual student situations. -->
 
 The UA’s policy concerning Class Attendance, Participation, and Administrative Drops is available at [http://catalog.arizona.edu/policy/class-attendance-participation-and-administrative-drop](http://catalog.arizona.edu/policy/class-attendance-participation-and-administrative-drop)  
@@ -367,7 +367,7 @@ Phone: 520-621-7057
 [https://survivoradvocacy.arizona.edu/](https://survivoradvocacy.arizona.edu/)  
 The Survivor Advocacy Program provides confidential support and advocacy services to student survivors of sexual and gender-based violence. The Program can also advise students about relevant non-UA resources available within the local community for support.  
 Email: survivoradvocacy@email.arizona.edu   
-Phone: 520-621-5767 
+Phone: 520-621-5767
 
 
 
@@ -377,9 +377,9 @@ Furthermore, please notify me if you are comfortable in doing so. This will enab
 
 + **Title IX**:  
   The University of Arizona is committed to removing educational barriers created by sex discrimination and sexual harassment.  Sex discrimination under Title IX can include acts of violence based on sex, such as sexual assault, domestic violence, dating violence, and stalking.  If you (or someone you know) has experienced or experiences any of these incidents, you have options for help at the University. The University of Arizona has staff members trained to support you in navigating campus life, accessing health and counseling services, providing academic and housing accommodations, helping with legal protective orders, and more.  
-   
+
   Please be aware that UA faculty and instructors who work with students are required to report allegations of sex discrimination to the Title IX Office.  This means that if you tell me about a situation involving sexual harassment, sexual assault, dating violence, domestic violence, or stalking that involves another student or employee, or that happens on campus or in a UA program, I must share that information with the Title IX Coordinator.  Although I have to make that notification, you will have choices regarding whether or not you want to pursue a formal complaint against anyone on campus. Our goal is to make sure you are aware of the range of options available to you and have access to the resources you need.   
-    
+
   If you wish to speak to someone privately, you can contact any of the following on-campus resources:  
   - Counseling & Psych Services (CAPS), [https://health.arizona.edu/counseling-psych-services](https://health.arizona.edu/counseling-psych-services), 520-621-6490, 520-570-7898 (after hours)
   - Oasis Sexual Assault, Relationship Violence, and Trauma Services, [https://health.arizona.edu/counseling-oasis](https://health.arizona.edu/counseling-oasis) (same phone as CAPS)

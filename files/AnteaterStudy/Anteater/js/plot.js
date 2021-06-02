@@ -541,7 +541,14 @@ function plot(update = false, requery = true){
                     }
                 }
                 else if(grp.type == grouping_types.st){
-                    lbl = grp.attr.type + " on " + grp.attr.lineno
+                    if (grp.attr.type == "for" || grp.attr.type == "while"){
+                      lbl = grp.attr.type + " loop"
+                    }
+                    else if(grp.attr.type == "call"){
+                      lbl ="function call ""
+
+                    }
+                    lbl +=" on line " + grp.attr.lineno
                 }
                 else{
                     lbl = "Custom Group"

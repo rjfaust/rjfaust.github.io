@@ -144,7 +144,7 @@ function plot_scatter(points, context, xVar, yVar, plotDims, customX = null, cus
                       selection: {
                         brushQQ: { type: "interval" }
                       },
-                      mark: {type: "point", filled:true},
+                      mark: {type: "point", filled:true, tooltip:true},
                       encoding: {
                         x: { field: xname, type: "quantitative", "scale": {"type": xScale, domain:[xMin,xMax]}, axis: {title: xVar}},
                         y: { field: yname, type: "quantitative",  "scale": {"type": yScale, domain:[yMin,yMax]}, axis: {title: yVar, tickCount:tickCount}},
@@ -218,7 +218,7 @@ function plot_scatter(points, context, xVar, yVar, plotDims, customX = null, cus
                               filter: "(datum."+yname+"=='nan' || datum."+yname+"=='inf' || datum."+yname+" == '-inf')&&(datum."+xname+"=='nan' || datum."+xname+"=='inf' || datum."+xname+" == '-inf')"
                           }
                       ],
-                      mark:{type:"point", filled:true},
+                      mark:{type:"point", filled:true, tooltip:true},
                       encoding:{
                           x:{
                               field: xname,
@@ -294,7 +294,7 @@ function plot_scatter(points, context, xVar, yVar, plotDims, customX = null, cus
                                 filter: "(datum."+xname+"=='nan' || datum."+xname+"=='inf' || datum."+xname+" == '-inf')"
                             }
                         ],
-                        mark:{type:"point", filled:true},
+                        mark:{type:"point", filled:true, tooltip:true},
                         encoding:{
                             x:{
                                 field: xname,
@@ -441,7 +441,7 @@ function plot_scatter(points, context, xVar, yVar, plotDims, customX = null, cus
       body.hconcat[0].vconcat = [yExtension].concat(body.hconcat[0].vconcat)
     }
 
-    body.hconcat[0].vconcat[0]["title"]= "Plot of " +xVar + " vs. " + yVar
+    body.hconcat[0].vconcat[0]["title"]= "Plot of " +yVar + " vs. " + xVar
 
 
 

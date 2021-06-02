@@ -60,6 +60,27 @@ function init_execution(){
         g.append("br")
     })
 
+    var tooltip = d3.select("body").append("div")
+        .attr("class", "tooltip")
+        .style("opacity", 0);
+
+    d3.select("#hide_filter")
+    .on("mouseenter",function(){
+      tooltip.transition()
+          .delay(1000)
+          .duration(200)
+          .style("opacity", .9);
+      tooltip.html("Hide blocks that are not relevant to the applied filter.")
+          .style("left", (d3.event.pageX) + "px")
+          .style("top", (d3.event.pageY - 28) + "px");
+
+    })
+    .on("mouseout", function(d) {
+        tooltip.transition()
+            .duration(500)
+            .style("opacity", 0);
+    })
+
 }
 
 
@@ -79,6 +100,10 @@ function draw_flame(trace){
 //    }
     var newWidth= width;
 
+    // Define the div for the tooltip
+    var tooltip = d3.select("body").append("div")
+        .attr("class", "tooltip")
+        .style("opacity", 0);
 
     d3.select("#execution").select("svg").attr("width",newWidth);
 
@@ -124,6 +149,33 @@ function draw_flame(trace){
         else{
             click(d,this);
         }
+    })
+    .on('mouseenter',function(d){
+      var hid = ((d.data.type == "assign"||d.data.type=="expression" || d.data.type=="param") && shownVars.indexOf(d.data.name)!= 0);
+
+      if (!(filtered && d.data.filtered) && (d.data.type == "assign"||d.data.type=="expression" || d.data.type=="param") && !hid){
+        var v = 0;
+        var n = "";
+        if (custom != null){
+            v = getValue(d.data,d.data.name,custom,custom)
+            n = custom;
+        }
+        else{
+          v = getValue(d.data,d.data.name,d.data.name);
+          n = d.data.name
+        }
+          tooltip.transition()
+              .duration(200)
+              .style("opacity", .9);
+          tooltip.html(n+": "+v)
+              .style("left", (d3.event.pageX) + "px")
+              .style("top", (d3.event.pageY - 28) + "px");
+        }
+    })
+    .on("mouseout", function(d) {
+        tooltip.transition()
+            .duration(500)
+            .style("opacity", 0);
     })
     .on('contextmenu',function(d){
         d3.event.preventDefault();
