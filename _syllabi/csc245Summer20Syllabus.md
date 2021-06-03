@@ -30,8 +30,8 @@ MATH 111, MATH 112, grade of B or better in CSC 127B or CSC 227.
 + **TA's**: Prithula Hridi & Caroline Hyland
 + **TA Email**: [hridi@email.arizona.edu](mailto:hridi@email.arizona.edu) & [cchyland@email.arizona.edu](mailto:cchyland@email.arizona.edu)
 + **TA Office Hours**:   
-  - Caroline: M & T 3-5pm, ([zoom link](https://arizona.zoom.us/j/7709005002?pwd=amhJK1Q2MytRRmM1TCs4UER4ZHIzZz09))
-  - Prithula: T 2-3pm ([zoom link](https://arizona.zoom.us/j/94828310117)), W 4-5pm  ([zoom link](https://arizona.zoom.us/j/91789389329)), Th & F 12-1pm ([zoom link](https://arizona.zoom.us/j/99557218170)).
+  - Caroline: M & T 3-5pm,
+  - Prithula: T 2-3pm, W 4-5pm, Th & F 12-1pm.
 + **Course Webpage**: [https://rjfaust.github.io/teaching/summer2020/csc245](https://rjfaust.github.io/teaching/summer2020/csc245)
 
 
@@ -72,7 +72,7 @@ Resource from San Francisco State University -->
 
 
 <br/>
-## Coures Content
+## Course Content
 #### Required Texts or Readings
 + **Required**: [Discrete Mathematics and its Applications (Rosen)](https://www.mheducation.com/highered/product/M125967651X.html), U.S. 8th ed., McGraw-Hill, 2019.  ***Do not buy an international edition or an earlier edition!***
 
@@ -222,7 +222,7 @@ The date and time of the final exam or project, along with links to the Final Ex
 Students are encouraged to share intellectual views and discuss freely the principles and applications of course materials. However, graded work/exercises must be the product of independent effort unless otherwise instructed. It is not acceptable to 'borrow' solutions or part of solutions from other people or have other people write your homework.  Finding solutions on the internet is a violation of academic dishonesty!  You may, however, discuss assignment requirements and high-level concepts with other students (and are in fact encouraged to).  In addition, you may ask the TA's and myself questions about assignments but do not expect us to simply give you the answer. As a rule of thumb, if you wouldn't ask the question on piazza, you probably shouldn't be asking it to your classmate.
 
 
-If we determine that a student or students violate this policy, all student's invovled will, at a **minimum**, receive no points for the assignment in question (including exams) and additionally will lose points equivalent to 50% of the assignment in question.  In other words, students will lose 150% on the assignment in question. Additional sanctions are possible depending on the circumstances of the offense(s) and the policies of the department, university, and Arizona Board of Regents, up to and including expulsion from the university.
+If we determine that a student or students violate this policy, all student's involved will, at a **minimum**, receive no points for the assignment in question (including exams) and additionally will lose points equivalent to 50% of the assignment in question.  In other words, students will lose 150% on the assignment in question. Additional sanctions are possible depending on the circumstances of the offense(s) and the policies of the department, university, and Arizona Board of Regents, up to and including expulsion from the university.
 
 Students are expected to adhere to the UA Code of Academic Integrity as described in the UA General Catalog. See [http://deanofstudents.arizona.edu/academic-integrity/students/academic-integrity](http://deanofstudents.arizona.edu/academic-integrity/students/academic-integrity). Please take the time to read this policy; ignorance of the policies is not an acceptable excuse for their violation.
 
@@ -280,7 +280,7 @@ If the course is a 400/500: Include a grading scale (as per above) that is speci
 #### Response Time
 As per department policy, graded homework assignments will be returned before the next homework is due (thus within a week of the due date).  Likewise, quizzes will be returned within a week of their due date as well.  We will do our best to return and review the graded midterm by midweek of the week following the exam.  
 
-The instructor and TA's will attempt to reply to all emails and piazza posts within 24 hours of receiving them (48 on weekends and holidays). If you submit a question less than hours before an assignment is due, you risk not getting an answer before the deadline.
+The instructor and TA's will attempt to reply to all emails and piazza posts within 24 hours of receiving them (48 on weekends and holidays). If you submit a question less than 24 hours before an assignment is due, you risk not getting an answer before the deadline.
 
 <!-- #### Department of Computer Science Grading Policy
   1. Instructors will explicitly promise when every assignment and exam will be graded and returned to students. These promised dates will appear in the syllabus, associated with the corresponding due dates and exam dates.

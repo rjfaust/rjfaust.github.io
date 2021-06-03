@@ -24,8 +24,8 @@ This is the course website for CSc 245, Introduction to Discrete Structures, for
 + **TA Emails**: [hridi@email.arizona.edu](mailto:hridi@email.arizona.edu) & [cchyland@email.arizona.edu](mailto:cchyland@email.arizona.edu)
 + **Office Hours**: (all office hours are in Tucson time (MST))
   - Rebecca: M 10am-12pm, Th 2-4pm. Additional hours by appointment. These will be held through google hangouts. To attend, invite me to a chat on google hangouts and we can chat there or set up a video (or add you to the queue if I am already meeting with another student).  
-  - Caroline: M & T 3-5pm, ([zoom link](https://arizona.zoom.us/j/96599442344))
-  - Prithula: T 2-3pm ([zoom link](https://arizona.zoom.us/j/94828310117)), W 4-5pm  ([zoom link](https://arizona.zoom.us/j/91789389329)), Th & F 12-1pm ([zoom link](https://arizona.zoom.us/j/99557218170)).
+  - Caroline: M & T 3-5pm,
+  - Prithula: T 2-3pm, W 4-5pm, Th & F 12-1pm.
 
 ### Latex Resources
 + [Getting started with Latex]({{ site.baseurl }}{% link /files/csc245/Latex_Tutorial.pdf %})
