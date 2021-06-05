@@ -24,9 +24,9 @@ This is the course website for CSc 245, Introduction to Discrete Structures. Thi
 + **TA's**:  Ash Reed, Vatsav Sethupathi & Richard Spence
 + **TA Emails**:[rachelreed@email.arizona.edu](mailto:rachelreed@email.arizona.edu), [vatsav14@email.arizona.edu](mailto:vatsav14@email.arizona.edu),
 & [rcspence@email.arizona.edu](mailto:rcspence@email.arizona.edu)
-+ **Office Hours**: (all office hours are in Tucson time (MST))
-  - Rebecca: TBD. Additional hours by appointment.
-  - Ash
++ **Office Hours**: (all office hours are in Tucson time (MST), zoom links are posted on D2L)
+  - Rebecca: T 10am-12pm, W 2-4pm. Additional hours by appointment.
+  - Ash: Th&F 2-4pm
   - Vatsav
   - Richard
 

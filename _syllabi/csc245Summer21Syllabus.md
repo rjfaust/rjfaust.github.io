@@ -25,12 +25,12 @@ Student must have earned a C grade or higher in (CSC 120 or CSC 127B or CSC 227)
 ### Instructor and Contact Information
 + **Instructor**: Rebecca Faust
 + **Email**: [rjfaust+sum21csc245@email.arizona.edu](mailto:rjfaust+sum21csc245@email.arizona.edu)
-+ **Office Hours**: TBD (additional hours by appointment). Held via Zoom.
++ **Office Hours**: TBD (additional hours by appointment). Held via Zoom (link on D2L).
 + **TA's**: Ash Reed, Vatsav Sethupathi & Richard Spence
 + **TA Email**: [rachelreed@email.arizona.edu](mailto:rachelreed@email.arizona.edu), [vatsav14@email.arizona.edu](mailto:vatsav14@email.arizona.edu),
 & [rcspence@email.arizona.edu](mailto:rcspence@email.arizona.edu)
 + **TA Office Hours**:   
-  - Ash Reed
+  - Ash Reed - Th & F 2-4pm (MST). Hosted via Zoom (the link is available on D2L).
   - Vatsav Sethupathi
   - Richard Spence
 + **Course Webpage**: [https://rjfaust.github.io/teaching/summer2021/csc245](https://rjfaust.github.io/teaching/summer2021/csc245)
@@ -140,24 +140,32 @@ Below is the planned schedule for the semester.  However, it is subject to chang
 
 |Week | Date     | Scheduled Topics | Assigned | Due Today|
 |:-----:|:----------:|:------------------:|:---------------:|:----------:|
-| 1   | M 06/07  | Syllabus, 1, 2      | Homework 1    |                  |
+| 1   | M 06/07  | Syllabus, 1, 2      | Homework 1    |                 |
 |     | F 06/11  |                     | Homework 2    | Homework 1 (11:59pm) |
-| 2   | M 06/14  | 3, 4                | Quiz 1        | Quiz 1 (midnight)|
+| 2   | M 06/14  | 3, 4                |               |                 |
+|     | T 06/15  |                     | Quiz 1        | Quiz 1 (11:59pm)|
 |     | F 06/18  |                     | Homework 3    | Homework 2 (11:59pm) |
-| 3   | M 06/21  | 5                   | Quiz 2        | Quiz 2 (midnight)|
+| 3   | M 06/21  | 5                   |               |                 |
+|     | T 06/22  |                     | Quiz 2        | Quiz 2 (11:59pm)|
 |     | F 06/25  |                     | Homework 4    | Homework 3 (11:59pm) |
-| 4   | M 06/28  | 6 , 7               | Quiz 3        | Quiz 3 (midnight)|
+| 4   | M 06/28  | 6 , 7               |               |                 |
+|     | T 06/29  |                     | Quiz 3        | Quiz 3 (11:59pm)|
 |     | F 07/2   |                     | Homework 5 (practice)| Homework 4 (11:59pm) |
-| 5   | M 07/05  | 8                   | NO QUIZ       |                  |
+| 5   | M 07/05  | 8                   |               |                  |
+|     | T 07/06  |                     | NO QUIZ       |                  |
 |     | Th 07/8  | Midterm             |               |                  |
 |     | F 07/9   |                     | Homework 6    | Midterm (11:59pm)    |
-| 6   | M 07/12  | 9, 10               | Quiz 4        | Quiz 4 (midnight)|
+| 6   | M 07/12  | 9, 10               |               |                  |
+|     | T 07/13  |                     | Quiz 4        | Quiz 4 (11:59pm)|
 |     | F 07/16  |                     | Homework 7    | Homework 6 (11:59pm) |
-| 7   | M 07/19  | 11, 12              | Quiz 5        | Quiz 5 (midnight)|
+| 7   | M 07/19  | 11, 12              |               |                  |
+|     | T 07/20  |                     | Quiz 5        | Quiz 5 (11:59pm)|
 |     | F 07/23  |                     | Homework 8    | Homework 7 (11:59pm) |
-| 8   | M 07/26  | 13                  | Quiz 6        | Quiz 6 (midnight)|
+| 8   | M 07/26  | 13                  |               |                  |
+|     | T 07/27  |                     | Quiz 6        | Quiz 6 (11:59pm)|
 |     | F 07/30  |                     | Homework 9    | Homework 8 (11:59pm) |
-| 9   | M 08/02  | 14, 15              | Quiz 7        | Quiz 7 (midnight)|
+| 9   | M 08/02  | 14, 15              |               |                  |
+|     | T 08/03  |                     | Quiz 7        | Quiz 7 (11:59pm)|
 |     | F 08/06  |                     | Homework 10 (practice)| Homework 9 (11:59pm) |
 | 10  | M 08/9   | 16 (cont'd), Review |               |                  |
 |     | W 08/11  | Final Exam          |               |                  |
@@ -201,7 +209,7 @@ Because the course is online and asynchronous, I cannot use standard measures fo
  Lecture videos can be found under "Content" on D2L.  They will be organized by week.  For the given week, all lecture videos must be completed by the end of the following weekend (i.e. for week 1 which starts on June 8th, videos must be completed by Sunday June 14th).  I will do my best to release lecture videos by the end of the Sunday of the current week but there may be weeks where I release some at the beginning, and the rest throughout the week. Completion of videos will be tracked through Playposit.  I will use Playposit to host the videos and insert questions into them.  Completion of these questions (and correctness of your answers), will determine your participation grade for that lecture. Note, these questions will not be designed to be difficult, but rather to keep students engaged and show that they actually watched the lectures.
 
  + **Quizzes (12% of final grade)**
- Starting in the second week, there will be a weekly quiz on Tuesdays, with the exception of exam weeks.  The quiz for a given week will be released Monday morning and must be submitted by Midnight that same Monday.  These quizzes are designed to give students an idea for the types of questions they will see on exams. I do not intend students to need to spend more than 10-15 minutes answering them.  Quiz questions will be on the material from the previous week. Quizzes will be worth 10 points and may be handwritten or typed (preferred).  They will be released on the course webpage and must be turned in through Gradescope. We will do our best to return quizzes before the homework is due on Friday.
+ Starting in the second week, there will be a weekly quiz on Tuesdays, with the exception of exam weeks.  The quiz for a given week will be released Tuesday morning and must be submitted by Midnight that same Tuesday.  These quizzes are designed to give students an idea for the types of questions they will see on exams. I do not intend students to need to spend more than 10-15 minutes answering them.  Quiz questions will be on the material from the previous week. Quizzes will be worth 10 points and may be handwritten or typed (preferred).  They will be released on the course webpage and must be turned in through Gradescope. We will do our best to return quizzes before the homework is due on Friday.
 
 ### Homework (48% of final grade)
 Homework assignments designed to give you hands on experience with topics in preparation for the exams.  
