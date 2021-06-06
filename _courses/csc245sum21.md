@@ -21,14 +21,15 @@ This is the course website for CSc 245, Introduction to Discrete Structures. Thi
 + [Piazza](https://piazza.com/home/summer2021/csc245/home)
 + [Gradescope](https://www.gradescope.com/courses/266002)
 + [Syllabus]({% link _syllabi/csc245Summer21Syllabus.md %})
-+ **TA's**:  Ash Reed, Vatsav Sethupathi & Richard Spence
-+ **TA Emails**:[rachelreed@email.arizona.edu](mailto:rachelreed@email.arizona.edu), [vatsav14@email.arizona.edu](mailto:vatsav14@email.arizona.edu),
-& [rcspence@email.arizona.edu](mailto:rcspence@email.arizona.edu)
++ **TA's**:  Ash Reed, Vatsav Sethupathi, Richard Spence, & Mary Eskandari
++ **TA Emails**:[rachelreed@email.arizona.edu](mailto:rachelreed@email.arizona.edu), [vatsav14@email.arizona.edu](mailto:vatsav14@email.arizona.edu), [rcspence@email.arizona.edu](mailto:rcspence@email.arizona.edu),
+& [maryameskandari@arizona.edu](maryameskandari@arizona.edu)
 + **Office Hours**: (all office hours are in Tucson time (MST), zoom links are posted on D2L)
   - Rebecca: T 10am-12pm, W 2-4pm. Additional hours by appointment.
   - Ash: Th&F 2-4pm
   - Vatsav
   - Richard
+  - Mary
 
 
 ### Latex Resources

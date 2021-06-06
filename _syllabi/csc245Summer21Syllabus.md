@@ -25,14 +25,15 @@ Student must have earned a C grade or higher in (CSC 120 or CSC 127B or CSC 227)
 ### Instructor and Contact Information
 + **Instructor**: Rebecca Faust
 + **Email**: [rjfaust+sum21csc245@email.arizona.edu](mailto:rjfaust+sum21csc245@email.arizona.edu)
-+ **Office Hours**: TBD (additional hours by appointment). Held via Zoom (link on D2L).
-+ **TA's**: Ash Reed, Vatsav Sethupathi & Richard Spence
-+ **TA Email**: [rachelreed@email.arizona.edu](mailto:rachelreed@email.arizona.edu), [vatsav14@email.arizona.edu](mailto:vatsav14@email.arizona.edu),
-& [rcspence@email.arizona.edu](mailto:rcspence@email.arizona.edu)
++ **Office Hours**: T 10am-12pm & W 2-4pm (additional hours by appointment). Held via Zoom (link on D2L).
++ **TA's**: Ash Reed, Vatsav Sethupathi, Richard Spence, & Mary Eskandari
++ **TA Email**: [rachelreed@email.arizona.edu](mailto:rachelreed@email.arizona.edu), [vatsav14@email.arizona.edu](mailto:vatsav14@email.arizona.edu), [rcspence@email.arizona.edu](mailto:rcspence@email.arizona.edu),
+& [maryameskandari@arizona.edu](maryameskandari@arizona.edu)
 + **TA Office Hours**:   
   - Ash Reed - Th & F 2-4pm (MST). Hosted via Zoom (the link is available on D2L).
   - Vatsav Sethupathi
   - Richard Spence
+  - Mary Eskandari 
 + **Course Webpage**: [https://rjfaust.github.io/teaching/summer2021/csc245](https://rjfaust.github.io/teaching/summer2021/csc245)
 
 
