@@ -167,7 +167,7 @@ Below is the planned schedule for the semester.  However, it is subject to chang
 | 9   | M 08/02  | 14, 15              |               |                  |
 |     | T 08/03  |                     | Quiz 7        | Quiz 7 (11:59pm)|
 |     | F 08/06  |                     | Homework 10 (practice)| Homework 9 (11:59pm) |
-| 10  | M 08/9   | 16 (cont'd), Review |               |                  |
+| 10  | M 08/9   | 16, Review          |               |                  |
 |     | W 08/11  | Final Exam          |               |                  |
 
 <br/>
