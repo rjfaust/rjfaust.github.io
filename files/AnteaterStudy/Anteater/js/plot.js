@@ -545,7 +545,7 @@ function plot(update = false, requery = true){
                       lbl = grp.attr.type + " loop"
                     }
                     else if(grp.attr.type == "call"){
-                      lbl ="function call ""
+                      lbl ="function call "
 
                     }
                     lbl +=" on line " + grp.attr.lineno
