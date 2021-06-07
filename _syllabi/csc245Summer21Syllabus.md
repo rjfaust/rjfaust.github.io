@@ -31,9 +31,9 @@ Student must have earned a C grade or higher in (CSC 120 or CSC 127B or CSC 227)
 & [maryameskandari@arizona.edu](maryameskandari@arizona.edu)
 + **TA Office Hours**:   
   - Ash Reed - Th & F 2-4pm (MST). Hosted via Zoom (the link is available on D2L).
-  - Vatsav Sethupathi
-  - Richard Spence
-  - Mary Eskandari 
+  - Vatsav Sethupathi - M & W 10am-12pm
+  - Richard Spence - F10am-12pm
+  - Mary Eskandari - Th 3-5pm
 + **Course Webpage**: [https://rjfaust.github.io/teaching/summer2021/csc245](https://rjfaust.github.io/teaching/summer2021/csc245)
 
 

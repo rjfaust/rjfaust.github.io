@@ -26,10 +26,10 @@ This is the course website for CSc 245, Introduction to Discrete Structures. Thi
 & [maryameskandari@arizona.edu](maryameskandari@arizona.edu)
 + **Office Hours**: (all office hours are in Tucson time (MST), zoom links are posted on D2L)
   - Rebecca: T 10am-12pm, W 2-4pm. Additional hours by appointment.
-  - Ash: Th&F 2-4pm
-  - Vatsav
-  - Richard
-  - Mary
+  - Ash: Th 11am-1pm, F 2-4pm
+  - Vatsav: M & W 10am-12pm
+  - Richard: F10am-12pm
+  - Mary: Th 3-5pm
 
 
 ### Latex Resources
@@ -42,11 +42,13 @@ This is the course website for CSc 245, Introduction to Discrete Structures. Thi
   + Handouts:
     + [Math Review Summary]({{ site.baseurl }}{% link /files/csc245/Math_Review_Summary.pdf %})
     + [Math Review (full)]({{ site.baseurl }}{% link /files/csc245/MathReview.pdf %})
+  + Homework 1:
+    + [Homework 1 Questions]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw1.pdf %})
 
 
 ### Assignments
 
-+ Assignment 1
++ [Assignment 1]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw1.pdf %})
 + Assignment 2
 + Assignment 3
 + Assignment 4
