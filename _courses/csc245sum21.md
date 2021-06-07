@@ -42,8 +42,11 @@ This is the course website for CSc 245, Introduction to Discrete Structures. Thi
   + Handouts:
     + [Math Review Summary]({{ site.baseurl }}{% link /files/csc245/Math_Review_Summary.pdf %})
     + [Math Review (full)]({{ site.baseurl }}{% link /files/csc245/MathReview.pdf %})
+    + [Equivalence Tables from Logic Slides]({{ site.baseurl }}{% link /files/csc245/equivalences.pdf %})
+
   + Homework 1:
     + [Homework 1 Questions]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw1.pdf %})
+    + [Latex Template]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw1_template.zip %})
 
 
 ### Assignments
