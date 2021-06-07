@@ -71,6 +71,22 @@ function init_plot(){
         .selectAll("img")
         .data(["boxplot","histogram", "scatter", "curve"])
         .on("click", function(d) {
+
+          if(shownVars.length == 0){
+            var popUpList = $('<div title="Empty Plot"> Please add a variable to the plot. (Highlight a tracked value, right click, and select add to plot).</div>');
+
+            //    $('#showPopUp').click(function () {
+
+                popUpList.dialog({
+                    buttons:{
+                        Ok: function(){
+                            $( this ).dialog( "destroy" ).remove();
+                        }
+                    },
+                    width:500
+                });
+          }
+          else{
             d3.select("#plotIcons")
                 .selectAll("img")
                 .style("opacity", 0.25)
@@ -122,6 +138,8 @@ function init_plot(){
                 plotInfo.type = plot_types.b;
             }
             plot(true,false);
+
+          }
         });
 
     multiInfo = {nPlots:1,nCols:1,nRows:1};

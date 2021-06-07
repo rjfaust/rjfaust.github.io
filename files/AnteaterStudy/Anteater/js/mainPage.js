@@ -144,6 +144,25 @@ function switch_to_trace_spec(){
 
   init_exclusions();
 
+  var popUpList = $('<div title="Create Trace Specification"> Select variables and expressions to track.'+
+  'Variables should be tracked at their assignment. Expressions are function calls or anything on the right of an assignment.'
+  +'To track a value, highlight it in the text, right click and select the appropriate option.'+
+  '<br/><br/>Custom expressions can be defined for tracked values by right clicking in the "Custom Expression" column corresponding to the tracked value.'+
+  '<br/><br/>Note, Anteater is currently unable to collect lists or objects - only numeric values, strings or binary values.'
+  +' However, custom expressions can be tracked to extract specific information from unsupported data types (such as a specific attribute of an object).</div>');
+
+  //    $('#showPopUp').click(function () {
+
+      popUpList.dialog({
+          buttons:{
+              Ok: function(){
+                  $( this ).dialog( "destroy" ).remove();
+              }
+          },
+
+          width:700
+      });
+
 }
 
 function switch_to_trace_vis(){
@@ -325,6 +344,7 @@ function switch_to_trace_vis(){
   loadFunctions(JSON.parse(sessionStorage.getItem("funcInfo")))
   loadLoops(JSON.parse(sessionStorage.getItem("loopInfo")))
   loadDependencies(JSON.parse(sessionStorage.getItem("depends")))
+
 
 
 }
