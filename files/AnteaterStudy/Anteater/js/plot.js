@@ -2,10 +2,9 @@ var plotMargin = {top: 10, right: 100, bottom: 100, left: 80};
 // var boundingRect = document
 //     .querySelector('#execution')
 //     .getBoundingClientRect();
-var plotWidth = window.innerWidth*(2.0/5)- plotMargin.left - plotMargin.right - 20;
-// var editorWidth = window.innerWidth*(2.0/5)- plotMargin.left - plotMargin.right - 20;
+var plotWidth  = window.innerWidth*(3.0/5)- plotMargin.left - plotMargin.right - 50;
 
-var plotHeight = window.innerHeight*.4-plotMargin.top-plotMargin.bottom;
+var plotHeight = window.innerHeight*.45-plotMargin.top-plotMargin.bottom;
 var plotSVG = null;
 //var x = null
 //var y = null
