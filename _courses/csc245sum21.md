@@ -72,7 +72,7 @@ This is the course website for CSc 245, Introduction to Discrete Structures. Thi
 
 + [Assignment 1]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw1.pdf %})
 + [Assignment 2]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw2.pdf %})
-+ Assignment 3
++ [Assignment 3]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw3.pdf %})
 + Assignment 4
 + Practice Assignment
 + Assignment 5
