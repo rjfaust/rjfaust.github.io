@@ -54,7 +54,7 @@ This is the course website for CSc 245, Introduction to Discrete Structures. Thi
     + [Logic]({{ site.baseurl }}{% link /files/csc245S21/Logic.pdf %})
 + Week 2: Quantification, Arguments
     + Homework 2:
-      + [Homework 2 Questions]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw2.pdf %})
+      + [Homework 3 Questions]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw2.pdf %})
       + [Latex Template]({{ site.baseurl }}{% link /files/csc245S21/CSc245_Hw2_template.zip %})
     + Quiz 1:
       + [Quiz 1 Questions]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Quiz1.pdf %})
