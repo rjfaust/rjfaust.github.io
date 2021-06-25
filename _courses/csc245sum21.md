@@ -47,6 +47,7 @@ This is the course website for CSc 245, Introduction to Discrete Structures. Thi
   + Homework 1:
     + [Homework 1 Questions]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw1.pdf %})
     + [Latex Template]({{ site.baseurl }}{% link /files/csc245S21/CSc245_Hw1_template.zip %})
+    + [Solutions]({{ site.baseurl }}{% link /files/csc245S21/CSc245_Hw1_solutions.pdf %})
   + Lecture Slides:
     + [Syllabus]({{ site.baseurl }}{% link /files/csc245S21/Syllabus.pdf %})
     + [Background]({{ site.baseurl }}{% link /files/csc245S21/Background.pdf %})
@@ -70,9 +71,13 @@ This is the course website for CSc 245, Introduction to Discrete Structures. Thi
   + Quiz 2:
     + [Quiz 2 Questions]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Quiz2.pdf %})
     + [Latex Template]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Quiz2_template.zip %})
+    + [Solutions]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Quiz2_solutions.pdf %})
   + Lecture Slides:
     + [Introduction to Proofs]({{ site.baseurl }}{% link /files/csc245S21/IntroToProofs.pdf %})
     + [Proof Examples]({{ site.baseurl }}{% link /files/csc245S21/ProofExamples.pdf %})
++ Week 4: Sets & Matrices
+  + Homework 4
+    + [Homework 4 Questions]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw4.pdf %})
 
 
 ### Assignments
@@ -80,7 +85,7 @@ This is the course website for CSc 245, Introduction to Discrete Structures. Thi
 + [Assignment 1]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw1.pdf %})
 + [Assignment 2]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw2.pdf %})
 + [Assignment 3]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw3.pdf %})
-+ Assignment 4
++ [Assignment 4]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw4.pdf %})
 + Practice Assignment
 + Assignment 5
 + Assignment 6
