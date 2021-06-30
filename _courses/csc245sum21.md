@@ -1,5 +1,5 @@
 ---
-course_name: Introduction to Discrete Structures
+course_name: Introduction to Discrete Structures - Summer 2021
 course_id: CSc 245
 semester: Summer 2021
 syllabus: None

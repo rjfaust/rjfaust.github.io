@@ -1,5 +1,5 @@
 ---
-course_name: Introduction to Discrete Structures
+course_name: Introduction to Discrete Structures - Summer 2020
 course_id: CSc 245
 semester: Summer 2020
 syllabus: None
