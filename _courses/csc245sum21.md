@@ -85,6 +85,10 @@ This is the course website for CSc 245, Introduction to Discrete Structures. Thi
   + Lecture Slides:
     + [Sets]({{ site.baseurl }}{% link /files/csc245S21/Sets.pdf %})
     + [Matrices]({{ site.baseurl }}{% link /files/csc245S21/Matrices.pdf %})
++ Week 5: Relations
+  + Practice Assignment 1
+    + [Practice Questions]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Practice1.pdf %})
+
 
 ### Assignments
 
@@ -92,7 +96,7 @@ This is the course website for CSc 245, Introduction to Discrete Structures. Thi
 + [Assignment 2]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw2.pdf %})
 + [Assignment 3]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw3.pdf %})
 + [Assignment 4]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw4.pdf %})
-+ Practice Assignment
++ [Practice Assignment]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Practice1.pdf %})
 + Assignment 5
 + Assignment 6
 + Assignment 7
