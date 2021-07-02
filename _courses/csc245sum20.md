@@ -4,7 +4,7 @@ course_id: CSc 245
 semester: Summer 2020
 syllabus: None
 piazza: None
-permalink: /teaching/old-summer2020/csc245
+permalink: /teaching/past-summer2020/csc245
 title: CSc 245
 ---
 
