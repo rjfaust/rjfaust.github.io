@@ -95,6 +95,7 @@ This is the course website for CSc 245, Introduction to Discrete Structures. Thi
     + [Relations]({{ site.baseurl }}{% link /files/csc245S21/Relations.pdf %})
   + Midterm Resources:
     + [Sample Midterm - NOTE: this was a take home exam]({{ site.baseurl }}{% link /files/csc245S21/CSc_245_S20_Midterm.pdf %})
+    + [Sample Midterm Solutions]({{ site.baseurl }}{% link /files/csc245S21/CSc_245_S20_Midterm_Solutions.pdf %})
 
 
 
