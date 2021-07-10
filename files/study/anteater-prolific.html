@@ -1,0 +1,126 @@
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+  <head>
+    <link href="style.css" rel="stylesheet">  </head>
+  <body>
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <div class="page__inner-wrap">
+
+      <section class="page__content" itemprop="text">
+        <div align="center">
+          <img   class="center"  style="width:auto; height:32px; margin-top:5px" alt="Avatar" src="anteater.jpg">
+          <label style="font-size:32px"> Anteater Study </label>
+
+          <p>This study evaluates Anteater: a system for tracing programs and creating interactive visualizations of program execution values in context.</p>
+        </div>
+
+        <h3> What is Anteater?</h3>
+        <p>Anteater is a debugging tool designed to take a visualization-first approach to debugging.
+           Rather than dumping text values for the programmer to inspect or requiring them to
+           recall past values as they step through execution and inspect the values at each step,
+           Anteater automatically instruments and traces the program to collect the execution
+           structure and all of the program values the programmer desires (as sepcified by the programmer).
+           It then provides interactive visualizations of the overall execution and program values
+           in context of the execution.
+           Anteater provides more informative overviews of a program’s behavior while supporting
+           interaction to dig deeper into the details of the execution. Rather than showing the
+           whole state at a single step in time, it shows a single variable over the entirety of
+           the execution. Anteater aims to reduce the effort required from a programmer by 1) automatically
+           instrumenting programs to collect the values they want to inspect and 2) allowing them to
+           browse values of interest easily throughout the entire execution, without resorting to a
+           step-through debugger.
+            <br/>
+           The Anteater UI, shown below, provides a visualization of the execution structure
+           (the icicle plot in the upper side of the screen between the code and the legend) that shows
+           the call and loop structure of the program as well as the tracked values as the occur.
+           The plot in the bottom right provides visualizations of tracked values. In this case, it shows a scatterplot
+           of the tracked value "x" over the entire execution. Interactions link the two views
+           to allow the programmer to maintain context with the overall execution. For example,
+           brushing in the scatterplot highlights (in red) the corresponding blocks in the execution tree.
+
+
+
+            <img src="overview2.png" style="width:100%"> </img>
+
+
+          <!-- Additonally, while step-through debuggers
+          present the entire program state, they only display the values for one execution step at a time
+          but allow the programmer to step serially through the execution. This burdens the programmer
+          with the task of recalling all previous values.  With print statement debuggiIn contrast, Anteater
+
+            -->
+          <!-- Rather than viewing single values on demand, as in step-through debugging, Anteater uses
+          program traces to provide global views of the execution struture and variable values
+          throughout the entire execution. In doing so, Anteater provides programmers with richer
+          information
+
+          Anteater provides more informative overviews of a program’s behavior while supporting
+          interaction to dig deeper into the details of the execution. Rather than showing the
+          whole state at a single step in time, it shows a single variable over the entirety of
+          the execution. Anteater aims to reduce the effort required from a user by 1) automatically
+          instrumenting programs to collect the values they want to inspect and 2) allowing them to
+          browse values of interest easily throughout the entire execution, without resorting to a
+          step-through debugger. -->
+
+      </p>
+
+          <h3>Purpose of the Study</h3>
+          <p>The purpose of this study is to evaluate the capabilities and limitations of Anteater,
+            a visual debugging tool.  Anteater was designed to aid everyday programmers in understanding
+            and debugging their programs through the use of interactive visualizations.  To evaluate
+            Anteater, we are having participants with programming experience complete debugging tasks
+            using Anteater and a standard debugging tool to gather their feedback on their experiences
+            with the two tools. Note, this study must be completed on the Google Chrome browser.</p>
+
+
+            <h3>Length & Compensation</h3>
+            <p>This study will take 30-60 minutes. You will be asked to debug two programs,
+              one with Anteater and one with a more traditional debugging technique.  We will
+              ask you to provide your Prolific ID and you will
+              receive compensation through Prolific, for the amount of $10.
+              </p>
+                <br/>
+              <p>
+                The study will be hosted through Google Forms.  If you would like to participate,
+                and meet the qualifications of:
+                  <ul>
+                    <li> being 18 years or older </li>
+                    <li> having some Python programming experience </li>
+                    <li> being able to complete the study on Google Chrome with ad blockers that interfere with javascript turned off, such as Privacy Badger or NoScript. </li>
+                  </ul>
+                please click "Begin Study" below.
+              <p/>
+              <div align="center">
+                <input type="button" name="Begin Study" value="Begin Survey" onclick = "pick_survey()">
+              </div>
+      </section>
+    </div>
+
+  </article>
+
+</div>
+  <script>
+    function pick_survey(){
+      var r = Math.random()
+      if(r < .25){
+        window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSdfhGsfGztyxTzkNn3iqP3nT7K86GLGPNJRItAbENODfqjEyg/viewform?usp=sf_link"
+      }
+      else if (r < .5){
+        window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSfegO3-_UsqspO8tXvFBU8nPp-TaGO1EuO2ygOStCDyBdUJbA/viewform?usp=sf_link"
+      }
+      else if (r < .75){
+        window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSfdljqOVlr0QiTn6oJDcCzlk8DX7P1VeDrsrCsNm8Q0YVokDQ/viewform?usp=sf_link"
+      }
+      else{
+        window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSchHosQC2mLvwjQ-oeYVnPQIUZrSZgTwz_NeSKvOKUYu5uAFg/viewform?usp=sf_link"
+      }
+    }
+
+  </script>
+
+</body>
+</html>
