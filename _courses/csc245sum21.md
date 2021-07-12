@@ -97,10 +97,10 @@ This is the course website for CSc 245, Introduction to Discrete Structures. Thi
     + [Sample Midterm - NOTE: this was a take home exam]({{ site.baseurl }}{% link /files/csc245S21/CSc_245_S20_Midterm.pdf %})
     + [Sample Midterm Solutions]({{ site.baseurl }}{% link /files/csc245S21/CSc_245_S20_Midterm_Solutions.pdf %})
     + [Midterm Instructions]({{ site.baseurl }}{% link /files/csc245S21/CSc245_Midterm_Instructions.pdf %})
-  + Week 6: Functions & integers
-    + Homework 5
-      + [Homework 5 Questions]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw5.pdf %})
-      + [Latex Template]({{ site.baseurl }}{% link /files/csc245S21/CSC245_S21_Hw5_template.zip %})
++ Week 6: Functions & integers
+  + Homework 5
+    + [Homework 5 Questions]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw5.pdf %})
+    + [Latex Template]({{ site.baseurl }}{% link /files/csc245S21/CSC245_S21_Hw5_template.zip %})
 
 
 
