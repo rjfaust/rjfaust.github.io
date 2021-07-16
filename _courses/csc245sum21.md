@@ -111,7 +111,7 @@ This is the course website for CSc 245, Introduction to Discrete Structures. Thi
 + Week 7: Sequences & Induction
   + Homework 6
     + [Homework 6 Questions]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw6.pdf %})
-    + [Latex Template]({{ site.baseurl }}{% link /files/csc245S21/CSC245_S21_Hw6_template.zip %})
+    + [Latex Template]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw6_template.zip %})
 
 
 ### Assignments
