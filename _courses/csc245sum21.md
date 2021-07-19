@@ -104,7 +104,7 @@ This is the course website for CSc 245, Introduction to Discrete Structures. Thi
   + Quiz 4
     + [Quiz 4 Questions]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Quiz4.pdf %})
     + [Latex Template]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Quiz4_template.zip %})
-    + [Solutions]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Quiz4_solutions.zip %})
+    + [Solutions]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Quiz4_solutions.pdf %})
   + Lecture Slides:
       + [Functions]({{ site.baseurl }}{% link /files/csc245S21/Functions.pdf %})
       + [Integers]({{ site.baseurl }}{% link /files/csc245S21/Integers.pdf %})
