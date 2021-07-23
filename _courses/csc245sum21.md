@@ -120,8 +120,12 @@ This is the course website for CSc 245, Introduction to Discrete Structures. Thi
     + [Sequences & Strings]({{ site.baseurl }}{% link /files/csc245S21/Sequences.pdf %})
     + [Proof by Induction]({{ site.baseurl }}{% link /files/csc245S21/Induction.pdf %})
 
++ Week 7: Counting
+  + Homework 7
+    + [Homework 7 Questions]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw7.pdf %})
+    + [Latex Template]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw7_template.zip %})
 
-    
+
 ### Assignments
 
 + [Assignment 1]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw1.pdf %})
@@ -131,7 +135,7 @@ This is the course website for CSc 245, Introduction to Discrete Structures. Thi
 + [Practice Assignment]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Practice1.pdf %})
 + [Assignment 5]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw5.pdf %})
 + [Assignment 6]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw6.pdf %})
-+ Assignment 7
++ [Assignment 7]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw7.pdf %})
 + Assignment 8
 + Exam Review (practice)
 
