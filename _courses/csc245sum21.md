@@ -120,7 +120,7 @@ This is the course website for CSc 245, Introduction to Discrete Structures. Thi
     + [Sequences & Strings]({{ site.baseurl }}{% link /files/csc245S21/Sequences.pdf %})
     + [Proof by Induction]({{ site.baseurl }}{% link /files/csc245S21/Induction.pdf %})
 
-+ Week 7: Counting
++ Week 8: Counting
   + Homework 7
     + [Homework 7 Questions]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw7.pdf %})
     + [Latex Template]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw7_template.zip %})
