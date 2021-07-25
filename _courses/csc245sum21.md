@@ -101,6 +101,7 @@ This is the course website for CSc 245, Introduction to Discrete Structures. Thi
   + Homework 5
     + [Homework 5 Questions]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw5.pdf %})
     + [Latex Template]({{ site.baseurl }}{% link /files/csc245S21/CSC245_S21_Hw5_template.zip %})
+    + [Solutions]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw5_solutions.pdf %})
   + Quiz 4
     + [Quiz 4 Questions]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Quiz4.pdf %})
     + [Latex Template]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Quiz4_template.zip %})
@@ -116,6 +117,7 @@ This is the course website for CSc 245, Introduction to Discrete Structures. Thi
   + Quiz 5
     + [Quiz 5 Questions]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Quiz5.pdf %})
     + [Latex Template]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Quiz5_template.zip %})
+    + [Solutions]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Quiz5_solutions.pdf %})
   + Lecture Slides
     + [Sequences & Strings]({{ site.baseurl }}{% link /files/csc245S21/Sequences.pdf %})
     + [Proof by Induction]({{ site.baseurl }}{% link /files/csc245S21/Induction.pdf %})
