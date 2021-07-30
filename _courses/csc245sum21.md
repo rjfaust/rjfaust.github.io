@@ -130,7 +130,7 @@ This is the course website for CSc 245, Introduction to Discrete Structures. Thi
   + Quiz 6
     + [Quiz 6 Questions]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Quiz6.pdf %})
     + [Latex Template]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Quiz6_template.zip %})
-    + [Solutions]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Quiz6_solutions.pdf %})
+    + [Solutions]({{ site.baseurl }}{% link /files/csc245S21/CSC245_S21_Quiz6_solutions.pdf %})
   + Lecture Slides
     + [Counting]({{ site.baseurl }}{% link /files/csc245S21/Counting.pdf %})
 + Week 9: Algorithms, Recurrence Relations, & Finite Probability
