@@ -114,6 +114,7 @@ This is the course website for CSc 245, Introduction to Discrete Structures. Thi
   + Homework 6
     + [Homework 6 Questions]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw6.pdf %})
     + [Latex Template]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw6_template.zip %})
+    + [Solutions]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw6_solutions.pdf %})
   + Quiz 5
     + [Quiz 5 Questions]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Quiz5.pdf %})
     + [Latex Template]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Quiz5_template.zip %})
@@ -129,9 +130,13 @@ This is the course website for CSc 245, Introduction to Discrete Structures. Thi
   + Quiz 6
     + [Quiz 6 Questions]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Quiz6.pdf %})
     + [Latex Template]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Quiz6_template.zip %})
+    + [Solutions]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Quiz6_solutions.pdf %})
   + Lecture Slides
     + [Counting]({{ site.baseurl }}{% link /files/csc245S21/Counting.pdf %})
-
++ Week 9: Algorithms, Recurrence Relations, & Finite Probability
+  + Homework 8
+   + [Homework 8 Questions]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw8.pdf %})
+   + [Latex Template]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw8_template.zip %})
 
 ### Assignments
 
@@ -143,7 +148,7 @@ This is the course website for CSc 245, Introduction to Discrete Structures. Thi
 + [Assignment 5]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw5.pdf %})
 + [Assignment 6]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw6.pdf %})
 + [Assignment 7]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw7.pdf %})
-+ Assignment 8
++ [Assignment 8]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw8.pdf %})
 + Exam Review (practice)
 
 ### Quizzes
