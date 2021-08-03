@@ -137,6 +137,9 @@ This is the course website for CSc 245, Introduction to Discrete Structures. Thi
   + Homework 8
     + [Homework 8 Questions]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw8.pdf %})
     + [Latex Template]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw8_template.zip %})
+  + Quiz 7
+    + [Quiz 6 Questions]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Quiz7.pdf %})
+    + [Latex Template]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Quiz7_template.zip %})
   + Lecture Slides
       + [Algorithms]({{ site.baseurl }}{% link /files/csc245S21/Algorithms.pdf %})
       + [Recurrence Relations]({{ site.baseurl }}{% link /files/csc245S21/RecurrenceRelations.pdf %})
@@ -163,4 +166,4 @@ This is the course website for CSc 245, Introduction to Discrete Structures. Thi
 + [Quiz 4]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Quiz4.pdf %})
 + [Quiz 5]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Quiz5.pdf %})
 + [Quiz 6]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Quiz6.pdf %})
-+ Quiz 7
++ [Quiz 7]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Quiz7.pdf %})
