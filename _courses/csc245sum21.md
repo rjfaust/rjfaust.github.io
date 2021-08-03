@@ -137,6 +137,11 @@ This is the course website for CSc 245, Introduction to Discrete Structures. Thi
   + Homework 8
     + [Homework 8 Questions]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw8.pdf %})
     + [Latex Template]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw8_template.zip %})
+  + Lecture Slides
+      + [Algorithms]({{ site.baseurl }}{% link /files/csc245S21/Algorithms.pdf %})
+      + [Recurrence Relations]({{ site.baseurl }}{% link /files/csc245S21/RecurrenceRelations.pdf %})
+      + [Finite Probability]({{ site.baseurl }}{% link /files/csc245S21/FiniteProbability.pdf %})
+
 
 ### Assignments
 
