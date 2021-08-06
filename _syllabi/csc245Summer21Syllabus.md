@@ -126,9 +126,9 @@ Availability: purchased, library reserve, or class handouts and D2L -->
 | 7.  Matrices |  2.6   |  
 | 8.  Relations |   9.1, 9.3, 9.5, 9.6   |    
 | 9. Functions |   2.3  |    
-| 10.  Integers |   2.3   |    
+| 10.  Integers |   4.1, 4.3   |    
 | 11. Sequences & Strings|  2.4    |    
-| 12. Mathematical Induction |  5.1, 4.2    |   
+| 12. Mathematical Induction |  5.1, 5.2    |   
 | 13. Counting |  6.1 - 6.6    |   
 | 14. Recursive Algorithms |    3.1, 5.3, 5.4  |   
 | 15. Recurrence Relations  | 8.1, 8.2  |   
