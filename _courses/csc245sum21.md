@@ -138,6 +138,7 @@ This is the course website for CSc 245, Introduction to Discrete Structures. Thi
   + Homework 8
     + [Homework 8 Questions]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw8.pdf %})
     + [Latex Template]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw8_template.zip %})
+    + [Homework 8 Questions]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Hw8_solutions.pdf %})
   + Quiz 7
     + [Quiz 7 Questions]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Quiz7.pdf %})
     + [Latex Template]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_Quiz7_template.zip %})
@@ -149,7 +150,8 @@ This is the course website for CSc 245, Introduction to Discrete Structures. Thi
 + Week 10: Final Exam
   + Review Questions (for practice)
     + [Review Questions]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_ReviewAssignment.pdf %})
-
+  + Final Exam Resources:
+      + [Sample Final]({{ site.baseurl }}{% link /files/csc245S21/CSc_245_S20_Final_Exam.pdf %})
 
 ### Assignments
 
