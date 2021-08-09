@@ -152,6 +152,8 @@ This is the course website for CSc 245, Introduction to Discrete Structures. Thi
     + [Review Questions]({{ site.baseurl }}{% link /files/csc245S21/CSc245_S21_ReviewAssignment.pdf %})
   + Final Exam Resources:
       + [Sample Final]({{ site.baseurl }}{% link /files/csc245S21/CSc_245_S20_Final_Exam.pdf %})
+      + [Sample Final Solutions]({{ site.baseurl }}{% link /files/csc245S21/CSc_245_S20_Final_Exam_Solutions.pdf %})
+
 
 ### Assignments
 
