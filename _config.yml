@@ -192,6 +192,9 @@ collections:
     permalink: /:collection/:path/
   syllabi:
     output: true
+  other:
+    output: true
+    permalink: /:collection/:path/
     
 
 # Defaults
