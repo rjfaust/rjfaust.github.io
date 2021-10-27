@@ -192,6 +192,9 @@ collections:
     permalink: /:collection/:path/
   syllabi:
     output: true
+  other:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -269,7 +272,11 @@ defaults:
       type: courses
     values:
       layout: class
-
+  - scope:
+      path: ""
+      type: other
+    values:
+      layout: class
 # Sass/SCSS
 sass:
   sass_dir: _sass
