@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+    <title > Anteater </title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"/>
+    <script src="http://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.8.3.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+    <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
+         rel = "stylesheet"/>
+    <script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/d3-scale.v2.min.js"></script>
+
+    <script type="text/javascript">
+        // set the Pyodide files URL (packages.json, pyodide.asm.data etc)
+        window.languagePluginUrl = 'https://cdn.jsdelivr.net/pyodide/v0.16.1/full/';
+    </script>
+    <script src="https://cdn.jsdelivr.net/pyodide/v0.16.1/full/pyodide.js"></script>
+
+    <script src="js/codemirror/codemirror.js"></script>
+    <link rel="stylesheet" type="text/css" href="js/codemirror/codemirror.css"/>
+    <script src="js/codemirror/mode/python/python.js"></script>
+    <script type="text/javascript" src="js/alasql.min.js"></script>
+    <script src="js/codemirror/fold/foldcode.js"></script>
+    <script src="js/codemirror/fold/foldgutter.js"></script>
+    <script src="js/codemirror/fold/brace-fold.js"></script>
+    <script src="js/codemirror/fold/xml-fold.js"></script>
+    <script src="js/codemirror/fold/indent-fold.js"></script>
+    <script src="js/codemirror/fold/markdown-fold.js"></script>
+    <script src="js/codemirror/fold/comment-fold.js"></script>
+
+    <link rel="stylesheet" href="js/codemirror/fold/foldgutter.css">
+
+
+    <link rel="stylesheet" type="text/css" href="js/style/source.css"/>
+
+    <script type="text/javascript" src="js/newTrace.js"></script>
+    <link rel="stylesheet" type="text/css" href="js/style/newTrace.css"/>
+
+    <script type ="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/source.js"></script>
+
+
+    <!-- SCRIPTS FOR MAIN PAGE -->
+    <link rel="stylesheet" type="text/css" href="js/style/legend.css"/>
+    <link rel="stylesheet" type="text/css" href="js/style/pcStyle.css"/>
+    <link rel="stylesheet" type="text/css" href="js/style/plot.css"/>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vega"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vega-lite"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vega-lite-api"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vega-tooltip"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.15.1"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.19.1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.0.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.15.1"></script>
+
+  </head>
+  <body>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a id="page_title"class="navbar-brand" href="#"><img height="20" src="js/img/anteater.svg"> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  	             <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  	       <ul class="navbar-nav mr-auto">
+             <li class="nav-item active">
+               <a class="nav-link" href="#" id="newTrace" onclick="document.getElementById('new_trace').click()">New Trace</a>
+            </li>
+            <!-- <li class="nav-item active"> -->
+              <!-- well that's real ugly: we have a nav link here but we use the #loadTrace div below
+               for its handler -->
+              <!-- <a class="nav-link" href="#" onclick="document.getElementById('upload_trace').click()">Upload Trace</a> -->
+            <!-- </li> -->
+            <!-- <li class="nav-item active"> -->
+              <!-- <a class="nav-link" href="#" onclick="document.getElementById('upload_log').click()">Upload Log</a> -->
+            <!-- </li> -->
+            <li class="nav-item active">
+              <a class="nav-link" href="#"  id="rerunTrace">Re-run Trace</a>
+            </li>
+
+            <!-- <li class="nav-item dropdown"> -->
+              <!-- <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Traces</a> -->
+              <!-- <div id = "traceDrp" class="dropdown-menu"> -->
+                <!-- {% for t in traces %}
+                <a class="dropdown-item" href="#">{{t}}</a>
+                {% endfor %} -->
+              <!-- </div> -->
+            <!-- </li> -->
+<!--
+          {% if g.loaded %}
+          <li class="nav-item"><span>{{ g.source['file'] }}</span></li>
+          {% endif %} -->
+  	       </ul>
+  	       <ul class="navbar-nav ml-auto">
+             <div>
+               <a class="nav-link" href="http://rjfaust.github.io/Anteater/help" target="_blank" rel="noopener noreferrer" id="help">Help</a>
+             </div>
+             <li class="nav-item"><a class="nav-link" href="#">Options:</a></li>
+             <li class="nav-item dropdown">
+        <!-- FIXME that margin-top: 5px is ugly, we should find the right way to have bootstrap
+             center the button vertically along the navbar -->
+              <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="exec-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-top: 5px"></button>
+              <div id="exec_options" class="dropdown-menu dropdown-menu-right" aria-labelledby="exec-options">
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="chk_hide" onchange="filter_hide()">
+                  <label id = "hide_filter" class="form-check-label" for="chk_hide">
+                    Hide Blocks Upon Filter
+                  </label>
+                </div>
+              </div>
+            </li>
+      	   </ul>
+        </div>
+      </nav>
+
+      <section class="content">
+        <div class="row" style="display:none">
+          <div class="col" id="options">
+            <input id="new_trace" type="button" value="New Trace" onclick="switch_to_trace_spec();" style="display:inline-block">
+
+            <form id="fileForm" method="post" enctype=multipart/form-data style="display:inline-block">
+              <input type="button" id="loadTrace" value="Upload Trace">
+              <input type="file" id="upload_trace" accept=".trace" name ="file">
+            </form>
+
+            <form id="logFileForm" method="post" enctype=multipart/form-data style="display:inline-block">
+              <input type="button" id="loadLog" value="Upload Log">
+              <input type="file" id="upload_log" accept=".log" name ="file">
+            </form>
+
+            <form id="rerunForm" method="post" enctype=multipart/form-data style="display:inline-block">
+              <input type="text" name="source" id="formSource">
+              <input type="checkbox" name="rerun" id="rerunCheck" checked = "checked">
+              <input type="submit" id="submitRerun" accept=".trace" name ="file">
+            </form>
+
+            <!-- <form id="newTraceForm" method="post" action="{{ url_for('trace.newtrace') }}" enctype=multipart/form-data style="display:inline-block">
+              <input type="text" name="source" id="formTraceSource">
+              <input type="checkbox" name="init" id="initCheck" checked = "checked">
+              <input type="submit" id="submitNewTrace" accept=".trace" name ="file">
+            </form> -->
+
+            <!-- <label>Traces:</label> -->
+            <!-- <select id="existingTraces" style="display:inline-block"> -->
+              <!-- {% for t in traces %}
+              <option value = {{t}}>{{t}}</option>
+              {% endfor %} -->
+            <!-- </select> -->
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-5">
+            <!-- <div id="ContextMenu" style="position:fixed; visibility:hidden" >
+              <ul style="list-style-type:none;  margin: 0; padding-left: 20px; padding-top: 5px">
+                <li onmouseenter="highlight(this)" onmouseleave="unhighlight(this)" onclick="cmAddVar()" >Add variable</li>
+                <li onmouseenter="highlight(this)" onmouseleave="unhighlight(this)" onclick="cmAddExpr()">Add Expression</li>
+                <li onmouseenter="highlight(this)" onmouseleave="unhighlight(this)" onclick="cmAddFuncExcl()">Exclude Function</li>
+                <li onmouseenter="highlight(this)" onmouseleave="unhighlight(this)" onclick="cmAddLibExcl()">Exclude Library</li>
+              </ul>
+            </div> -->
+            <div id="code" >
+              <textarea id="source" oncontextmenu="function(){return false;}" onscroll="Onscrollfnction();">
+              </textarea>
+              <div id="codeCMenu" style="position:fixed; visibility:hidden " class="contextMenu">
+                  <ul style="list-style-type:none;  margin: 0; padding-left: 20px; padding-top: 5px">
+                      <li onmouseenter="cmHighlight(this)" onmouseleave="cmUnhighlight(this)" onclick="filter()">Add Variable to Plot</li>
+                  </ul>
+              </div>
+              <div id="codeSpecMenu" style="position:fixed; visibility:hidden " class="contextMenu">
+                  <ul style="list-style-type:none;  margin: 0; padding-left: 20px; padding-top: 5px">
+                    <li onmouseenter="highlight(this)" onmouseleave="unhighlight(this)" onclick="cmAddVar()" >Add variable</li>
+                    <li onmouseenter="highlight(this)" onmouseleave="unhighlight(this)" onclick="cmAddExpr()">Add Expression</li>
+                    <li onmouseenter="highlight(this)" onmouseleave="unhighlight(this)" onclick="cmAddFuncExcl()">Exclude Function</li>
+                    <li onmouseenter="highlight(this)" onmouseleave="unhighlight(this)" onclick="cmAddLibExcl()">Exclude Library</li>
+
+                  </ul>
+              </div>
+            </div>
+            <div id="consoleArea" style="display: none">
+              <p id="console" readonly="readonly">
+              </p>
+              <p id="errors">
+              </p>
+            </div>
+          </div>
+          <div id="traceArea" class="col-7">
+
+          </div>
+
+          <div id ="loading">
+            <h5 >Loading Python...</h5>
+            <div id = "loaderCase">
+            <div id="loader" style=""></div>
+            <div>
+          </div>
+
+        </div>
+
+      </section>
+    </div>
+
+  <!-- Bootstrap requirements -->
+
+  <!-- Note that Bootstrap wants a new version of jQuery. We were using jQuery 1.x. This might cause trouble.. -->
+  <script type="text/javascript" src="js/plot.js"></script>
+  <script type="text/javascript" src="js/execution.js"></script>
+  <script type="text/javascript" src="js/scatter.js"></script>
+  <script type="text/javascript" src="js/histogram.js"></script>
+  <script type="text/javascript" src="js/boxplot.js"></script>
+  <script type="text/javascript" src="js/barplot.js"></script>
+  <script type="text/javascript" src="js/parallelCoord.js"></script>
+  <script type="text/javascript" src="js/tests.js"></script>
+  <script type="text/javascript" src="js/data.js"></script>
+
+  <script type="text/javascript" src="js/mainPage.js"></script>
+  <script type="text/javascript" src="js/pyInterface.js"></script>
+
+  <script src="writeHelpers.js"></script>
+  <script src="wholeTracer.js"></script>
+  <script src="data_gen.js"></script>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <script>
+    if (sessionStorage.getItem("sourceFile")== null){//}  && document.cookie.length==0){
+      sessionStorage.setItem("sourceFile","study_source.py")
+      sessionStorage.setItem("study_source.py","REPLACE ME WITH YOUR CODE")
+    }
+    // else if (sessionStorage.getItem("sourceFile") == null && document.cookie.length>0){
+    //   var c = document.cookie;
+    //   var toks = c.split(";")
+    //   var eInd = toks[0].find("=")
+    //   sessionStorage.setItem("sourceFile",toks[0].substring(eInd+1))
+    //   eInd = toks[1].find("=")
+    //   sessionStorage.setItem("study_source.py",toks[1].substring(eInd+1))
+    // }
+
+    loader = d3.select("#loading")
+    xCoord = window.innerWidth/2.0 - 150;
+    yCoord = window.innerHeight/2.0 - 75;
+    loader.style("left",xCoord+"px")
+    loader.style("top",yCoord+"px")
+    window.onbeforeunload = function() {
+        document.cookie = "fname="+sessionStorage.getItem("sourceFile") + ";sourc="+sessionStorage.getItem("sourceFile") +";"
+        alert(document.cookie)
+        return 'Warning: Refreshing the page will cause Python to reload and will clear your traces!';
+    }
+
+    if (sessionStorage.getItem("sourceFile") == null){
+      window.location.href = "loadSrc.html"
+    }
+    else{
+
+
+      pythonCode = `
+        def do_work2(*args):
+            import astor
+            print("done")
+            f = open("study_source.py","w")
+            f.close()
+
+        import micropip
+        micropip.install('astor').then(do_work2)
+        `
+      languagePluginLoader.then(() => {
+        return pyodide.loadPackage(['micropip','numpy'])
+      }).then(()=> {return pyodide.runPython(pythonCode)}).then(() => {
+        pyodide.runPython(rewriteHelpers)
+        pyodide.runPython("rewrite_helpers()")
+        pyodide.runPython(data_gen)
+        pyodide.runPython("gen_data()")
+
+
+        mainFile = sessionStorage.getItem("sourceFile")
+        suppFiles = JSON.parse(sessionStorage.getItem("supportFiles"))
+
+        var source = load_and_write_file(mainFile)
+        sessionStorage.setItem("curSource",source)
+        if(suppFiles != null){
+          for(var i = 0; i < suppFiles.length; i++){
+            file = suppFiles[i];
+            load_and_write_file(file)
+          }
+        }
+
+
+        init_source(source)
+        if(currentVersion!=null){
+          // currentVersion = sessionStorage.getItem("currentVersion")
+          // programDB = sessionStorage.getItem("progDB")
+          switch_to_trace_vis()
+          fill_traces()
+          init_plot();
+          init_execution();
+          tInfo = get_trace(currentVersion)
+          t = load_trace(tInfo.tracefname)
+          init_trace(t)
+          loadFunctions(JSON.parse(sessionStorage.getItem("funcInfo")))
+          loadLoops(JSON.parse(sessionStorage.getItem("loopInfo")))
+          loadDependencies(JSON.parse(sessionStorage.getItem("depends")))
+
+        }
+        else{
+          create_prog_db()
+          // switch_to_trace_spec()
+        }
+
+        document.getElementById("loading").style.display = "none";
+
+      })
+    }
+
+
+
+
+
+     // test = JSON.parse({{test}})
+     //
+     // testKey = JSON.parse({{testKey|tojson}})
+     //
+
+
+     // loadFunctions({{fInfo|tojson}})
+     // loadLoops({{lInfo|tojson}})
+     // loadDependencies({{depends|tojson}})
+     //
+     //
+     //
+     // $("#rerunTrace").click(function(){
+     //   var source = editor.getValue();
+     //
+     //   source = remove_additions(source.split("\n")).join("\n");
+     //   $("#formSource").val(JSON.stringify(source))
+     //   $("#submitRerun").click()
+     // })
+     //
+     $("#rerunTrace").click(function(){
+       clear_plot();
+       reset_plot_bookkeeping();
+       shownVars =[]
+       shownVars_exprs=[]
+       var source = editor.getValue();
+       source = remove_additions(source.split("\n")).join("\n");
+       sessionStorage.setItem("curSource",source)
+       show_source(source, false);
+       fname = sessionStorage.getItem("sourceFile")
+       run_trace(fname, varstr, exprstr, funcExclStr, libExclStr)
+
+     })
+     $("#newTrace").click(function(){
+       var source = editor.getValue();
+       source = remove_additions(source.split("\n")).join("\n");
+       sessionStorage.setItem("curSource",source)
+       show_source(source, true);
+
+       // d3.select("#traceVis")
+       // .classed("col-7",false)
+       // .style("visibility","collapse")
+       // .attr("width","0px")
+       // .attr("height","0px")
+       //
+       // d3.select("#traceSpec")
+       // .classed("col-7",true)
+       // .style("visibility","visible")
+       // .attr("width",null)
+       // .attr("height",null)
+
+
+     })
+
+
+
+
+     </script>
+
+</body>
+</html>
