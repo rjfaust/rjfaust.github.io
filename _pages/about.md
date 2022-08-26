@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I completed my PhD from the University of Arizona in December 2021. I am currently a postdoc at [Virginia Tech]{https://vt.edu/} working with [Dr. Chris North] as part of a [CI Fellows]{https://cifellows2021.org} program.
+I completed my PhD from the University of Arizona in December 2021. I am currently a postdoc and [CI Fellow](https://cifellows2021.org) at [Virginia Tech](https://vt.edu/) working with [Dr. Chris North](https://people.cs.vt.edu/north/).
 My research interests lie at the intersection of data science/analysis and visualization, specifically
 creating visualization methods and systems to increase understandability of analysis programs and workflows.
 
