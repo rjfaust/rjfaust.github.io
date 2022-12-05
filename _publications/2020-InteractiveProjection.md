@@ -3,7 +3,7 @@ title: "Explainable Interactive Projections for Image Data"
 collection: publications
 permalink: /publication/2022-Explainable
 excerpt: ''
-date: 2019-07-05
+date: 2022-08-03
 venue: 'International Symposium on Visual Computing'
 
 ---
