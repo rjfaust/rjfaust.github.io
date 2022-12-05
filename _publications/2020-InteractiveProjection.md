@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2022-Explainable
 excerpt: ''
 date: 2019-07-05
-venue: 'arXiv (in revision)'
+venue: 'International Symposium on Visual Computing'
 
 ---
 
