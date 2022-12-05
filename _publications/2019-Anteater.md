@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2019-Anteater
 excerpt: ''
 date: 2019-07-05
-venue: 'arXiv (in revision)'
+venue: 'Symposium on Visual Data Science at IEEE VIS 2022'
 
 ---
 
