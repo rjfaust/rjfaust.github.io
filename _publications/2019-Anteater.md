@@ -3,8 +3,8 @@ title: "Interactive Visualization for Data Science Scripts"
 collection: publications
 permalink: /publication/2019-Anteater
 excerpt: ''
-date: 2019-07-05
-venue: 'Symposium on Visual Data Science at IEEE VIS 2022'
+date: 2022-08-16 
+venue: 'Symposium on Visual Data Science at IEEE VIS'
 
 ---
 
