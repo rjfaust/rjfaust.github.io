@@ -3,13 +3,12 @@ title: "Interactive Visualization for Data Science Scripts"
 collection: publications
 permalink: /publication/2019-Anteater
 excerpt: ''
-date: 2022-08-16 
+date: 2022-08-16
 venue: 'Symposium on Visual Data Science at IEEE VIS'
 
 ---
 
 Authors: [Rebecca Faust](/), [Carlos Scheidegger](https://cscheid.net/), [Katherine Isaacs](http://hdc.cs.arizona.edu/people/kisaacs/), [William Bernstein](https://www.nist.gov/people/william-z-bernstein), [Michael Sharp](https://www.nist.gov/people/michael-sharp), [Chris North](https://people.cs.vt.edu/north/).
-
 
 ![]({{ site.baseurl }}{% link /files/images/AnteaterTeaser.jpg %})
 
