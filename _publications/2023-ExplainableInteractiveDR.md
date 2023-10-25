@@ -19,3 +19,6 @@ Dimension reductions (DR) help people make sense of image collections by organiz
 [PDF]({{ site.baseurl }}{% link /files/publications/ExplainableInteractiveProjections.pdf %})
 
 Recommended citation: H. Han, R. Faust, B. Keith Norambuena, J. Lin, and C. North. Explainable interactive projections of images. Machine Vision and Applications 34, 100 (2023). https://doi.org/10.1007/s00138-023-01452-9
+
+
+Prior Conference Version: [Explainable Interactive Projections for Image Data]({{ site.baseurl }}{% link /files/publications/InteractiveProjections.pdf %}). Presented at  the International Symposium on Visual Computing (ISVC).
