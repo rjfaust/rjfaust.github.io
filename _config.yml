@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Rebecca Faust"
   avatar           : "rfaustSquare.jpg"
-  bio              : "I am a postdoc at the Virginia Tech. My research interests include incorporating interactive visualization into data science analyses to increase understandability of the results and the analyses themselves."
-  location         : "Virginia Tech"
+  bio              : "I am an assistant professor at Tulane University. My research interests include incorporating interactive visualization into data science analyses to increase understandability of the results and the analyses themselves."
+  location         : "Tulane University"
   employer         :
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=JUVqT-4AAAAJ"
-  email            : "rfaust@vt.edu"
+  email            : "rfaust1@tulane.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
