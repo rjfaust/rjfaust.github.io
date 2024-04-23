@@ -8,7 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-*** I AM HIRING PhD STUDENTS FOR FALL 2024***
 
 I am an Assistant Professor at [Tulane University](https://sse.tulane.edu/cs). I completed my PhD from the University of Arizona in 2021, working with Dr. Carlos Scheidegger. After completing my PhD, I was a postdoc and [CI Fellow](https://cifellows2021.org) at [Virginia Tech](https://vt.edu/) working with [Dr. Chris North](https://people.cs.vt.edu/north/) from January 2022 - December 2023.
 My research interests lie at the intersection of data science/analysis and visualization. Specifically, I am interested in
